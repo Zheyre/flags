@@ -93,7 +93,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">World Flag Explorer</h1>
-<p class="subtitle lead">Browse 254 flags from countries and territories around the globe</p>
+<p class="subtitle lead">Browse 254 flags and discover facts about countries and territories around the globe</p>
 </div>
 
 
@@ -124,12 +124,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-    padding: 2rem 1rem 3.5rem;
+    padding: 2rem 1.25rem 3.5rem;
   }
 
   main.content {
     width: 100%;
-    max-width: 720px;
+    max-width: 1080px;
     margin: 0 auto;
     text-align: center;
   }
@@ -152,7 +152,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   p.subtitle {
     font-size: clamp(1rem, 2.5vw, 1.15rem);
     color: #475569;
-    max-width: 34rem;
+    max-width: 38rem;
     margin: 0 auto;
   }
 
@@ -162,7 +162,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     flex-direction: column;
     align-items: center;
     gap: 0.5rem;
-    margin: 0 auto 1.75rem !important;
+    margin: 0 auto 2rem !important;
     width: 100% !important;
   }
 
@@ -174,8 +174,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   }
 
   .cell-output-display form select {
-    width: min(100%, 380px) !important;
-    padding: 0.7rem 1rem;
+    width: min(100%, 400px) !important;
+    padding: 0.75rem 1rem;
     font-size: 1.05rem;
     font-weight: 500;
     color: #0f172a;
@@ -194,19 +194,41 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     outline: none;
   }
 
-  /* Flag display card */
-  .flag-card {
+  /* Side-by-side grid for Flag Card + Info Card (stacks on phones) */
+  .explorer-grid {
+    display: grid;
+    grid-template-columns: minmax(300px, 1fr) minmax(320px, 1.15fr);
+    gap: 1.75rem;
+    align-items: stretch;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  /* Shared card styling */
+  .flag-card,
+  .info-card {
     background: #ffffff;
     border-radius: 20px;
-    padding: clamp(1.25rem, 4vw, 2.25rem);
+    padding: clamp(1.35rem, 3.5vw, 2.15rem);
     box-shadow: 0 18px 40px -10px rgba(15, 23, 42, 0.12),
                 0 4px 12px -2px rgba(15, 23, 42, 0.05);
-    max-width: 640px;
-    margin: 0 auto;
+    border: 1px solid rgba(226, 232, 240, 0.85);
+  }
+
+  .flag-card {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     animation: flagFadeIn 0.45s cubic-bezier(0.22, 1, 0.36, 1);
+  }
+
+  .info-card {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    animation: infoSlideIn 0.48s cubic-bezier(0.22, 1, 0.36, 1);
   }
 
   .flag-image-wrapper {
@@ -220,23 +242,144 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
   .flag-image {
     width: 100%;
-    max-width: 560px;
-    max-height: 360px;
+    max-width: 500px;
+    max-height: 320px;
     height: auto;
     object-fit: contain;
     border-radius: 10px;
-    border: 1px solid rgba(148, 163, 184, 0.25);
-    box-shadow: 0 4px 14px rgba(15, 23, 42, 0.07);
+    border: 1px solid rgba(148, 163, 184, 0.28);
+    box-shadow: 0 6px 18px rgba(15, 23, 42, 0.08);
     transition: opacity 0.35s ease, transform 0.35s ease;
   }
 
   .country-name {
     margin-top: 1.35rem;
-    margin-bottom: 0;
-    font-size: clamp(1.35rem, 3.5vw, 1.85rem);
-    font-weight: 700;
+    margin-bottom: 0.25rem;
+    font-size: clamp(1.4rem, 3vw, 1.85rem);
+    font-weight: 800;
     color: #0f172a;
     letter-spacing: -0.015em;
+  }
+
+  .country-code-badge {
+    display: inline-block;
+    margin-top: 0.25rem;
+    padding: 0.2rem 0.65rem;
+    font-size: 0.78rem;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #4f46e5;
+    background: #eef2ff;
+    border-radius: 999px;
+  }
+
+  .info-card-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1.5px solid #f1f5f9;
+    padding-bottom: 0.85rem;
+    margin-bottom: 1.1rem;
+  }
+
+  .info-card-title {
+    margin: 0;
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #1e293b;
+  }
+
+  .info-list {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0.85rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .info-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.85rem;
+    padding: 0.55rem 0.75rem;
+    border-radius: 12px;
+    background: #f8fafc;
+    border: 1px solid #f1f5f9;
+  }
+
+  .info-icon {
+    font-size: 1.3rem;
+    line-height: 1.3;
+    flex-shrink: 0;
+    width: 2rem;
+    height: 2rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(15, 23, 42, 0.05);
+  }
+
+  .info-text {
+    display: flex;
+    flex-direction: column;
+    gap: 0.1rem;
+  }
+
+  .info-label {
+    font-size: 0.76rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #64748b;
+  }
+
+  .info-value {
+    font-size: 0.98rem;
+    font-weight: 600;
+    color: #0f172a;
+    line-height: 1.35;
+  }
+
+  .fun-fact-box {
+    margin-top: 1.15rem;
+    padding: 1rem 1.1rem;
+    border-radius: 14px;
+    background: linear-gradient(135deg, #eef2ff 0%, #fdf2f8 100%);
+    border: 1px solid rgba(199, 210, 254, 0.75);
+    display: flex;
+    align-items: flex-start;
+    gap: 0.85rem;
+  }
+
+  .fun-fact-icon {
+    font-size: 1.4rem;
+    line-height: 1.2;
+    flex-shrink: 0;
+  }
+
+  .fun-fact-content {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+  }
+
+  .fun-fact-label {
+    font-size: 0.76rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: #6d28d9;
+  }
+
+  .fun-fact-text {
+    font-size: 0.95rem;
+    color: #1e293b;
+    line-height: 1.45;
+    margin: 0;
   }
 
   @keyframes flagFadeIn {
@@ -250,53 +393,138 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     }
   }
 
-  @media (max-width: 600px) {
-    #quarto-content {
-      padding: 1.25rem 0.75rem 2.5rem;
+  @keyframes infoSlideIn {
+    from {
+      opacity: 0;
+      transform: translateX(14px);
     }
-    .flag-card {
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+  @media (max-width: 820px) {
+    #quarto-content {
+      padding: 1.25rem 0.85rem 2.5rem;
+    }
+    .explorer-grid {
+      grid-template-columns: 1fr;
+      gap: 1.25rem;
+    }
+    .flag-card,
+    .info-card {
       border-radius: 16px;
-      padding: 1rem;
+      padding: 1.25rem;
+    }
+    @keyframes infoSlideIn {
+      from {
+        opacity: 0;
+        transform: translateY(12px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
     }
   }
 </style>
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code hidden" id="cb1" data-startfrom="174" data-source-offset="-73"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 173;"><span id="cb1-174"><a href="#cb1-174" aria-hidden="true" tabindex="-1"></a>flagOptions <span class="op">=</span> {</span>
-<span id="cb1-175"><a href="#cb1-175" aria-hidden="true" tabindex="-1"></a>  <span class="kw">const</span> regionNames <span class="op">=</span> <span class="kw">new</span> <span class="bu">Intl</span><span class="op">.</span><span class="fu">DisplayNames</span>([<span class="st">"en"</span>]<span class="op">,</span> { <span class="dt">type</span><span class="op">:</span> <span class="st">"region"</span> })<span class="op">;</span></span>
-<span id="cb1-176"><a href="#cb1-176" aria-hidden="true" tabindex="-1"></a>  <span class="kw">const</span> customNames <span class="op">=</span> {</span>
-<span id="cb1-177"><a href="#cb1-177" aria-hidden="true" tabindex="-1"></a>    <span class="st">"gb-eng"</span><span class="op">:</span> <span class="st">"England"</span><span class="op">,</span></span>
-<span id="cb1-178"><a href="#cb1-178" aria-hidden="true" tabindex="-1"></a>    <span class="st">"gb-nir"</span><span class="op">:</span> <span class="st">"Northern Ireland"</span><span class="op">,</span></span>
-<span id="cb1-179"><a href="#cb1-179" aria-hidden="true" tabindex="-1"></a>    <span class="st">"gb-sct"</span><span class="op">:</span> <span class="st">"Scotland"</span><span class="op">,</span></span>
-<span id="cb1-180"><a href="#cb1-180" aria-hidden="true" tabindex="-1"></a>    <span class="st">"gb-wls"</span><span class="op">:</span> <span class="st">"Wales"</span></span>
-<span id="cb1-181"><a href="#cb1-181" aria-hidden="true" tabindex="-1"></a>  }<span class="op">;</span></span>
-<span id="cb1-182"><a href="#cb1-182" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-183"><a href="#cb1-183" aria-hidden="true" tabindex="-1"></a>  <span class="cf">return</span> flag_files</span>
-<span id="cb1-184"><a href="#cb1-184" aria-hidden="true" tabindex="-1"></a>    <span class="op">.</span><span class="fu">map</span>(file <span class="kw">=&gt;</span> {</span>
-<span id="cb1-185"><a href="#cb1-185" aria-hidden="true" tabindex="-1"></a>      <span class="kw">const</span> code <span class="op">=</span> file<span class="op">.</span><span class="fu">replace</span>(<span class="ss">/</span><span class="sc">\.</span><span class="ss">png</span><span class="sc">$</span><span class="ss">/i</span><span class="op">,</span> <span class="st">""</span>)<span class="op">;</span></span>
-<span id="cb1-186"><a href="#cb1-186" aria-hidden="true" tabindex="-1"></a>      <span class="kw">const</span> name <span class="op">=</span> customNames[code] <span class="op">||</span> regionNames<span class="op">.</span><span class="fu">of</span>(code<span class="op">.</span><span class="fu">toUpperCase</span>()) <span class="op">||</span> code<span class="op">.</span><span class="fu">toUpperCase</span>()<span class="op">;</span></span>
-<span id="cb1-187"><a href="#cb1-187" aria-hidden="true" tabindex="-1"></a>      <span class="cf">return</span> { file<span class="op">,</span> code<span class="op">,</span> name }<span class="op">;</span></span>
-<span id="cb1-188"><a href="#cb1-188" aria-hidden="true" tabindex="-1"></a>    })</span>
-<span id="cb1-189"><a href="#cb1-189" aria-hidden="true" tabindex="-1"></a>    <span class="op">.</span><span class="fu">sort</span>((a<span class="op">,</span> b) <span class="kw">=&gt;</span> a<span class="op">.</span><span class="at">name</span><span class="op">.</span><span class="fu">localeCompare</span>(b<span class="op">.</span><span class="at">name</span>))<span class="op">;</span></span>
-<span id="cb1-190"><a href="#cb1-190" aria-hidden="true" tabindex="-1"></a>}</span>
-<span id="cb1-191"><a href="#cb1-191" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-192"><a href="#cb1-192" aria-hidden="true" tabindex="-1"></a><span class="co">// Dropdown menu sorted by full country name</span></span>
-<span id="cb1-193"><a href="#cb1-193" aria-hidden="true" tabindex="-1"></a>viewof selected <span class="op">=</span> Inputs<span class="op">.</span><span class="fu">select</span>(flagOptions<span class="op">,</span> {</span>
-<span id="cb1-194"><a href="#cb1-194" aria-hidden="true" tabindex="-1"></a>  <span class="dt">label</span><span class="op">:</span> <span class="st">"Choose a country or territory:"</span><span class="op">,</span></span>
-<span id="cb1-195"><a href="#cb1-195" aria-hidden="true" tabindex="-1"></a>  <span class="dt">format</span><span class="op">:</span> d <span class="kw">=&gt;</span> d<span class="op">.</span><span class="at">name</span><span class="op">,</span></span>
-<span id="cb1-196"><a href="#cb1-196" aria-hidden="true" tabindex="-1"></a>  <span class="dt">value</span><span class="op">:</span> flagOptions<span class="op">.</span><span class="fu">find</span>(d <span class="kw">=&gt;</span> d<span class="op">.</span><span class="at">file</span> <span class="op">===</span> <span class="st">"us.png"</span>) <span class="op">||</span> flagOptions[<span class="dv">0</span>]</span>
-<span id="cb1-197"><a href="#cb1-197" aria-hidden="true" tabindex="-1"></a>})</span>
-<span id="cb1-198"><a href="#cb1-198" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-199"><a href="#cb1-199" aria-hidden="true" tabindex="-1"></a><span class="co">// Rounded card showing the selected flag and full country name underneath</span></span>
-<span id="cb1-200"><a href="#cb1-200" aria-hidden="true" tabindex="-1"></a><span class="fu">html</span><span class="vs">`&lt;div class="flag-card" key="</span><span class="sc">${</span>selected<span class="op">.</span><span class="at">file</span><span class="sc">}</span><span class="vs">"&gt;</span></span>
-<span id="cb1-201"><a href="#cb1-201" aria-hidden="true" tabindex="-1"></a><span class="vs">  &lt;div class="flag-image-wrapper"&gt;</span></span>
-<span id="cb1-202"><a href="#cb1-202" aria-hidden="true" tabindex="-1"></a><span class="vs">    &lt;img</span></span>
-<span id="cb1-203"><a href="#cb1-203" aria-hidden="true" tabindex="-1"></a><span class="vs">      class="flag-image"</span></span>
-<span id="cb1-204"><a href="#cb1-204" aria-hidden="true" tabindex="-1"></a><span class="vs">      src="w2560/</span><span class="sc">${</span>selected<span class="op">.</span><span class="at">file</span><span class="sc">}</span><span class="vs">"</span></span>
-<span id="cb1-205"><a href="#cb1-205" aria-hidden="true" tabindex="-1"></a><span class="vs">      alt="Flag of </span><span class="sc">${</span>selected<span class="op">.</span><span class="at">name</span><span class="sc">}</span><span class="vs">"</span></span>
-<span id="cb1-206"><a href="#cb1-206" aria-hidden="true" tabindex="-1"></a><span class="vs">    /&gt;</span></span>
-<span id="cb1-207"><a href="#cb1-207" aria-hidden="true" tabindex="-1"></a><span class="vs">  &lt;/div&gt;</span></span>
-<span id="cb1-208"><a href="#cb1-208" aria-hidden="true" tabindex="-1"></a><span class="vs">  &lt;h2 class="country-name"&gt;</span><span class="sc">${</span>selected<span class="op">.</span><span class="at">name</span><span class="sc">}</span><span class="vs">&lt;/h2&gt;</span></span>
-<span id="cb1-209"><a href="#cb1-209" aria-hidden="true" tabindex="-1"></a><span class="vs">&lt;/div&gt;`</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code hidden" id="cb1" data-startfrom="344" data-source-offset="-47"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 343;"><span id="cb1-344"><a href="#cb1-344" aria-hidden="true" tabindex="-1"></a>countryData <span class="op">=</span> <span class="fu">FileAttachment</span>(<span class="st">"countries.json"</span>)<span class="op">.</span><span class="fu">json</span>()</span>
+<span id="cb1-345"><a href="#cb1-345" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-346"><a href="#cb1-346" aria-hidden="true" tabindex="-1"></a><span class="co">// Combine every flag file in w2560/ with its matching country details</span></span>
+<span id="cb1-347"><a href="#cb1-347" aria-hidden="true" tabindex="-1"></a>flagOptions <span class="op">=</span> flag_files</span>
+<span id="cb1-348"><a href="#cb1-348" aria-hidden="true" tabindex="-1"></a>  <span class="op">.</span><span class="fu">map</span>(file <span class="kw">=&gt;</span> {</span>
+<span id="cb1-349"><a href="#cb1-349" aria-hidden="true" tabindex="-1"></a>    <span class="kw">const</span> code <span class="op">=</span> file<span class="op">.</span><span class="fu">replace</span>(<span class="ss">/</span><span class="sc">\.</span><span class="ss">png</span><span class="sc">$</span><span class="ss">/i</span><span class="op">,</span> <span class="st">""</span>)<span class="op">;</span></span>
+<span id="cb1-350"><a href="#cb1-350" aria-hidden="true" tabindex="-1"></a>    <span class="kw">const</span> info <span class="op">=</span> countryData[code] <span class="op">||</span> {}<span class="op">;</span></span>
+<span id="cb1-351"><a href="#cb1-351" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> {</span>
+<span id="cb1-352"><a href="#cb1-352" aria-hidden="true" tabindex="-1"></a>      file<span class="op">,</span></span>
+<span id="cb1-353"><a href="#cb1-353" aria-hidden="true" tabindex="-1"></a>      code<span class="op">,</span></span>
+<span id="cb1-354"><a href="#cb1-354" aria-hidden="true" tabindex="-1"></a>      <span class="dt">name</span><span class="op">:</span> info<span class="op">.</span><span class="at">name</span> <span class="op">||</span> code<span class="op">.</span><span class="fu">toUpperCase</span>()<span class="op">,</span></span>
+<span id="cb1-355"><a href="#cb1-355" aria-hidden="true" tabindex="-1"></a>      <span class="dt">capital</span><span class="op">:</span> info<span class="op">.</span><span class="at">capital</span> <span class="op">||</span> <span class="st">"N/A"</span><span class="op">,</span></span>
+<span id="cb1-356"><a href="#cb1-356" aria-hidden="true" tabindex="-1"></a>      <span class="dt">region</span><span class="op">:</span> info<span class="op">.</span><span class="at">region</span> <span class="op">||</span> <span class="st">"N/A"</span><span class="op">,</span></span>
+<span id="cb1-357"><a href="#cb1-357" aria-hidden="true" tabindex="-1"></a>      <span class="dt">population</span><span class="op">:</span> info<span class="op">.</span><span class="at">population</span> <span class="op">||</span> <span class="st">"N/A"</span><span class="op">,</span></span>
+<span id="cb1-358"><a href="#cb1-358" aria-hidden="true" tabindex="-1"></a>      <span class="dt">languages</span><span class="op">:</span> info<span class="op">.</span><span class="at">languages</span> <span class="op">||</span> <span class="st">"N/A"</span><span class="op">,</span></span>
+<span id="cb1-359"><a href="#cb1-359" aria-hidden="true" tabindex="-1"></a>      <span class="dt">currency</span><span class="op">:</span> info<span class="op">.</span><span class="at">currency</span> <span class="op">||</span> <span class="st">"N/A"</span><span class="op">,</span></span>
+<span id="cb1-360"><a href="#cb1-360" aria-hidden="true" tabindex="-1"></a>      <span class="dt">funFact</span><span class="op">:</span> info<span class="op">.</span><span class="at">funFact</span> <span class="op">||</span> <span class="st">""</span></span>
+<span id="cb1-361"><a href="#cb1-361" aria-hidden="true" tabindex="-1"></a>    }<span class="op">;</span></span>
+<span id="cb1-362"><a href="#cb1-362" aria-hidden="true" tabindex="-1"></a>  })</span>
+<span id="cb1-363"><a href="#cb1-363" aria-hidden="true" tabindex="-1"></a>  <span class="op">.</span><span class="fu">sort</span>((a<span class="op">,</span> b) <span class="kw">=&gt;</span> a<span class="op">.</span><span class="at">name</span><span class="op">.</span><span class="fu">localeCompare</span>(b<span class="op">.</span><span class="at">name</span>))</span>
+<span id="cb1-364"><a href="#cb1-364" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-365"><a href="#cb1-365" aria-hidden="true" tabindex="-1"></a><span class="co">// Dropdown menu sorted alphabetically by full country name</span></span>
+<span id="cb1-366"><a href="#cb1-366" aria-hidden="true" tabindex="-1"></a>viewof selected <span class="op">=</span> Inputs<span class="op">.</span><span class="fu">select</span>(flagOptions<span class="op">,</span> {</span>
+<span id="cb1-367"><a href="#cb1-367" aria-hidden="true" tabindex="-1"></a>  <span class="dt">label</span><span class="op">:</span> <span class="st">"Choose a country or territory:"</span><span class="op">,</span></span>
+<span id="cb1-368"><a href="#cb1-368" aria-hidden="true" tabindex="-1"></a>  <span class="dt">format</span><span class="op">:</span> d <span class="kw">=&gt;</span> d<span class="op">.</span><span class="at">name</span><span class="op">,</span></span>
+<span id="cb1-369"><a href="#cb1-369" aria-hidden="true" tabindex="-1"></a>  <span class="dt">value</span><span class="op">:</span> flagOptions<span class="op">.</span><span class="fu">find</span>(d <span class="kw">=&gt;</span> d<span class="op">.</span><span class="at">file</span> <span class="op">===</span> <span class="st">"us.png"</span>) <span class="op">||</span> flagOptions[<span class="dv">0</span>]</span>
+<span id="cb1-370"><a href="#cb1-370" aria-hidden="true" tabindex="-1"></a>})</span>
+<span id="cb1-371"><a href="#cb1-371" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-372"><a href="#cb1-372" aria-hidden="true" tabindex="-1"></a><span class="co">// Responsive side-by-side Flag Card + Country Info Card</span></span>
+<span id="cb1-373"><a href="#cb1-373" aria-hidden="true" tabindex="-1"></a><span class="fu">html</span><span class="vs">`&lt;div class="explorer-grid" key="</span><span class="sc">${</span>selected<span class="op">.</span><span class="at">code</span><span class="sc">}</span><span class="vs">"&gt;</span></span>
+<span id="cb1-374"><a href="#cb1-374" aria-hidden="true" tabindex="-1"></a><span class="vs">  &lt;div class="flag-card"&gt;</span></span>
+<span id="cb1-375"><a href="#cb1-375" aria-hidden="true" tabindex="-1"></a><span class="vs">    &lt;div class="flag-image-wrapper"&gt;</span></span>
+<span id="cb1-376"><a href="#cb1-376" aria-hidden="true" tabindex="-1"></a><span class="vs">      &lt;img</span></span>
+<span id="cb1-377"><a href="#cb1-377" aria-hidden="true" tabindex="-1"></a><span class="vs">        class="flag-image"</span></span>
+<span id="cb1-378"><a href="#cb1-378" aria-hidden="true" tabindex="-1"></a><span class="vs">        src="w2560/</span><span class="sc">${</span>selected<span class="op">.</span><span class="at">file</span><span class="sc">}</span><span class="vs">"</span></span>
+<span id="cb1-379"><a href="#cb1-379" aria-hidden="true" tabindex="-1"></a><span class="vs">        alt="Flag of </span><span class="sc">${</span>selected<span class="op">.</span><span class="at">name</span><span class="sc">}</span><span class="vs">"</span></span>
+<span id="cb1-380"><a href="#cb1-380" aria-hidden="true" tabindex="-1"></a><span class="vs">      /&gt;</span></span>
+<span id="cb1-381"><a href="#cb1-381" aria-hidden="true" tabindex="-1"></a><span class="vs">    &lt;/div&gt;</span></span>
+<span id="cb1-382"><a href="#cb1-382" aria-hidden="true" tabindex="-1"></a><span class="vs">    &lt;h2 class="country-name"&gt;</span><span class="sc">${</span>selected<span class="op">.</span><span class="at">name</span><span class="sc">}</span><span class="vs">&lt;/h2&gt;</span></span>
+<span id="cb1-383"><a href="#cb1-383" aria-hidden="true" tabindex="-1"></a><span class="vs">    &lt;span class="country-code-badge"&gt;</span><span class="sc">${</span>selected<span class="op">.</span><span class="at">code</span><span class="op">.</span><span class="fu">toUpperCase</span>()<span class="sc">}</span><span class="vs">&lt;/span&gt;</span></span>
+<span id="cb1-384"><a href="#cb1-384" aria-hidden="true" tabindex="-1"></a><span class="vs">  &lt;/div&gt;</span></span>
+<span id="cb1-385"><a href="#cb1-385" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-386"><a href="#cb1-386" aria-hidden="true" tabindex="-1"></a><span class="vs">  &lt;div class="info-card"&gt;</span></span>
+<span id="cb1-387"><a href="#cb1-387" aria-hidden="true" tabindex="-1"></a><span class="vs">    &lt;div&gt;</span></span>
+<span id="cb1-388"><a href="#cb1-388" aria-hidden="true" tabindex="-1"></a><span class="vs">      &lt;div class="info-card-header"&gt;</span></span>
+<span id="cb1-389"><a href="#cb1-389" aria-hidden="true" tabindex="-1"></a><span class="vs">        &lt;h3 class="info-card-title"&gt;🌐 Country Profile&lt;/h3&gt;</span></span>
+<span id="cb1-390"><a href="#cb1-390" aria-hidden="true" tabindex="-1"></a><span class="vs">      &lt;/div&gt;</span></span>
+<span id="cb1-391"><a href="#cb1-391" aria-hidden="true" tabindex="-1"></a><span class="vs">      &lt;ul class="info-list"&gt;</span></span>
+<span id="cb1-392"><a href="#cb1-392" aria-hidden="true" tabindex="-1"></a><span class="vs">        &lt;li class="info-item"&gt;</span></span>
+<span id="cb1-393"><a href="#cb1-393" aria-hidden="true" tabindex="-1"></a><span class="vs">          &lt;span class="info-icon" aria-hidden="true"&gt;🏛️&lt;/span&gt;</span></span>
+<span id="cb1-394"><a href="#cb1-394" aria-hidden="true" tabindex="-1"></a><span class="vs">          &lt;div class="info-text"&gt;</span></span>
+<span id="cb1-395"><a href="#cb1-395" aria-hidden="true" tabindex="-1"></a><span class="vs">            &lt;span class="info-label"&gt;Capital City&lt;/span&gt;</span></span>
+<span id="cb1-396"><a href="#cb1-396" aria-hidden="true" tabindex="-1"></a><span class="vs">            &lt;span class="info-value"&gt;</span><span class="sc">${</span>selected<span class="op">.</span><span class="at">capital</span><span class="sc">}</span><span class="vs">&lt;/span&gt;</span></span>
+<span id="cb1-397"><a href="#cb1-397" aria-hidden="true" tabindex="-1"></a><span class="vs">          &lt;/div&gt;</span></span>
+<span id="cb1-398"><a href="#cb1-398" aria-hidden="true" tabindex="-1"></a><span class="vs">        &lt;/li&gt;</span></span>
+<span id="cb1-399"><a href="#cb1-399" aria-hidden="true" tabindex="-1"></a><span class="vs">        &lt;li class="info-item"&gt;</span></span>
+<span id="cb1-400"><a href="#cb1-400" aria-hidden="true" tabindex="-1"></a><span class="vs">          &lt;span class="info-icon" aria-hidden="true"&gt;🌍&lt;/span&gt;</span></span>
+<span id="cb1-401"><a href="#cb1-401" aria-hidden="true" tabindex="-1"></a><span class="vs">          &lt;div class="info-text"&gt;</span></span>
+<span id="cb1-402"><a href="#cb1-402" aria-hidden="true" tabindex="-1"></a><span class="vs">            &lt;span class="info-label"&gt;Continent / Region&lt;/span&gt;</span></span>
+<span id="cb1-403"><a href="#cb1-403" aria-hidden="true" tabindex="-1"></a><span class="vs">            &lt;span class="info-value"&gt;</span><span class="sc">${</span>selected<span class="op">.</span><span class="at">region</span><span class="sc">}</span><span class="vs">&lt;/span&gt;</span></span>
+<span id="cb1-404"><a href="#cb1-404" aria-hidden="true" tabindex="-1"></a><span class="vs">          &lt;/div&gt;</span></span>
+<span id="cb1-405"><a href="#cb1-405" aria-hidden="true" tabindex="-1"></a><span class="vs">        &lt;/li&gt;</span></span>
+<span id="cb1-406"><a href="#cb1-406" aria-hidden="true" tabindex="-1"></a><span class="vs">        &lt;li class="info-item"&gt;</span></span>
+<span id="cb1-407"><a href="#cb1-407" aria-hidden="true" tabindex="-1"></a><span class="vs">          &lt;span class="info-icon" aria-hidden="true"&gt;👥&lt;/span&gt;</span></span>
+<span id="cb1-408"><a href="#cb1-408" aria-hidden="true" tabindex="-1"></a><span class="vs">          &lt;div class="info-text"&gt;</span></span>
+<span id="cb1-409"><a href="#cb1-409" aria-hidden="true" tabindex="-1"></a><span class="vs">            &lt;span class="info-label"&gt;Approximate Population&lt;/span&gt;</span></span>
+<span id="cb1-410"><a href="#cb1-410" aria-hidden="true" tabindex="-1"></a><span class="vs">            &lt;span class="info-value"&gt;</span><span class="sc">${</span>selected<span class="op">.</span><span class="at">population</span><span class="sc">}</span><span class="vs">&lt;/span&gt;</span></span>
+<span id="cb1-411"><a href="#cb1-411" aria-hidden="true" tabindex="-1"></a><span class="vs">          &lt;/div&gt;</span></span>
+<span id="cb1-412"><a href="#cb1-412" aria-hidden="true" tabindex="-1"></a><span class="vs">        &lt;/li&gt;</span></span>
+<span id="cb1-413"><a href="#cb1-413" aria-hidden="true" tabindex="-1"></a><span class="vs">        &lt;li class="info-item"&gt;</span></span>
+<span id="cb1-414"><a href="#cb1-414" aria-hidden="true" tabindex="-1"></a><span class="vs">          &lt;span class="info-icon" aria-hidden="true"&gt;💬&lt;/span&gt;</span></span>
+<span id="cb1-415"><a href="#cb1-415" aria-hidden="true" tabindex="-1"></a><span class="vs">          &lt;div class="info-text"&gt;</span></span>
+<span id="cb1-416"><a href="#cb1-416" aria-hidden="true" tabindex="-1"></a><span class="vs">            &lt;span class="info-label"&gt;Official Language(s)&lt;/span&gt;</span></span>
+<span id="cb1-417"><a href="#cb1-417" aria-hidden="true" tabindex="-1"></a><span class="vs">            &lt;span class="info-value"&gt;</span><span class="sc">${</span>selected<span class="op">.</span><span class="at">languages</span><span class="sc">}</span><span class="vs">&lt;/span&gt;</span></span>
+<span id="cb1-418"><a href="#cb1-418" aria-hidden="true" tabindex="-1"></a><span class="vs">          &lt;/div&gt;</span></span>
+<span id="cb1-419"><a href="#cb1-419" aria-hidden="true" tabindex="-1"></a><span class="vs">        &lt;/li&gt;</span></span>
+<span id="cb1-420"><a href="#cb1-420" aria-hidden="true" tabindex="-1"></a><span class="vs">        &lt;li class="info-item"&gt;</span></span>
+<span id="cb1-421"><a href="#cb1-421" aria-hidden="true" tabindex="-1"></a><span class="vs">          &lt;span class="info-icon" aria-hidden="true"&gt;💱&lt;/span&gt;</span></span>
+<span id="cb1-422"><a href="#cb1-422" aria-hidden="true" tabindex="-1"></a><span class="vs">          &lt;div class="info-text"&gt;</span></span>
+<span id="cb1-423"><a href="#cb1-423" aria-hidden="true" tabindex="-1"></a><span class="vs">            &lt;span class="info-label"&gt;Currency&lt;/span&gt;</span></span>
+<span id="cb1-424"><a href="#cb1-424" aria-hidden="true" tabindex="-1"></a><span class="vs">            &lt;span class="info-value"&gt;</span><span class="sc">${</span>selected<span class="op">.</span><span class="at">currency</span><span class="sc">}</span><span class="vs">&lt;/span&gt;</span></span>
+<span id="cb1-425"><a href="#cb1-425" aria-hidden="true" tabindex="-1"></a><span class="vs">          &lt;/div&gt;</span></span>
+<span id="cb1-426"><a href="#cb1-426" aria-hidden="true" tabindex="-1"></a><span class="vs">        &lt;/li&gt;</span></span>
+<span id="cb1-427"><a href="#cb1-427" aria-hidden="true" tabindex="-1"></a><span class="vs">      &lt;/ul&gt;</span></span>
+<span id="cb1-428"><a href="#cb1-428" aria-hidden="true" tabindex="-1"></a><span class="vs">    &lt;/div&gt;</span></span>
+<span id="cb1-429"><a href="#cb1-429" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-430"><a href="#cb1-430" aria-hidden="true" tabindex="-1"></a><span class="vs">    &lt;div class="fun-fact-box"&gt;</span></span>
+<span id="cb1-431"><a href="#cb1-431" aria-hidden="true" tabindex="-1"></a><span class="vs">      &lt;span class="fun-fact-icon" aria-hidden="true"&gt;✨&lt;/span&gt;</span></span>
+<span id="cb1-432"><a href="#cb1-432" aria-hidden="true" tabindex="-1"></a><span class="vs">      &lt;div class="fun-fact-content"&gt;</span></span>
+<span id="cb1-433"><a href="#cb1-433" aria-hidden="true" tabindex="-1"></a><span class="vs">        &lt;span class="fun-fact-label"&gt;Fun Fact&lt;/span&gt;</span></span>
+<span id="cb1-434"><a href="#cb1-434" aria-hidden="true" tabindex="-1"></a><span class="vs">        &lt;p class="fun-fact-text"&gt;</span><span class="sc">${</span>selected<span class="op">.</span><span class="at">funFact</span><span class="sc">}</span><span class="vs">&lt;/p&gt;</span></span>
+<span id="cb1-435"><a href="#cb1-435" aria-hidden="true" tabindex="-1"></a><span class="vs">      &lt;/div&gt;</span></span>
+<span id="cb1-436"><a href="#cb1-436" aria-hidden="true" tabindex="-1"></a><span class="vs">    &lt;/div&gt;</span></span>
+<span id="cb1-437"><a href="#cb1-437" aria-hidden="true" tabindex="-1"></a><span class="vs">  &lt;/div&gt;</span></span>
+<span id="cb1-438"><a href="#cb1-438" aria-hidden="true" tabindex="-1"></a><span class="vs">&lt;/div&gt;`</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-display">
 <div>
 <div id="ojs-cell-1-1" data-nodetype="declaration">
@@ -313,7 +541,14 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 <div class="cell-output cell-output-display">
 <div>
-<div id="ojs-cell-1-3" data-nodetype="expression">
+<div id="ojs-cell-1-3" data-nodetype="declaration">
+
+</div>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<div id="ojs-cell-1-4" data-nodetype="expression">
 
 </div>
 </div>
@@ -323,7 +558,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </main>
 <!-- /main column -->
 <script type="ojs-module-contents">
-eyJjb250ZW50cyI6W3sibWV0aG9kTmFtZSI6ImludGVycHJldCIsImNlbGxOYW1lIjoib2pzLWNlbGwtMSIsImlubGluZSI6ZmFsc2UsInNvdXJjZSI6Ii8vIE1hcCBlYWNoIHR3by1sZXR0ZXIgKG9yIFVLIHN1YmRpdmlzaW9uKSBjb2RlIHRvIGl0cyBmdWxsIGNvdW50cnkgbmFtZVxuZmxhZ09wdGlvbnMgPSB7XG4gIGNvbnN0IHJlZ2lvbk5hbWVzID0gbmV3IEludGwuRGlzcGxheU5hbWVzKFtcImVuXCJdLCB7IHR5cGU6IFwicmVnaW9uXCIgfSk7XG4gIGNvbnN0IGN1c3RvbU5hbWVzID0ge1xuICAgIFwiZ2ItZW5nXCI6IFwiRW5nbGFuZFwiLFxuICAgIFwiZ2ItbmlyXCI6IFwiTm9ydGhlcm4gSXJlbGFuZFwiLFxuICAgIFwiZ2Itc2N0XCI6IFwiU2NvdGxhbmRcIixcbiAgICBcImdiLXdsc1wiOiBcIldhbGVzXCJcbiAgfTtcblxuICByZXR1cm4gZmxhZ19maWxlc1xuICAgIC5tYXAoZmlsZSA9PiB7XG4gICAgICBjb25zdCBjb2RlID0gZmlsZS5yZXBsYWNlKC9cXC5wbmckL2ksIFwiXCIpO1xuICAgICAgY29uc3QgbmFtZSA9IGN1c3RvbU5hbWVzW2NvZGVdIHx8IHJlZ2lvbk5hbWVzLm9mKGNvZGUudG9VcHBlckNhc2UoKSkgfHwgY29kZS50b1VwcGVyQ2FzZSgpO1xuICAgICAgcmV0dXJuIHsgZmlsZSwgY29kZSwgbmFtZSB9O1xuICAgIH0pXG4gICAgLnNvcnQoKGEsIGIpID0+IGEubmFtZS5sb2NhbGVDb21wYXJlKGIubmFtZSkpO1xufVxuXG4vLyBEcm9wZG93biBtZW51IHNvcnRlZCBieSBmdWxsIGNvdW50cnkgbmFtZVxudmlld29mIHNlbGVjdGVkID0gSW5wdXRzLnNlbGVjdChmbGFnT3B0aW9ucywge1xuICBsYWJlbDogXCJDaG9vc2UgYSBjb3VudHJ5IG9yIHRlcnJpdG9yeTpcIixcbiAgZm9ybWF0OiBkID0+IGQubmFtZSxcbiAgdmFsdWU6IGZsYWdPcHRpb25zLmZpbmQoZCA9PiBkLmZpbGUgPT09IFwidXMucG5nXCIpIHx8IGZsYWdPcHRpb25zWzBdXG59KVxuXG4vLyBSb3VuZGVkIGNhcmQgc2hvd2luZyB0aGUgc2VsZWN0ZWQgZmxhZyBhbmQgZnVsbCBjb3VudHJ5IG5hbWUgdW5kZXJuZWF0aFxuaHRtbGA8ZGl2IGNsYXNzPVwiZmxhZy1jYXJkXCIga2V5PVwiJHtzZWxlY3RlZC5maWxlfVwiPlxuICA8ZGl2IGNsYXNzPVwiZmxhZy1pbWFnZS13cmFwcGVyXCI+XG4gICAgPGltZ1xuICAgICAgY2xhc3M9XCJmbGFnLWltYWdlXCJcbiAgICAgIHNyYz1cIncyNTYwLyR7c2VsZWN0ZWQuZmlsZX1cIlxuICAgICAgYWx0PVwiRmxhZyBvZiAke3NlbGVjdGVkLm5hbWV9XCJcbiAgICAvPlxuICA8L2Rpdj5cbiAgPGgyIGNsYXNzPVwiY291bnRyeS1uYW1lXCI+JHtzZWxlY3RlZC5uYW1lfTwvaDI+XG48L2Rpdj5gXG4ifSx7Im1ldGhvZE5hbWUiOiJpbnRlcnByZXRRdWlldCIsInNvdXJjZSI6InNoaW55SW5wdXQoJ3NlbGVjdGVkJykifV19
+eyJjb250ZW50cyI6W3sibWV0aG9kTmFtZSI6ImludGVycHJldCIsImNlbGxOYW1lIjoib2pzLWNlbGwtMSIsImlubGluZSI6ZmFsc2UsInNvdXJjZSI6Ii8vIExvYWQgdGhlIGV4dGVybmFsIGNvdW50cnkgZGV0YWlscyBKU09OIGZpbGVcbmNvdW50cnlEYXRhID0gRmlsZUF0dGFjaG1lbnQoXCJjb3VudHJpZXMuanNvblwiKS5qc29uKClcblxuLy8gQ29tYmluZSBldmVyeSBmbGFnIGZpbGUgaW4gdzI1NjAvIHdpdGggaXRzIG1hdGNoaW5nIGNvdW50cnkgZGV0YWlsc1xuZmxhZ09wdGlvbnMgPSBmbGFnX2ZpbGVzXG4gIC5tYXAoZmlsZSA9PiB7XG4gICAgY29uc3QgY29kZSA9IGZpbGUucmVwbGFjZSgvXFwucG5nJC9pLCBcIlwiKTtcbiAgICBjb25zdCBpbmZvID0gY291bnRyeURhdGFbY29kZV0gfHwge307XG4gICAgcmV0dXJuIHtcbiAgICAgIGZpbGUsXG4gICAgICBjb2RlLFxuICAgICAgbmFtZTogaW5mby5uYW1lIHx8IGNvZGUudG9VcHBlckNhc2UoKSxcbiAgICAgIGNhcGl0YWw6IGluZm8uY2FwaXRhbCB8fCBcIk4vQVwiLFxuICAgICAgcmVnaW9uOiBpbmZvLnJlZ2lvbiB8fCBcIk4vQVwiLFxuICAgICAgcG9wdWxhdGlvbjogaW5mby5wb3B1bGF0aW9uIHx8IFwiTi9BXCIsXG4gICAgICBsYW5ndWFnZXM6IGluZm8ubGFuZ3VhZ2VzIHx8IFwiTi9BXCIsXG4gICAgICBjdXJyZW5jeTogaW5mby5jdXJyZW5jeSB8fCBcIk4vQVwiLFxuICAgICAgZnVuRmFjdDogaW5mby5mdW5GYWN0IHx8IFwiXCJcbiAgICB9O1xuICB9KVxuICAuc29ydCgoYSwgYikgPT4gYS5uYW1lLmxvY2FsZUNvbXBhcmUoYi5uYW1lKSlcblxuLy8gRHJvcGRvd24gbWVudSBzb3J0ZWQgYWxwaGFiZXRpY2FsbHkgYnkgZnVsbCBjb3VudHJ5IG5hbWVcbnZpZXdvZiBzZWxlY3RlZCA9IElucHV0cy5zZWxlY3QoZmxhZ09wdGlvbnMsIHtcbiAgbGFiZWw6IFwiQ2hvb3NlIGEgY291bnRyeSBvciB0ZXJyaXRvcnk6XCIsXG4gIGZvcm1hdDogZCA9PiBkLm5hbWUsXG4gIHZhbHVlOiBmbGFnT3B0aW9ucy5maW5kKGQgPT4gZC5maWxlID09PSBcInVzLnBuZ1wiKSB8fCBmbGFnT3B0aW9uc1swXVxufSlcblxuLy8gUmVzcG9uc2l2ZSBzaWRlLWJ5LXNpZGUgRmxhZyBDYXJkICsgQ291bnRyeSBJbmZvIENhcmRcbmh0bWxgPGRpdiBjbGFzcz1cImV4cGxvcmVyLWdyaWRcIiBrZXk9XCIke3NlbGVjdGVkLmNvZGV9XCI+XG4gIDxkaXYgY2xhc3M9XCJmbGFnLWNhcmRcIj5cbiAgICA8ZGl2IGNsYXNzPVwiZmxhZy1pbWFnZS13cmFwcGVyXCI+XG4gICAgICA8aW1nXG4gICAgICAgIGNsYXNzPVwiZmxhZy1pbWFnZVwiXG4gICAgICAgIHNyYz1cIncyNTYwLyR7c2VsZWN0ZWQuZmlsZX1cIlxuICAgICAgICBhbHQ9XCJGbGFnIG9mICR7c2VsZWN0ZWQubmFtZX1cIlxuICAgICAgLz5cbiAgICA8L2Rpdj5cbiAgICA8aDIgY2xhc3M9XCJjb3VudHJ5LW5hbWVcIj4ke3NlbGVjdGVkLm5hbWV9PC9oMj5cbiAgICA8c3BhbiBjbGFzcz1cImNvdW50cnktY29kZS1iYWRnZVwiPiR7c2VsZWN0ZWQuY29kZS50b1VwcGVyQ2FzZSgpfTwvc3Bhbj5cbiAgPC9kaXY+XG5cbiAgPGRpdiBjbGFzcz1cImluZm8tY2FyZFwiPlxuICAgIDxkaXY+XG4gICAgICA8ZGl2IGNsYXNzPVwiaW5mby1jYXJkLWhlYWRlclwiPlxuICAgICAgICA8aDMgY2xhc3M9XCJpbmZvLWNhcmQtdGl0bGVcIj7wn4yQIENvdW50cnkgUHJvZmlsZTwvaDM+XG4gICAgICA8L2Rpdj5cbiAgICAgIDx1bCBjbGFzcz1cImluZm8tbGlzdFwiPlxuICAgICAgICA8bGkgY2xhc3M9XCJpbmZvLWl0ZW1cIj5cbiAgICAgICAgICA8c3BhbiBjbGFzcz1cImluZm8taWNvblwiIGFyaWEtaGlkZGVuPVwidHJ1ZVwiPvCfj5vvuI88L3NwYW4+XG4gICAgICAgICAgPGRpdiBjbGFzcz1cImluZm8tdGV4dFwiPlxuICAgICAgICAgICAgPHNwYW4gY2xhc3M9XCJpbmZvLWxhYmVsXCI+Q2FwaXRhbCBDaXR5PC9zcGFuPlxuICAgICAgICAgICAgPHNwYW4gY2xhc3M9XCJpbmZvLXZhbHVlXCI+JHtzZWxlY3RlZC5jYXBpdGFsfTwvc3Bhbj5cbiAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgPC9saT5cbiAgICAgICAgPGxpIGNsYXNzPVwiaW5mby1pdGVtXCI+XG4gICAgICAgICAgPHNwYW4gY2xhc3M9XCJpbmZvLWljb25cIiBhcmlhLWhpZGRlbj1cInRydWVcIj7wn4yNPC9zcGFuPlxuICAgICAgICAgIDxkaXYgY2xhc3M9XCJpbmZvLXRleHRcIj5cbiAgICAgICAgICAgIDxzcGFuIGNsYXNzPVwiaW5mby1sYWJlbFwiPkNvbnRpbmVudCAvIFJlZ2lvbjwvc3Bhbj5cbiAgICAgICAgICAgIDxzcGFuIGNsYXNzPVwiaW5mby12YWx1ZVwiPiR7c2VsZWN0ZWQucmVnaW9ufTwvc3Bhbj5cbiAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgPC9saT5cbiAgICAgICAgPGxpIGNsYXNzPVwiaW5mby1pdGVtXCI+XG4gICAgICAgICAgPHNwYW4gY2xhc3M9XCJpbmZvLWljb25cIiBhcmlhLWhpZGRlbj1cInRydWVcIj7wn5GlPC9zcGFuPlxuICAgICAgICAgIDxkaXYgY2xhc3M9XCJpbmZvLXRleHRcIj5cbiAgICAgICAgICAgIDxzcGFuIGNsYXNzPVwiaW5mby1sYWJlbFwiPkFwcHJveGltYXRlIFBvcHVsYXRpb248L3NwYW4+XG4gICAgICAgICAgICA8c3BhbiBjbGFzcz1cImluZm8tdmFsdWVcIj4ke3NlbGVjdGVkLnBvcHVsYXRpb259PC9zcGFuPlxuICAgICAgICAgIDwvZGl2PlxuICAgICAgICA8L2xpPlxuICAgICAgICA8bGkgY2xhc3M9XCJpbmZvLWl0ZW1cIj5cbiAgICAgICAgICA8c3BhbiBjbGFzcz1cImluZm8taWNvblwiIGFyaWEtaGlkZGVuPVwidHJ1ZVwiPvCfkqw8L3NwYW4+XG4gICAgICAgICAgPGRpdiBjbGFzcz1cImluZm8tdGV4dFwiPlxuICAgICAgICAgICAgPHNwYW4gY2xhc3M9XCJpbmZvLWxhYmVsXCI+T2ZmaWNpYWwgTGFuZ3VhZ2Uocyk8L3NwYW4+XG4gICAgICAgICAgICA8c3BhbiBjbGFzcz1cImluZm8tdmFsdWVcIj4ke3NlbGVjdGVkLmxhbmd1YWdlc308L3NwYW4+XG4gICAgICAgICAgPC9kaXY+XG4gICAgICAgIDwvbGk+XG4gICAgICAgIDxsaSBjbGFzcz1cImluZm8taXRlbVwiPlxuICAgICAgICAgIDxzcGFuIGNsYXNzPVwiaW5mby1pY29uXCIgYXJpYS1oaWRkZW49XCJ0cnVlXCI+8J+SsTwvc3Bhbj5cbiAgICAgICAgICA8ZGl2IGNsYXNzPVwiaW5mby10ZXh0XCI+XG4gICAgICAgICAgICA8c3BhbiBjbGFzcz1cImluZm8tbGFiZWxcIj5DdXJyZW5jeTwvc3Bhbj5cbiAgICAgICAgICAgIDxzcGFuIGNsYXNzPVwiaW5mby12YWx1ZVwiPiR7c2VsZWN0ZWQuY3VycmVuY3l9PC9zcGFuPlxuICAgICAgICAgIDwvZGl2PlxuICAgICAgICA8L2xpPlxuICAgICAgPC91bD5cbiAgICA8L2Rpdj5cblxuICAgIDxkaXYgY2xhc3M9XCJmdW4tZmFjdC1ib3hcIj5cbiAgICAgIDxzcGFuIGNsYXNzPVwiZnVuLWZhY3QtaWNvblwiIGFyaWEtaGlkZGVuPVwidHJ1ZVwiPuKcqDwvc3Bhbj5cbiAgICAgIDxkaXYgY2xhc3M9XCJmdW4tZmFjdC1jb250ZW50XCI+XG4gICAgICAgIDxzcGFuIGNsYXNzPVwiZnVuLWZhY3QtbGFiZWxcIj5GdW4gRmFjdDwvc3Bhbj5cbiAgICAgICAgPHAgY2xhc3M9XCJmdW4tZmFjdC10ZXh0XCI+JHtzZWxlY3RlZC5mdW5GYWN0fTwvcD5cbiAgICAgIDwvZGl2PlxuICAgIDwvZGl2PlxuICA8L2Rpdj5cbjwvZGl2PmBcbiJ9LHsibWV0aG9kTmFtZSI6ImludGVycHJldFF1aWV0Iiwic291cmNlIjoic2hpbnlJbnB1dCgnc2VsZWN0ZWQnKSJ9XX0=
 </script>
 <script type="module">
 if (window.location.protocol === "file:") { alert("The OJS runtime does not work with file:// URLs. Please use a web server to view this document."); }

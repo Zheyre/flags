@@ -1,0 +1,22 @@
+---
+title: "World Flags"
+format: html
+execute:
+  echo: false
+---
+
+```{r}
+# Send the list of flag filenames in w2560/ to Observable JS
+ojs_define(flags = list.files("w2560", pattern = "\\.png$"))
+```
+
+```{ojs}
+// Dropdown menu for the user to select a flag
+viewof selected = Inputs.select(flags, {
+  label: "Select a flag:",
+  value: "us.png"
+})
+
+// Display the selected flag image from the w2560 folder
+html`<img src="w2560/${selected}" alt="${selected}" style="max-width: 600px; border: 1px solid #ccc; margin-top: 1rem;">`
+```

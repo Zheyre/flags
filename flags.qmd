@@ -1,22 +1,210 @@
 ---
-title: "World Flags"
-format: html
+title: "World Flag Explorer"
+subtitle: "Browse 254 flags from countries and territories around the globe"
+format:
+  html:
+    theme: cosmo
+    page-layout: full
+resources:
+  - w2560/*.png
 execute:
   echo: false
 ---
 
+```{=html}
+<style>
+  body {
+    background: linear-gradient(135deg, #f0f4ff 0%, #fdf2f8 50%, #eefaf6 100%);
+    min-height: 100vh;
+    font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    color: #1e293b;
+    margin: 0;
+  }
+
+  #quarto-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 2rem 1rem 3.5rem;
+  }
+
+  main.content {
+    width: 100%;
+    max-width: 720px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  #title-block-header {
+    text-align: center;
+    margin-bottom: 1.75rem;
+  }
+
+  h1.title {
+    font-size: clamp(2rem, 5vw, 2.85rem);
+    font-weight: 800;
+    letter-spacing: -0.025em;
+    background: linear-gradient(90deg, #1e3a8a, #6d28d9, #be185d);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 0.4rem;
+  }
+
+  p.subtitle {
+    font-size: clamp(1rem, 2.5vw, 1.15rem);
+    color: #475569;
+    max-width: 34rem;
+    margin: 0 auto;
+  }
+
+  /* Styled Observable Inputs dropdown */
+  .cell-output-display form {
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    margin: 0 auto 1.75rem !important;
+    width: 100% !important;
+  }
+
+  .cell-output-display form label {
+    font-weight: 600;
+    font-size: 0.95rem;
+    color: #334155;
+    width: auto !important;
+  }
+
+  .cell-output-display form select {
+    width: min(100%, 380px) !important;
+    padding: 0.7rem 1rem;
+    font-size: 1.05rem;
+    font-weight: 500;
+    color: #0f172a;
+    background-color: #ffffff;
+    border: 1.5px solid #cbd5e1;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(15, 23, 42, 0.06);
+    cursor: pointer;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+  }
+
+  .cell-output-display form select:hover,
+  .cell-output-display form select:focus {
+    border-color: #6366f1;
+    box-shadow: 0 0 0 4px rgba(99, 102, 241, 0.15);
+    outline: none;
+  }
+
+  /* Flag display card */
+  .flag-card {
+    background: #ffffff;
+    border-radius: 20px;
+    padding: clamp(1.25rem, 4vw, 2.25rem);
+    box-shadow: 0 18px 40px -10px rgba(15, 23, 42, 0.12),
+                0 4px 12px -2px rgba(15, 23, 42, 0.05);
+    max-width: 640px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    animation: flagFadeIn 0.45s cubic-bezier(0.22, 1, 0.36, 1);
+  }
+
+  .flag-image-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 12px;
+  }
+
+  .flag-image {
+    width: 100%;
+    max-width: 560px;
+    max-height: 360px;
+    height: auto;
+    object-fit: contain;
+    border-radius: 10px;
+    border: 1px solid rgba(148, 163, 184, 0.25);
+    box-shadow: 0 4px 14px rgba(15, 23, 42, 0.07);
+    transition: opacity 0.35s ease, transform 0.35s ease;
+  }
+
+  .country-name {
+    margin-top: 1.35rem;
+    margin-bottom: 0;
+    font-size: clamp(1.35rem, 3.5vw, 1.85rem);
+    font-weight: 700;
+    color: #0f172a;
+    letter-spacing: -0.015em;
+  }
+
+  @keyframes flagFadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(8px) scale(0.985);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0) scale(1);
+    }
+  }
+
+  @media (max-width: 600px) {
+    #quarto-content {
+      padding: 1.25rem 0.75rem 2.5rem;
+    }
+    .flag-card {
+      border-radius: 16px;
+      padding: 1rem;
+    }
+  }
+</style>
+```
+
 ```{r}
-# Send the list of flag filenames in w2560/ to Observable JS
-ojs_define(flags = list.files("w2560", pattern = "\\.png$"))
+# Pass the exact list of flag image filenames in w2560/ to Observable JS
+ojs_define(flag_files = sort(list.files("w2560", pattern = "\\.png$")))
 ```
 
 ```{ojs}
-// Dropdown menu for the user to select a flag
-viewof selected = Inputs.select(flags, {
-  label: "Select a flag:",
-  value: "us.png"
+// Map each two-letter (or UK subdivision) code to its full country name
+flagOptions = {
+  const regionNames = new Intl.DisplayNames(["en"], { type: "region" });
+  const customNames = {
+    "gb-eng": "England",
+    "gb-nir": "Northern Ireland",
+    "gb-sct": "Scotland",
+    "gb-wls": "Wales"
+  };
+
+  return flag_files
+    .map(file => {
+      const code = file.replace(/\.png$/i, "");
+      const name = customNames[code] || regionNames.of(code.toUpperCase()) || code.toUpperCase();
+      return { file, code, name };
+    })
+    .sort((a, b) => a.name.localeCompare(b.name));
+}
+
+// Dropdown menu sorted by full country name
+viewof selected = Inputs.select(flagOptions, {
+  label: "Choose a country or territory:",
+  format: d => d.name,
+  value: flagOptions.find(d => d.file === "us.png") || flagOptions[0]
 })
 
-// Display the selected flag image from the w2560 folder
-html`<img src="w2560/${selected}" alt="${selected}" style="max-width: 600px; border: 1px solid #ccc; margin-top: 1rem;">`
+// Rounded card showing the selected flag and full country name underneath
+html`<div class="flag-card" key="${selected.file}">
+  <div class="flag-image-wrapper">
+    <img
+      class="flag-image"
+      src="w2560/${selected.file}"
+      alt="Flag of ${selected.name}"
+    />
+  </div>
+  <h2 class="country-name">${selected.name}</h2>
+</div>`
 ```

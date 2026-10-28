@@ -8,7 +8,15 @@
     "population": "~77,265",
     "languages": "Catalan",
     "currency": "Euro (€ / EUR)",
-    "funFact": "Andorra is the only country in the world where Catalan is the sole official language, and it is co-ruled by two foreign leaders: the President of France and the Bishop of Urgell in Spain."
+    "funFact": "Andorra is the only country in the world where Catalan is the sole official language, and it is co-ruled by two foreign leaders: the President of France and the Bishop of Urgell in Spain.",
+    "outfit": {
+      "type": "flag_tunic",
+      "label": "Andorra Flag Colors Tunic",
+      "hat": "none",
+      "primary": "#d00030",
+      "secondary": "#100098",
+      "accent": "#f8d800"
+    }
   },
   "ae": {
     "code": "ae",
@@ -19,7 +27,15 @@
     "population": "~9.9 million (9,890,400)",
     "languages": "Arabic",
     "currency": "United Arab Emirates dirham (د.إ / AED)",
-    "funFact": "The United Arab Emirates is home to the Burj Khalifa in Dubai, the tallest building in the world at 828 meters (2,717 feet), and established the world's first Ministry of Artificial Intelligence."
+    "funFact": "The United Arab Emirates is home to the Burj Khalifa in Dubai, the tallest building in the world at 828 meters (2,717 feet), and established the world's first Ministry of Artificial Intelligence.",
+    "outfit": {
+      "type": "thobe",
+      "label": "Emirati Kandura & Ghutra",
+      "hat": "taqiyah",
+      "primary": "#ffffff",
+      "secondary": "#b45309",
+      "accent": "#15803d"
+    }
   },
   "af": {
     "code": "af",
@@ -30,7 +46,15 @@
     "population": "~38.9 million (38,928,341)",
     "languages": "Dari, Pashto, Turkmen",
     "currency": "Afghan afghani (؋ / AFN)",
-    "funFact": "Afghanistan's national sport is Buzkashi, an ancient equestrian game in which horse-mounted players compete to carry a goat carcass toward a goal."
+    "funFact": "Afghanistan's national sport is Buzkashi, an ancient equestrian game in which horse-mounted players compete to carry a goat carcass toward a goal.",
+    "outfit": {
+      "type": "flag_tunic",
+      "label": "Afghanistan Flag Colors Tunic",
+      "hat": "none",
+      "primary": "#000000",
+      "secondary": "#007830",
+      "accent": "#d02010"
+    }
   },
   "ag": {
     "code": "ag",
@@ -41,7 +65,15 @@
     "population": "~97,928",
     "languages": "English",
     "currency": "Eastern Caribbean dollar ($ / XCD)",
-    "funFact": "Antigua and Barbuda boasts 365 beaches—one for every day of the year—and its highest peak was renamed Mount Obama in 2009."
+    "funFact": "Antigua and Barbuda boasts 365 beaches—one for every day of the year—and its highest peak was renamed Mount Obama in 2009.",
+    "outfit": {
+      "type": "flag_tunic",
+      "label": "Antigua and Barbuda Flag Colors Tunic",
+      "hat": "none",
+      "primary": "#c81020",
+      "secondary": "#000000",
+      "accent": "#0070c0"
+    }
   },
   "ai": {
     "code": "ai",
@@ -52,7 +84,15 @@
     "population": "~13,452",
     "languages": "English",
     "currency": "Eastern Caribbean dollar ($ / XCD)",
-    "funFact": "Anguilla was named after the Italian word for 'eel' because of its long, slender shape stretching about 16 miles across the Caribbean Sea."
+    "funFact": "Anguilla was named after the Italian word for 'eel' because of its long, slender shape stretching about 16 miles across the Caribbean Sea.",
+    "outfit": {
+      "type": "flag_tunic",
+      "label": "Anguilla Flag Colors Tunic",
+      "hat": "none",
+      "primary": "#002068",
+      "secondary": "#f8f8f8",
+      "accent": "#c00828"
+    }
   },
   "al": {
     "code": "al",
@@ -63,7 +103,15 @@
     "population": "~2.8 million (2,837,743)",
     "languages": "Albanian",
     "currency": "Albanian lek (L / ALL)",
-    "funFact": "In Albania, nodding your head up and down traditionally means 'no' while shaking it side to side means 'yes,' and the country is dotted with over 170,000 Cold War concrete bunkers."
+    "funFact": "In Albania, nodding your head up and down traditionally means 'no' while shaking it side to side means 'yes,' and the country is dotted with over 170,000 Cold War concrete bunkers.",
+    "outfit": {
+      "type": "kilt",
+      "label": "Fustanella & Xhamadan Vest",
+      "hat": "taqiyah",
+      "primary": "#dc2626",
+      "secondary": "#1e293b",
+      "accent": "#eab308"
+    }
   },
   "am": {
     "code": "am",
@@ -74,7 +122,15 @@
     "population": "~3.0 million (2,963,234)",
     "languages": "Armenian",
     "currency": "Armenian dram (֏ / AMD)",
-    "funFact": "Armenia was the first nation in the world to adopt Christianity as its official state religion in 301 CE, and chess is a compulsory subject in its primary schools."
+    "funFact": "Armenia was the first nation in the world to adopt Christianity as its official state religion in 301 CE, and chess is a compulsory subject in its primary schools.",
+    "outfit": {
+      "type": "thobe",
+      "label": "Armenia Traditional Tunic",
+      "hat": "none",
+      "primary": "#d80010",
+      "secondary": "#0030a0",
+      "accent": "#f0a800"
+    }
   },
   "ao": {
     "code": "ao",
@@ -85,7 +141,15 @@
     "population": "~32.9 million (32,866,268)",
     "languages": "Portuguese",
     "currency": "Angolan kwanza (Kz / AOA)",
-    "funFact": "Angola's giant sable antelope, once feared extinct during the country's civil war, was rediscovered in 2004 and serves as a revered national symbol."
+    "funFact": "Angola's giant sable antelope, once feared extinct during the country's civil war, was rediscovered in 2004 and serves as a revered national symbol.",
+    "outfit": {
+      "type": "agbada",
+      "label": "Angola Embroidered Tunic",
+      "hat": "kufi",
+      "primary": "#000000",
+      "secondary": "#c80828",
+      "accent": "#f8d000"
+    }
   },
   "aq": {
     "name": "Antarctica",
@@ -96,7 +160,15 @@
     "currency": "None (varies by research station)",
     "code": "aq",
     "file": "aq.png",
-    "funFact": "Antarctica is the coldest, windiest, and driest continent on Earth, holding roughly 70% of the planet's fresh water locked in its ice sheet."
+    "funFact": "Antarctica is the coldest, windiest, and driest continent on Earth, holding roughly 70% of the planet's fresh water locked in its ice sheet.",
+    "outfit": {
+      "type": "parka",
+      "label": "Polar Expedition Parka",
+      "hat": "hood",
+      "primary": "#0284c7",
+      "secondary": "#f97316",
+      "accent": "#ffffff"
+    }
   },
   "ar": {
     "code": "ar",
@@ -107,7 +179,15 @@
     "population": "~45.4 million (45,376,763)",
     "languages": "Guaraní, Spanish",
     "currency": "Argentine peso ($ / ARS)",
-    "funFact": "Argentina is home to both the highest peak in the Western Hemisphere (Aconcagua at 6,961 m) and the lowest land point in South America (Laguna del Carbón)."
+    "funFact": "Argentina is home to both the highest peak in the Western Hemisphere (Aconcagua at 6,961 m) and the lowest land point in South America (Laguna del Carbón).",
+    "outfit": {
+      "type": "poncho",
+      "label": "Gaucho Poncho & Kerchief",
+      "hat": "beret",
+      "primary": "#38bdf8",
+      "secondary": "#78350f",
+      "accent": "#fbbf24"
+    }
   },
   "as": {
     "code": "as",
@@ -118,7 +198,15 @@
     "population": "~55,197",
     "languages": "English, Samoan",
     "currency": "United States dollar ($ / USD)",
-    "funFact": "American Samoa's National Park is the only U.S. National Park located south of the equator, protecting coral reefs and tropical rainforests."
+    "funFact": "American Samoa's National Park is the only U.S. National Park located south of the equator, protecting coral reefs and tropical rainforests.",
+    "outfit": {
+      "type": "island",
+      "label": "American Samoa Island Festive Tunic",
+      "hat": "crown_floral",
+      "primary": "#000060",
+      "secondary": "#f8f8f8",
+      "accent": "#c00818"
+    }
   },
   "at": {
     "code": "at",
@@ -129,7 +217,15 @@
     "population": "~8.9 million (8,917,205)",
     "languages": "Austro-Bavarian German",
     "currency": "Euro (€ / EUR)",
-    "funFact": "Austria is home to the world's oldest continually operating zoo, Tiergarten Schönbrunn in Vienna, which was founded as an imperial menagerie in 1752."
+    "funFact": "Austria is home to the world's oldest continually operating zoo, Tiergarten Schönbrunn in Vienna, which was founded as an imperial menagerie in 1752.",
+    "outfit": {
+      "type": "tracht",
+      "label": "Austrian Tracht & Steirerhut",
+      "hat": "alpine",
+      "primary": "#dc2626",
+      "secondary": "#15803d",
+      "accent": "#ffffff"
+    }
   },
   "au": {
     "code": "au",
@@ -140,7 +236,15 @@
     "population": "~25.7 million (25,687,041)",
     "languages": "English",
     "currency": "Australian dollar ($ / AUD)",
-    "funFact": "Australia is the only country that spans an entire continent and has more kangaroos than human residents."
+    "funFact": "Australia is the only country that spans an entire continent and has more kangaroos than human residents.",
+    "outfit": {
+      "type": "flag_tunic",
+      "label": "Australia Flag Colors Tunic",
+      "hat": "none",
+      "primary": "#002068",
+      "secondary": "#e00028",
+      "accent": "#f8f8f8"
+    }
   },
   "aw": {
     "code": "aw",
@@ -151,7 +255,15 @@
     "population": "~106,766",
     "languages": "Dutch, Papiamento",
     "currency": "Aruban florin (ƒ / AWG)",
-    "funFact": "Aruba lies outside the Atlantic hurricane belt and is famous for its wind-sculpted divi-divi trees that naturally point southwest due to steady trade winds."
+    "funFact": "Aruba lies outside the Atlantic hurricane belt and is famous for its wind-sculpted divi-divi trees that naturally point southwest due to steady trade winds.",
+    "outfit": {
+      "type": "flag_tunic",
+      "label": "Aruba Flag Colors Tunic",
+      "hat": "none",
+      "primary": "#4088d8",
+      "secondary": "#b8b848",
+      "accent": "#f8d000"
+    }
   },
   "ax": {
     "code": "ax",
@@ -162,7 +274,15 @@
     "population": "~28,875",
     "languages": "Swedish",
     "currency": "Euro (€ / EUR)",
-    "funFact": "The Åland Islands are an autonomous, demilitarized, and Swedish-speaking archipelago of more than 6,700 islands belonging to Finland."
+    "funFact": "The Åland Islands are an autonomous, demilitarized, and Swedish-speaking archipelago of more than 6,700 islands belonging to Finland.",
+    "outfit": {
+      "type": "flag_tunic",
+      "label": "Åland Islands Flag Colors Tunic",
+      "hat": "none",
+      "primary": "#0060a8",
+      "secondary": "#f8d000",
+      "accent": "#d80810"
+    }
   },
   "az": {
     "code": "az",
@@ -173,7 +293,15 @@
     "population": "~10.1 million (10,110,116)",
     "languages": "Azerbaijani, Russian",
     "currency": "Azerbaijani manat (₼ / AZN)",
-    "funFact": "Azerbaijan is known as the 'Land of Fire' because natural subsurface gas vents feed eternal flames like Yanar Dag ('Burning Mountain') near Baku."
+    "funFact": "Azerbaijan is known as the 'Land of Fire' because natural subsurface gas vents feed eternal flames like Yanar Dag ('Burning Mountain') near Baku.",
+    "outfit": {
+      "type": "thobe",
+      "label": "Azerbaijan Traditional Tunic",
+      "hat": "none",
+      "primary": "#00b0e0",
+      "secondary": "#509828",
+      "accent": "#e83040"
+    }
   },
   "ba": {
     "code": "ba",
@@ -184,7 +312,15 @@
     "population": "~3.3 million (3,280,815)",
     "languages": "Bosnian, Croatian, Serbian",
     "currency": "Bosnia and Herzegovina convertible mark (KM / BAM)",
-    "funFact": "Bosnia and Herzegovina's capital, Sarajevo, hosted the 1984 Winter Olympics and was the first city in Europe to have a full-time electric tram network in 1885."
+    "funFact": "Bosnia and Herzegovina's capital, Sarajevo, hosted the 1984 Winter Olympics and was the first city in Europe to have a full-time electric tram network in 1885.",
+    "outfit": {
+      "type": "flag_tunic",
+      "label": "Bosnia and Herzegovina Flag Colors Tunic",
+      "hat": "none",
+      "primary": "#002090",
+      "secondary": "#f8c800",
+      "accent": "#384870"
+    }
   },
   "bb": {
     "code": "bb",
@@ -195,7 +331,15 @@
     "population": "~287,371",
     "languages": "English",
     "currency": "Barbadian dollar ($ / BBD)",
-    "funFact": "Barbados is the birthplace of Rihanna and the only coral island in the region with crystal-clear limestone-filtered tap water."
+    "funFact": "Barbados is the birthplace of Rihanna and the only coral island in the region with crystal-clear limestone-filtered tap water.",
+    "outfit": {
+      "type": "flag_tunic",
+      "label": "Barbados Flag Colors Tunic",
+      "hat": "none",
+      "primary": "#002078",
+      "secondary": "#f8c020",
+      "accent": "#505860"
+    }
   },
   "bd": {
     "code": "bd",
@@ -206,7 +350,15 @@
     "population": "~164.7 million (164,689,383)",
     "languages": "Bengali",
     "currency": "Bangladeshi taka (৳ / BDT)",
-    "funFact": "Bangladesh contains the largest river delta on Earth and the Sundarbans, the world's largest mangrove forest and home to the Royal Bengal tiger."
+    "funFact": "Bangladesh contains the largest river delta on Earth and the Sundarbans, the world's largest mangrove forest and home to the Royal Bengal tiger.",
+    "outfit": {
+      "type": "sari",
+      "label": "Festive Panjabi & Sash",
+      "hat": "none",
+      "primary": "#047857",
+      "secondary": "#dc2626",
+      "accent": "#fbbf24"
+    }
   },
   "be": {
     "code": "be",
@@ -217,7 +369,15 @@
     "population": "~11.6 million (11,555,997)",
     "languages": "German, French, Dutch",
     "currency": "Euro (€ / EUR)",
-    "funFact": "Belgium produces more than 220,000 tons of chocolate each year, and Brussels Airport sells more chocolate than any other single location on Earth."
+    "funFact": "Belgium produces more than 220,000 tons of chocolate each year, and Brussels Airport sells more chocolate than any other single location on Earth.",
+    "outfit": {
+      "type": "flag_tunic",
+      "label": "Belgium Flag Colors Tunic",
+      "hat": "none",
+      "primary": "#000000",
+      "secondary": "#f8d820",
+      "accent": "#e83040"
+    }
   },
   "bf": {
     "code": "bf",
@@ -228,7 +388,15 @@
     "population": "~20.9 million (20,903,278)",
     "languages": "French",
     "currency": "West African CFA franc (Fr / XOF)",
-    "funFact": "Burkina Faso's name translates to 'Land of Incorruptible People,' and its capital Ouagadougou hosts FESPACO, the largest film festival in Africa."
+    "funFact": "Burkina Faso's name translates to 'Land of Incorruptible People,' and its capital Ouagadougou hosts FESPACO, the largest film festival in Africa.",
+    "outfit": {
+      "type": "agbada",
+      "label": "Burkina Faso Embroidered Tunic",
+      "hat": "kufi",
+      "primary": "#009848",
+      "secondary": "#e82828",
+      "accent": "#f8d010"
+    }
   },
   "bg": {
     "code": "bg",
@@ -239,7 +407,15 @@
     "population": "~6.9 million (6,927,288)",
     "languages": "Bulgarian",
     "currency": "Euro (€ / EUR)",
-    "funFact": "Bulgaria is the oldest country in Europe that has not changed its name since it was first established in 681 CE, and it produces over half of the world's rose oil."
+    "funFact": "Bulgaria is the oldest country in Europe that has not changed its name since it was first established in 681 CE, and it produces over half of the world's rose oil.",
+    "outfit": {
+      "type": "folk_vest",
+      "label": "Bulgarian Nosia Folk Vest",
+      "hat": "none",
+      "primary": "#dc2626",
+      "secondary": "#15803d",
+      "accent": "#ffffff"
+    }
   },
   "bh": {
     "code": "bh",
@@ -250,7 +426,15 @@
     "population": "~1.7 million (1,701,583)",
     "languages": "Arabic",
     "currency": "Bahraini dinar (.د.ب / BHD)",
-    "funFact": "Bahrain's name means 'Two Seas' in Arabic, referring to the freshwater springs that bubble up beneath the salty waters of the Persian Gulf."
+    "funFact": "Bahrain's name means 'Two Seas' in Arabic, referring to the freshwater springs that bubble up beneath the salty waters of the Persian Gulf.",
+    "outfit": {
+      "type": "thobe",
+      "label": "Bahraini Thobe & Bisht",
+      "hat": "taqiyah",
+      "primary": "#ffffff",
+      "secondary": "#dc2626",
+      "accent": "#eab308"
+    }
   },
   "bi": {
     "code": "bi",
@@ -261,7 +445,15 @@
     "population": "~11.9 million (11,890,781)",
     "languages": "French, Kirundi",
     "currency": "Burundian franc (Fr / BIF)",
-    "funFact": "Burundi's Royal Drummers of Karyenda are recognized by UNESCO as an Intangible Cultural Heritage of Humanity, and the country sits along the deep waters of Lake Tanganyika."
+    "funFact": "Burundi's Royal Drummers of Karyenda are recognized by UNESCO as an Intangible Cultural Heritage of Humanity, and the country sits along the deep waters of Lake Tanganyika.",
+    "outfit": {
+      "type": "agbada",
+      "label": "Burundi Embroidered Tunic",
+      "hat": "kufi",
+      "primary": "#40b028",
+      "secondary": "#f8f8f8",
+      "accent": "#c81028"
+    }
   },
   "bj": {
     "code": "bj",
@@ -272,7 +464,15 @@
     "population": "~12.1 million (12,123,198)",
     "languages": "French",
     "currency": "West African CFA franc (Fr / XOF)",
-    "funFact": "Benin is the historical birthplace of Vodun (Voodoo) and was home to the Kingdom of Dahomey's famous all-female military regiment, the Mino."
+    "funFact": "Benin is the historical birthplace of Vodun (Voodoo) and was home to the Kingdom of Dahomey's famous all-female military regiment, the Mino.",
+    "outfit": {
+      "type": "agbada",
+      "label": "Benin Embroidered Tunic",
+      "hat": "kufi",
+      "primary": "#008050",
+      "secondary": "#f8d010",
+      "accent": "#e81028"
+    }
   },
   "bl": {
     "code": "bl",
@@ -283,7 +483,15 @@
     "population": "~9,417",
     "languages": "French",
     "currency": "Euro (€ / EUR)",
-    "funFact": "Saint Barthélemy was a Swedish colony for nearly a century (1784–1878), which is why its capital is still named Gustavia after King Gustav III of Sweden."
+    "funFact": "Saint Barthélemy was a Swedish colony for nearly a century (1784–1878), which is why its capital is still named Gustavia after King Gustav III of Sweden.",
+    "outfit": {
+      "type": "flag_tunic",
+      "label": "Saint Barthélemy Flag Colors Tunic",
+      "hat": "none",
+      "primary": "#d8d8d8",
+      "secondary": "#f8f8f8",
+      "accent": "#c80820"
+    }
   },
   "bm": {
     "code": "bm",
@@ -294,7 +502,15 @@
     "population": "~63,903",
     "languages": "English",
     "currency": "Bermudian dollar ($ / BMD)",
-    "funFact": "Bermuda has no natural rivers or freshwater lakes, so every home is built with a stepped white limestone roof designed to catch and filter rainwater."
+    "funFact": "Bermuda has no natural rivers or freshwater lakes, so every home is built with a stepped white limestone roof designed to catch and filter rainwater.",
+    "outfit": {
+      "type": "flag_tunic",
+      "label": "Bermuda Flag Colors Tunic",
+      "hat": "none",
+      "primary": "#c81028",
+      "secondary": "#f8f8f8",
+      "accent": "#002068"
+    }
   },
   "bn": {
     "code": "bn",
@@ -305,7 +521,15 @@
     "population": "~437,483",
     "languages": "Malay",
     "currency": "Brunei dollar ($ / BND), Singapore dollar ($ / SGD)",
-    "funFact": "Brunei's Sultan lives in Istana Nurul Iman, the largest residential palace in the world with 1,788 rooms, and citizens pay zero personal income tax."
+    "funFact": "Brunei's Sultan lives in Istana Nurul Iman, the largest residential palace in the world with 1,788 rooms, and citizens pay zero personal income tax.",
+    "outfit": {
+      "type": "folk_vest",
+      "label": "Baju Cara Melayu",
+      "hat": "taqiyah",
+      "primary": "#eab308",
+      "secondary": "#1e293b",
+      "accent": "#dc2626"
+    }
   },
   "bo": {
     "code": "bo",
@@ -316,7 +540,15 @@
     "population": "~11.7 million (11,673,029)",
     "languages": "Aymara, Guaraní, Quechua, Spanish",
     "currency": "Bolivian boliviano (Bs. / BOB)",
-    "funFact": "Bolivia's Salar de Uyuni is the world's largest salt flat—spanning over 10,000 square kilometers—and transforms into a giant sky mirror during the rainy season."
+    "funFact": "Bolivia's Salar de Uyuni is the world's largest salt flat—spanning over 10,000 square kilometers—and transforms into a giant sky mirror during the rainy season.",
+    "outfit": {
+      "type": "poncho",
+      "label": "Altiplano Poncho",
+      "hat": "alpine",
+      "primary": "#dc2626",
+      "secondary": "#eab308",
+      "accent": "#16a34a"
+    }
   },
   "bq": {
     "code": "bq",
@@ -327,7 +559,15 @@
     "population": "~17,408",
     "languages": "English, Dutch, Papiamento",
     "currency": "United States dollar ($ / USD)",
-    "funFact": "Bonaire, Sint Eustatius, and Saba form the Caribbean Netherlands; Saba is home to Mount Scenery, the highest point in the entire Kingdom of the Netherlands."
+    "funFact": "Bonaire, Sint Eustatius, and Saba form the Caribbean Netherlands; Saba is home to Mount Scenery, the highest point in the entire Kingdom of the Netherlands.",
+    "outfit": {
+      "type": "flag_tunic",
+      "label": "Caribbean Netherlands Flag Colors Tunic",
+      "hat": "none",
+      "primary": "#003080",
+      "secondary": "#f8f8f8",
+      "accent": "#f8d000"
+    }
   },
   "br": {
     "code": "br",
@@ -338,7 +578,15 @@
     "population": "~212.6 million (212,559,409)",
     "languages": "Portuguese",
     "currency": "Brazilian real (R$ / BRL)",
-    "funFact": "Brazil encompasses roughly 60% of the Amazon Rainforest, is the world's largest coffee producer for over 150 years, and has won the FIFA World Cup five times."
+    "funFact": "Brazil encompasses roughly 60% of the Amazon Rainforest, is the world's largest coffee producer for over 150 years, and has won the FIFA World Cup five times.",
+    "outfit": {
+      "type": "flag_tunic",
+      "label": "Brazil Flag Colors Tunic",
+      "hat": "none",
+      "primary": "#009040",
+      "secondary": "#f8c800",
+      "accent": "#302080"
+    }
   },
   "bs": {
     "code": "bs",
@@ -349,7 +597,15 @@
     "population": "~393,248",
     "languages": "English",
     "currency": "Bahamian dollar ($ / BSD), United States dollar ($ / USD)",
-    "funFact": "The Bahamas consists of more than 700 islands and cays, and Dean's Blue Hole on Long Island plunges 202 meters (663 feet) into the ocean floor."
+    "funFact": "The Bahamas consists of more than 700 islands and cays, and Dean's Blue Hole on Long Island plunges 202 meters (663 feet) into the ocean floor.",
+    "outfit": {
+      "type": "flag_tunic",
+      "label": "Bahamas Flag Colors Tunic",
+      "hat": "none",
+      "primary": "#007088",
+      "secondary": "#000000",
+      "accent": "#f8c028"
+    }
   },
   "bt": {
     "code": "bt",
@@ -360,7 +616,15 @@
     "population": "~771,612",
     "languages": "Dzongkha",
     "currency": "Bhutanese ngultrum (Nu. / BTN), Indian rupee (₹ / INR)",
-    "funFact": "Bhutan is the only country in the world that officially measures national progress by Gross National Happiness (GNH) and is carbon-negative."
+    "funFact": "Bhutan is the only country in the world that officially measures national progress by Gross National Happiness (GNH) and is carbon-negative.",
+    "outfit": {
+      "type": "kimono",
+      "label": "Traditional Gho Robe",
+      "hat": "none",
+      "primary": "#f97316",
+      "secondary": "#eab308",
+      "accent": "#ffffff"
+    }
   },
   "bv": {
     "name": "Bouvet Island",
@@ -371,7 +635,15 @@
     "currency": "Norwegian krone (kr / NOK)",
     "code": "bv",
     "file": "bv.png",
-    "funFact": "Bouvet Island in the South Atlantic is the most remote uninhabited island on Earth, lying over 1,600 kilometers (1,000 miles) from the nearest landmass."
+    "funFact": "Bouvet Island in the South Atlantic is the most remote uninhabited island on Earth, lying over 1,600 kilometers (1,000 miles) from the nearest landmass.",
+    "outfit": {
+      "type": "flag_tunic",
+      "label": "Bouvet Island Flag Colors Tunic",
+      "hat": "none",
+      "primary": "#b80828",
+      "secondary": "#f8f8f8",
+      "accent": "#002058"
+    }
   },
   "bw": {
     "code": "bw",
@@ -382,7 +654,15 @@
     "population": "~2.4 million (2,351,625)",
     "languages": "English, Tswana",
     "currency": "Botswana pula (P / BWP)",
-    "funFact": "Botswana is home to the world's largest concentration of African elephants and the Okavango Delta, an inland river delta that floods during the dry season."
+    "funFact": "Botswana is home to the world's largest concentration of African elephants and the Okavango Delta, an inland river delta that floods during the dry season.",
+    "outfit": {
+      "type": "agbada",
+      "label": "Botswana Embroidered Tunic",
+      "hat": "kufi",
+      "primary": "#68a8d0",
+      "secondary": "#000000",
+      "accent": "#90c0d8"
+    }
   },
   "by": {
     "code": "by",
@@ -393,7 +673,15 @@
     "population": "~9.4 million (9,398,861)",
     "languages": "Belarusian, Russian",
     "currency": "Belarusian ruble (Br / BYN)",
-    "funFact": "Belarus shares the primeval Białowieża Forest, one of the last remnants of the immense woodland that once stretched across the European Plain and home to the European bison."
+    "funFact": "Belarus shares the primeval Białowieża Forest, one of the last remnants of the immense woodland that once stretched across the European Plain and home to the European bison.",
+    "outfit": {
+      "type": "flag_tunic",
+      "label": "Belarus Flag Colors Tunic",
+      "hat": "none",
+      "primary": "#c81020",
+      "secondary": "#007830",
+      "accent": "#405828"
+    }
   },
   "bz": {
     "code": "bz",
@@ -404,7 +692,15 @@
     "population": "~397,621",
     "languages": "Belizean Creole, English, Spanish",
     "currency": "Belize dollar ($ / BZD)",
-    "funFact": "Belize has the only jaguar preserve in the world (Cockscomb Basin Wildlife Sanctuary) and the famous Great Blue Hole marine sinkhole."
+    "funFact": "Belize has the only jaguar preserve in the world (Cockscomb Basin Wildlife Sanctuary) and the famous Great Blue Hole marine sinkhole.",
+    "outfit": {
+      "type": "flag_tunic",
+      "label": "Belize Flag Colors Tunic",
+      "hat": "none",
+      "primary": "#101090",
+      "secondary": "#d80818",
+      "accent": "#f8f8f8"
+    }
   },
   "ca": {
     "code": "ca",
@@ -415,7 +711,15 @@
     "population": "~38.0 million (38,005,238)",
     "languages": "English, French",
     "currency": "Canadian dollar ($ / CAD)",
-    "funFact": "Canada has the longest coastline of any country in the world—over 243,000 kilometers—and contains more lakes than the rest of the world's countries combined."
+    "funFact": "Canada has the longest coastline of any country in the world—over 243,000 kilometers—and contains more lakes than the rest of the world's countries combined.",
+    "outfit": {
+      "type": "flag_tunic",
+      "label": "Canada Flag Colors Tunic",
+      "hat": "none",
+      "primary": "#f80000",
+      "secondary": "#f8f8f8",
+      "accent": "#f84040"
+    }
   },
   "cc": {
     "code": "cc",
@@ -426,7 +730,15 @@
     "population": "550",
     "languages": "English",
     "currency": "Australian dollar ($ / AUD)",
-    "funFact": "The Cocos (Keeling) Islands consist of two coral atolls with 27 islands in the Indian Ocean, where Charles Darwin formulated his theory of coral atoll formation in 1836."
+    "funFact": "The Cocos (Keeling) Islands consist of two coral atolls with 27 islands in the Indian Ocean, where Charles Darwin formulated his theory of coral atoll formation in 1836.",
+    "outfit": {
+      "type": "flag_tunic",
+      "label": "Cocos (Keeling) Islands Flag Colors Tunic",
+      "hat": "none",
+      "primary": "#008000",
+      "secondary": "#f8e000",
+      "accent": "#80b000"
+    }
   },
   "cd": {
     "code": "cd",
@@ -437,7 +749,15 @@
     "population": "~89.6 million (89,561,404)",
     "languages": "French, Kikongo, Lingala, Tshiluba, Swahili",
     "currency": "Congolese franc (FC / CDF)",
-    "funFact": "The Democratic Republic of the Congo is home to the Congo River—the deepest river on Earth—and is the only country where bonobos live in the wild."
+    "funFact": "The Democratic Republic of the Congo is home to the Congo River—the deepest river on Earth—and is the only country where bonobos live in the wild.",
+    "outfit": {
+      "type": "agbada",
+      "label": "DR Congo Embroidered Tunic",
+      "hat": "kufi",
+      "primary": "#0078f8",
+      "secondary": "#c81020",
+      "accent": "#f8d810"
+    }
   },
   "cf": {
     "code": "cf",
@@ -448,7 +768,15 @@
     "population": "~4.8 million (4,829,764)",
     "languages": "French, Sango",
     "currency": "Central African CFA franc (Fr / XAF)",
-    "funFact": "The Central African Republic's Dzanga-Sangha Protected Areas are famous for forest clearings where over a hundred western lowland gorillas and forest elephants gather daily."
+    "funFact": "The Central African Republic's Dzanga-Sangha Protected Areas are famous for forest clearings where over a hundred western lowland gorillas and forest elephants gather daily.",
+    "outfit": {
+      "type": "agbada",
+      "label": "Central African Republic Embroidered Tunic",
+      "hat": "kufi",
+      "primary": "#f8c800",
+      "secondary": "#f8f8f8",
+      "accent": "#003080"
+    }
   },
   "cg": {
     "code": "cg",
@@ -459,7 +787,15 @@
     "population": "~5.5 million (5,518,092)",
     "languages": "French, Kikongo, Lingala",
     "currency": "Central African CFA franc (Fr / XAF)",
-    "funFact": "The Republic of the Congo's capital, Brazzaville, sits directly across the Congo River from Kinshasa, making them the two closest capital cities in the world outside Rome and Vatican City."
+    "funFact": "The Republic of the Congo's capital, Brazzaville, sits directly across the Congo River from Kinshasa, making them the two closest capital cities in the world outside Rome and Vatican City.",
+    "outfit": {
+      "type": "agbada",
+      "label": "Congo Embroidered Tunic",
+      "hat": "kufi",
+      "primary": "#009040",
+      "secondary": "#d82018",
+      "accent": "#f8d848"
+    }
   },
   "ch": {
     "code": "ch",
@@ -470,7 +806,15 @@
     "population": "~8.6 million (8,636,896)",
     "languages": "French, Swiss German, Italian, Romansh",
     "currency": "Swiss franc (Fr. / CHF)",
-    "funFact": "Switzerland has four national languages (German, French, Italian, and Romansh) and its square national flag is one of only two square sovereign state flags in the world."
+    "funFact": "Switzerland has four national languages (German, French, Italian, and Romansh) and its square national flag is one of only two square sovereign state flags in the world.",
+    "outfit": {
+      "type": "tracht",
+      "label": "Alpine Edelweiss Tunic",
+      "hat": "alpine",
+      "primary": "#dc2626",
+      "secondary": "#1e3a8a",
+      "accent": "#ffffff"
+    }
   },
   "ci": {
     "code": "ci",
@@ -481,7 +825,15 @@
     "population": "~26.4 million (26,378,275)",
     "languages": "French",
     "currency": "West African CFA franc (Fr / XOF)",
-    "funFact": "Côte d'Ivoire (Ivory Coast) is the world's largest producer and exporter of cocoa beans, supplying over a third of the globe's chocolate industry."
+    "funFact": "Côte d'Ivoire (Ivory Coast) is the world's largest producer and exporter of cocoa beans, supplying over a third of the globe's chocolate industry.",
+    "outfit": {
+      "type": "agbada",
+      "label": "Baoulé Woven Pagne Tunic",
+      "hat": "kufi",
+      "primary": "#f97316",
+      "secondary": "#15803d",
+      "accent": "#eab308"
+    }
   },
   "ck": {
     "code": "ck",
@@ -492,7 +844,15 @@
     "population": "~18,100",
     "languages": "English, Cook Islands Māori",
     "currency": "Cook Islands dollar ($ / CKD), New Zealand dollar ($ / NZD)",
-    "funFact": "The Cook Islands comprise 15 islands spread across 2.2 million square kilometers of ocean, and law prohibits any building from being taller than a coconut tree."
+    "funFact": "The Cook Islands comprise 15 islands spread across 2.2 million square kilometers of ocean, and law prohibits any building from being taller than a coconut tree.",
+    "outfit": {
+      "type": "island",
+      "label": "Cook Islands Island Festive Tunic",
+      "hat": "crown_floral",
+      "primary": "#002068",
+      "secondary": "#f8f8f8",
+      "accent": "#c00828"
+    }
   },
   "cl": {
     "code": "cl",
@@ -503,7 +863,15 @@
     "population": "~19.1 million (19,116,209)",
     "languages": "Spanish",
     "currency": "Chilean peso ($ / CLP)",
-    "funFact": "Chile stretches over 4,300 kilometers from north to south and contains the Atacama Desert, the driest non-polar desert on Earth."
+    "funFact": "Chile stretches over 4,300 kilometers from north to south and contains the Atacama Desert, the driest non-polar desert on Earth.",
+    "outfit": {
+      "type": "poncho",
+      "label": "Huaso Chamanto Poncho",
+      "hat": "sombrero",
+      "primary": "#dc2626",
+      "secondary": "#1e3a8a",
+      "accent": "#ffffff"
+    }
   },
   "cm": {
     "code": "cm",
@@ -514,7 +882,15 @@
     "population": "~26.5 million (26,545,864)",
     "languages": "English, French",
     "currency": "Central African CFA franc (Fr / XAF)",
-    "funFact": "Cameroon is often called 'Africa in Miniature' because it features all the major climates and ecosystems of the continent—from rainforests and beaches to mountains and savannas."
+    "funFact": "Cameroon is often called 'Africa in Miniature' because it features all the major climates and ecosystems of the continent—from rainforests and beaches to mountains and savannas.",
+    "outfit": {
+      "type": "agbada",
+      "label": "Cameroon Embroidered Tunic",
+      "hat": "kufi",
+      "primary": "#f8d010",
+      "secondary": "#007858",
+      "accent": "#c81020"
+    }
   },
   "cn": {
     "code": "cn",
@@ -525,7 +901,15 @@
     "population": "~1.41 billion (1,410,710,000)",
     "languages": "Standard Chinese (Mandarin)",
     "currency": "Chinese yuan (¥ / CNY)",
-    "funFact": "China invented paper, gunpowder, the compass, and movable-type printing, and despite spanning five geographical time zones, the entire country uses a single official time (Beijing Time)."
+    "funFact": "China invented paper, gunpowder, the compass, and movable-type printing, and despite spanning five geographical time zones, the entire country uses a single official time (Beijing Time).",
+    "outfit": {
+      "type": "qipao",
+      "label": "Traditional Tangzhuang",
+      "hat": "none",
+      "primary": "#dc2626",
+      "secondary": "#f59e0b",
+      "accent": "#fef08a"
+    }
   },
   "co": {
     "code": "co",
@@ -536,7 +920,15 @@
     "population": "~50.9 million (50,882,884)",
     "languages": "Spanish",
     "currency": "Colombian peso ($ / COP)",
-    "funFact": "Colombia is the most biodiverse country per square kilometer on Earth and holds more species of birds (nearly 2,000) than any other nation."
+    "funFact": "Colombia is the most biodiverse country per square kilometer on Earth and holds more species of birds (nearly 2,000) than any other nation.",
+    "outfit": {
+      "type": "poncho",
+      "label": "Ruana & Sombrero Vueltiao",
+      "hat": "sombrero",
+      "primary": "#eab308",
+      "secondary": "#1d4ed8",
+      "accent": "#dc2626"
+    }
   },
   "cr": {
     "code": "cr",
@@ -547,7 +939,15 @@
     "population": "~5.1 million (5,094,114)",
     "languages": "Spanish",
     "currency": "Costa Rican colón (₡ / CRC)",
-    "funFact": "Costa Rica abolished its standing army in 1948, generates nearly 99% of its electricity from renewable sources, and harbors about 5% of the world's biodiversity."
+    "funFact": "Costa Rica abolished its standing army in 1948, generates nearly 99% of its electricity from renewable sources, and harbors about 5% of the world's biodiversity.",
+    "outfit": {
+      "type": "flag_tunic",
+      "label": "Costa Rica Flag Colors Tunic",
+      "hat": "none",
+      "primary": "#001088",
+      "secondary": "#f8f8f8",
+      "accent": "#d82818"
+    }
   },
   "cu": {
     "code": "cu",
@@ -558,7 +958,15 @@
     "population": "~11.3 million (11,326,616)",
     "languages": "Spanish",
     "currency": "Cuban peso ($ / CUP)",
-    "funFact": "Cuba is home to the bee hummingbird (Zunzuncito), the smallest bird in the world, measuring just 5.5 centimeters long and weighing less than a dime."
+    "funFact": "Cuba is home to the bee hummingbird (Zunzuncito), the smallest bird in the world, measuring just 5.5 centimeters long and weighing less than a dime.",
+    "outfit": {
+      "type": "flag_tunic",
+      "label": "Cuba Flag Colors Tunic",
+      "hat": "none",
+      "primary": "#002888",
+      "secondary": "#f8f8f8",
+      "accent": "#c81010"
+    }
   },
   "cv": {
     "code": "cv",
@@ -569,7 +977,15 @@
     "population": "~555,988",
     "languages": "Portuguese",
     "currency": "Cape Verdean escudo (Esc / CVE)",
-    "funFact": "Cape Verde is a volcanic archipelago of 10 islands off West Africa and the birthplace of the soulful musical genre Morna, popularized worldwide by Cesária Évora."
+    "funFact": "Cape Verde is a volcanic archipelago of 10 islands off West Africa and the birthplace of the soulful musical genre Morna, popularized worldwide by Cesária Évora.",
+    "outfit": {
+      "type": "agbada",
+      "label": "Cape Verde Embroidered Tunic",
+      "hat": "kufi",
+      "primary": "#003890",
+      "secondary": "#f8f8f8",
+      "accent": "#c81820"
+    }
   },
   "cw": {
     "code": "cw",
@@ -580,7 +996,15 @@
     "population": "~155,014",
     "languages": "English, Dutch, Papiamento",
     "currency": "Caribbean guilder (Cg / XCG)",
-    "funFact": "Curaçao's historic center of Willemstad is famous for its pastel-colored Dutch colonial waterfront buildings and a floating pontoon bridge that swings open for ships."
+    "funFact": "Curaçao's historic center of Willemstad is famous for its pastel-colored Dutch colonial waterfront buildings and a floating pontoon bridge that swings open for ships.",
+    "outfit": {
+      "type": "flag_tunic",
+      "label": "Curaçao Flag Colors Tunic",
+      "hat": "none",
+      "primary": "#002878",
+      "secondary": "#f8e810",
+      "accent": "#b0b030"
+    }
   },
   "cx": {
     "code": "cx",
@@ -591,7 +1015,15 @@
     "population": "~2,072",
     "languages": "English",
     "currency": "Australian dollar ($ / AUD)",
-    "funFact": "Christmas Island is world-famous for the annual migration of around 40 to 50 million bright red land crabs marching from the forest to the ocean to spawn."
+    "funFact": "Christmas Island is world-famous for the annual migration of around 40 to 50 million bright red land crabs marching from the forest to the ocean to spawn.",
+    "outfit": {
+      "type": "flag_tunic",
+      "label": "Christmas Island Flag Colors Tunic",
+      "hat": "none",
+      "primary": "#002068",
+      "secondary": "#08b028",
+      "accent": "#f8d010"
+    }
   },
   "cy": {
     "code": "cy",
@@ -602,7 +1034,15 @@
     "population": "~1.2 million (1,207,361)",
     "languages": "Greek, Turkish",
     "currency": "Euro (€ / EUR)",
-    "funFact": "Cyprus's capital, Nicosia, is the last divided capital city in the world, and the island's flag was one of the first to display the silhouette of its own territory."
+    "funFact": "Cyprus's capital, Nicosia, is the last divided capital city in the world, and the island's flag was one of the first to display the silhouette of its own territory.",
+    "outfit": {
+      "type": "flag_tunic",
+      "label": "Cyprus Flag Colors Tunic",
+      "hat": "none",
+      "primary": "#d07800",
+      "secondary": "#f8f8f8",
+      "accent": "#788060"
+    }
   },
   "cz": {
     "code": "cz",
@@ -613,7 +1053,15 @@
     "population": "~10.7 million (10,698,896)",
     "languages": "Czech, Slovak",
     "currency": "Czech koruna (Kč / CZK)",
-    "funFact": "Czechia has the highest density of castles and chateaux in Europe—over 2,000—including Prague Castle, the largest ancient castle complex in the world."
+    "funFact": "Czechia has the highest density of castles and chateaux in Europe—over 2,000—including Prague Castle, the largest ancient castle complex in the world.",
+    "outfit": {
+      "type": "folk_vest",
+      "label": "Moravian Kroje Folk Vest",
+      "hat": "none",
+      "primary": "#dc2626",
+      "secondary": "#1d4ed8",
+      "accent": "#eab308"
+    }
   },
   "de": {
     "code": "de",
@@ -624,7 +1072,15 @@
     "population": "~83.2 million (83,240,525)",
     "languages": "German",
     "currency": "Euro (€ / EUR)",
-    "funFact": "Germany has over 1,500 different breweries, more than 300 varieties of bread recognized as cultural heritage, and no blanket speed limit on large sections of the Autobahn."
+    "funFact": "Germany has over 1,500 different breweries, more than 300 varieties of bread recognized as cultural heritage, and no blanket speed limit on large sections of the Autobahn.",
+    "outfit": {
+      "type": "tracht",
+      "label": "Bavarian Tracht & Alpine Hat",
+      "hat": "alpine",
+      "primary": "#15803d",
+      "secondary": "#78350f",
+      "accent": "#eab308"
+    }
   },
   "dj": {
     "code": "dj",
@@ -635,7 +1091,15 @@
     "population": "~988,002",
     "languages": "Arabic, French",
     "currency": "Djiboutian franc (Fr / DJF)",
-    "funFact": "Djibouti's Lake Assal sits 155 meters below sea level—the lowest point on the African continent—and is one of the saltiest bodies of water on Earth."
+    "funFact": "Djibouti's Lake Assal sits 155 meters below sea level—the lowest point on the African continent—and is one of the saltiest bodies of water on Earth.",
+    "outfit": {
+      "type": "agbada",
+      "label": "Djibouti Embroidered Tunic",
+      "hat": "kufi",
+      "primary": "#10a828",
+      "secondary": "#68b0e0",
+      "accent": "#f8f8f8"
+    }
   },
   "dk": {
     "code": "dk",
@@ -646,7 +1110,15 @@
     "population": "~5.8 million (5,831,404)",
     "languages": "Danish",
     "currency": "Danish krone (kr / DKK)",
-    "funFact": "Denmark is the birthplace of LEGO (from the Danish phrase 'leg godt,' meaning 'play well'), and its flag, the Dannebrog, is the oldest continuously used national flag in the world (since 1219)."
+    "funFact": "Denmark is the birthplace of LEGO (from the Danish phrase 'leg godt,' meaning 'play well'), and its flag, the Dannebrog, is the oldest continuously used national flag in the world (since 1219).",
+    "outfit": {
+      "type": "flag_tunic",
+      "label": "Denmark Flag Colors Tunic",
+      "hat": "none",
+      "primary": "#c81028",
+      "secondary": "#f8f8f8",
+      "accent": "#e098a0"
+    }
   },
   "dm": {
     "code": "dm",
@@ -657,7 +1129,15 @@
     "population": "~71,991",
     "languages": "English",
     "currency": "Eastern Caribbean dollar ($ / XCD)",
-    "funFact": "Dominica is nicknamed the 'Nature Island of the Caribbean' and is home to the world's second-largest thermally active boiling lake."
+    "funFact": "Dominica is nicknamed the 'Nature Island of the Caribbean' and is home to the world's second-largest thermally active boiling lake.",
+    "outfit": {
+      "type": "flag_tunic",
+      "label": "Dominica Flag Colors Tunic",
+      "hat": "none",
+      "primary": "#006838",
+      "secondary": "#f8f8f8",
+      "accent": "#000000"
+    }
   },
   "do": {
     "code": "do",
@@ -668,7 +1148,15 @@
     "population": "~10.8 million (10,847,904)",
     "languages": "Spanish",
     "currency": "Dominican peso ($ / DOP)",
-    "funFact": "The Dominican Republic contains both the highest peak in the Caribbean (Pico Duarte at 3,098 m) and the lowest point (Lake Enriquillo at 46 m below sea level)."
+    "funFact": "The Dominican Republic contains both the highest peak in the Caribbean (Pico Duarte at 3,098 m) and the lowest point (Lake Enriquillo at 46 m below sea level).",
+    "outfit": {
+      "type": "flag_tunic",
+      "label": "Dominican Republic Flag Colors Tunic",
+      "hat": "none",
+      "primary": "#002860",
+      "secondary": "#c81020",
+      "accent": "#f8f8f8"
+    }
   },
   "dz": {
     "code": "dz",
@@ -679,7 +1167,15 @@
     "population": "~43.9 million (43,851,043)",
     "languages": "Arabic",
     "currency": "Algerian dinar (د.ج / DZD)",
-    "funFact": "Algeria is the largest country in Africa by land area, and more than 80% of its territory is covered by the Sahara Desert."
+    "funFact": "Algeria is the largest country in Africa by land area, and more than 80% of its territory is covered by the Sahara Desert.",
+    "outfit": {
+      "type": "thobe",
+      "label": "Embroidered Karakou & Burnous",
+      "hat": "fez",
+      "primary": "#15803d",
+      "secondary": "#eab308",
+      "accent": "#ffffff"
+    }
   },
   "ec": {
     "code": "ec",
@@ -690,7 +1186,15 @@
     "population": "~17.6 million (17,643,060)",
     "languages": "Spanish",
     "currency": "United States dollar ($ / USD)",
-    "funFact": "Ecuador is named after the equator, is the closest country to space measured from the center of the Earth (at the summit of Mount Chimborazo), and was the first country to grant constitutional rights to nature."
+    "funFact": "Ecuador is named after the equator, is the closest country to space measured from the center of the Earth (at the summit of Mount Chimborazo), and was the first country to grant constitutional rights to nature.",
+    "outfit": {
+      "type": "poncho",
+      "label": "Otavalo Poncho & Panama Hat",
+      "hat": "sombrero",
+      "primary": "#1e3a8a",
+      "secondary": "#eab308",
+      "accent": "#dc2626"
+    }
   },
   "ee": {
     "code": "ee",
@@ -701,7 +1205,15 @@
     "population": "~1.3 million (1,331,057)",
     "languages": "Estonian",
     "currency": "Euro (€ / EUR)",
-    "funFact": "Estonia was the first country in the world to allow online voting in national elections (in 2005) and offers free public transit to residents of its capital, Tallinn."
+    "funFact": "Estonia was the first country in the world to allow online voting in national elections (in 2005) and offers free public transit to residents of its capital, Tallinn.",
+    "outfit": {
+      "type": "flag_tunic",
+      "label": "Estonia Flag Colors Tunic",
+      "hat": "none",
+      "primary": "#000000",
+      "secondary": "#f8f8f8",
+      "accent": "#0070c8"
+    }
   },
   "eg": {
     "code": "eg",
@@ -712,7 +1224,15 @@
     "population": "~102.3 million (102,334,403)",
     "languages": "Arabic",
     "currency": "Egyptian pound (£ / EGP)",
-    "funFact": "Egypt's Great Pyramid of Giza is the only surviving Wonder of the Ancient World, and almost 95% of Egypt's population lives along the narrow banks and delta of the Nile River."
+    "funFact": "Egypt's Great Pyramid of Giza is the only surviving Wonder of the Ancient World, and almost 95% of Egypt's population lives along the narrow banks and delta of the Nile River.",
+    "outfit": {
+      "type": "thobe",
+      "label": "Traditional Galabeya",
+      "hat": "taqiyah",
+      "primary": "#1e3a8a",
+      "secondary": "#eab308",
+      "accent": "#dc2626"
+    }
   },
   "eh": {
     "code": "eh",
@@ -723,7 +1243,15 @@
     "population": "~510,713",
     "languages": "Berber, Hassaniya, Spanish",
     "currency": "Algerian dinar (دج / DZD), Moroccan dirham (DH / MAD), Mauritanian ouguiya (UM / MRU)",
-    "funFact": "Western Sahara is one of the most sparsely populated territories in the world, featuring vast Atlantic desert coastlines and rich phosphate reserves."
+    "funFact": "Western Sahara is one of the most sparsely populated territories in the world, featuring vast Atlantic desert coastlines and rich phosphate reserves.",
+    "outfit": {
+      "type": "thobe",
+      "label": "Western Sahara Traditional Tunic",
+      "hat": "none",
+      "primary": "#000000",
+      "secondary": "#007838",
+      "accent": "#f8f8f8"
+    }
   },
   "er": {
     "code": "er",
@@ -734,7 +1262,15 @@
     "population": "~5.4 million (5,352,000)",
     "languages": "Arabic, English, Tigrinya",
     "currency": "Eritrean nakfa (Nfk / ERN)",
-    "funFact": "Eritrea's capital, Asmara, sits at 2,325 meters above sea level and is a UNESCO World Heritage site renowned for its remarkably preserved modernist and Italian Futurist architecture."
+    "funFact": "Eritrea's capital, Asmara, sits at 2,325 meters above sea level and is a UNESCO World Heritage site renowned for its remarkably preserved modernist and Italian Futurist architecture.",
+    "outfit": {
+      "type": "agbada",
+      "label": "Eritrea Embroidered Tunic",
+      "hat": "kufi",
+      "primary": "#e00028",
+      "secondary": "#40b028",
+      "accent": "#4088d8"
+    }
   },
   "es": {
     "code": "es",
@@ -745,7 +1281,15 @@
     "population": "~47.4 million (47,351,567)",
     "languages": "Spanish",
     "currency": "Euro (€ / EUR)",
-    "funFact": "Spain has the second-highest number of UNESCO World Heritage sites in the world and produces nearly half of the world's olive oil."
+    "funFact": "Spain has the second-highest number of UNESCO World Heritage sites in the world and produces nearly half of the world's olive oil.",
+    "outfit": {
+      "type": "folk_vest",
+      "label": "Andalusian Bolero Waistcoat",
+      "hat": "beret",
+      "primary": "#dc2626",
+      "secondary": "#eab308",
+      "accent": "#1e293b"
+    }
   },
   "et": {
     "code": "et",
@@ -756,7 +1300,15 @@
     "population": "~115.0 million (114,963,583)",
     "languages": "Amharic",
     "currency": "Ethiopian birr (Br / ETB)",
-    "funFact": "Ethiopia follows its own traditional Ge'ez calendar that has 13 months and is roughly seven to eight years behind the Gregorian calendar, and it is the birthplace of Arabica coffee."
+    "funFact": "Ethiopia follows its own traditional Ge'ez calendar that has 13 months and is roughly seven to eight years behind the Gregorian calendar, and it is the birthplace of Arabica coffee.",
+    "outfit": {
+      "type": "agbada",
+      "label": "Habesha Kemis with Tibeb Border",
+      "hat": "none",
+      "primary": "#ffffff",
+      "secondary": "#16a34a",
+      "accent": "#dc2626"
+    }
   },
   "fi": {
     "code": "fi",
@@ -767,7 +1319,15 @@
     "population": "~5.5 million (5,530,719)",
     "languages": "Finnish, Swedish",
     "currency": "Euro (€ / EUR)",
-    "funFact": "Finland has over 188,000 lakes and an estimated 3 million saunas—more than one sauna for every two residents—and has repeatedly ranked #1 in the World Happiness Report."
+    "funFact": "Finland has over 188,000 lakes and an estimated 3 million saunas—more than one sauna for every two residents—and has repeatedly ranked #1 in the World Happiness Report.",
+    "outfit": {
+      "type": "folk_vest",
+      "label": "Karelian Kansallispuku",
+      "hat": "none",
+      "primary": "#0284c7",
+      "secondary": "#dc2626",
+      "accent": "#ffffff"
+    }
   },
   "fj": {
     "code": "fj",
@@ -778,7 +1338,15 @@
     "population": "~896,444",
     "languages": "English, Fijian, Fiji Hindi",
     "currency": "Fijian dollar ($ / FJD)",
-    "funFact": "Fiji is an archipelago of more than 330 islands (about 110 inhabited), and the 180th meridian runs directly through its island of Taveuni."
+    "funFact": "Fiji is an archipelago of more than 330 islands (about 110 inhabited), and the 180th meridian runs directly through its island of Taveuni.",
+    "outfit": {
+      "type": "island",
+      "label": "Bula Tunic & Salusalu Garland",
+      "hat": "crown_floral",
+      "primary": "#0284c7",
+      "secondary": "#ef4444",
+      "accent": "#fde047"
+    }
   },
   "fk": {
     "code": "fk",
@@ -789,7 +1357,15 @@
     "population": "~2,563",
     "languages": "English",
     "currency": "Falkland Islands pound (£ / FKP)",
-    "funFact": "The Falkland Islands are home to five different species of penguins and roughly 200 times more sheep than human inhabitants."
+    "funFact": "The Falkland Islands are home to five different species of penguins and roughly 200 times more sheep than human inhabitants.",
+    "outfit": {
+      "type": "flag_tunic",
+      "label": "Falkland Islands Flag Colors Tunic",
+      "hat": "none",
+      "primary": "#002068",
+      "secondary": "#c00828",
+      "accent": "#f8f8f8"
+    }
   },
   "fm": {
     "name": "Micronesia",
@@ -800,7 +1376,15 @@
     "currency": "United States dollar ($ / USD)",
     "code": "fm",
     "file": "fm.png",
-    "funFact": "The Federated States of Micronesia includes Yap Island, where giant carved limestone disks called Rai stones—some weighing several tons—are still treasured as traditional currency."
+    "funFact": "The Federated States of Micronesia includes Yap Island, where giant carved limestone disks called Rai stones—some weighing several tons—are still treasured as traditional currency.",
+    "outfit": {
+      "type": "island",
+      "label": "Micronesia Island Festive Tunic",
+      "hat": "crown_floral",
+      "primary": "#70b0d8",
+      "secondary": "#f8f8f8",
+      "accent": "#a0c8e8"
+    }
   },
   "fo": {
     "code": "fo",
@@ -811,7 +1395,15 @@
     "population": "~48,865",
     "languages": "Danish, Faroese",
     "currency": "Danish krone (kr / DKK), Faroese króna (kr / FOK)",
-    "funFact": "The Faroe Islands have more sheep than people (its name translates to 'Sheep Islands') and feature the world's first undersea roundabout inside an ocean tunnel."
+    "funFact": "The Faroe Islands have more sheep than people (its name translates to 'Sheep Islands') and feature the world's first undersea roundabout inside an ocean tunnel.",
+    "outfit": {
+      "type": "flag_tunic",
+      "label": "Faroe Islands Flag Colors Tunic",
+      "hat": "none",
+      "primary": "#e83040",
+      "secondary": "#f8f8f8",
+      "accent": "#0058b8"
+    }
   },
   "fr": {
     "code": "fr",
@@ -822,7 +1414,15 @@
     "population": "~67.4 million (67,391,582)",
     "languages": "French",
     "currency": "Euro (€ / EUR)",
-    "funFact": "France is the most visited country in the world, and the Louvre in Paris is the world's most visited art museum."
+    "funFact": "France is the most visited country in the world, and the Louvre in Paris is the world's most visited art museum.",
+    "outfit": {
+      "type": "folk_vest",
+      "label": "Breton Marinière & Beret",
+      "hat": "beret",
+      "primary": "#1d4ed8",
+      "secondary": "#dc2626",
+      "accent": "#ffffff"
+    }
   },
   "ga": {
     "code": "ga",
@@ -833,7 +1433,15 @@
     "population": "~2.2 million (2,225,728)",
     "languages": "French",
     "currency": "Central African CFA franc (Fr / XAF)",
-    "funFact": "Gabon preserves over 85% of its territory as tropical rainforest and created 13 national parks in a single day in 2002 to protect its wildlife."
+    "funFact": "Gabon preserves over 85% of its territory as tropical rainforest and created 13 national parks in a single day in 2002 to protect its wildlife.",
+    "outfit": {
+      "type": "agbada",
+      "label": "Gabon Embroidered Tunic",
+      "hat": "kufi",
+      "primary": "#009860",
+      "secondary": "#f8d010",
+      "accent": "#3870c0"
+    }
   },
   "gb": {
     "code": "gb",
@@ -844,7 +1452,15 @@
     "population": "~67.2 million (67,215,293)",
     "languages": "English",
     "currency": "British pound (£ / GBP)",
-    "funFact": "The United Kingdom's London Underground, opened in 1863, is the oldest underground railway network in the world."
+    "funFact": "The United Kingdom's London Underground, opened in 1863, is the oldest underground railway network in the world.",
+    "outfit": {
+      "type": "flag_tunic",
+      "label": "United Kingdom Flag Colors Tunic",
+      "hat": "none",
+      "primary": "#002068",
+      "secondary": "#f8f8f8",
+      "accent": "#c81028"
+    }
   },
   "gb-eng": {
     "name": "England",
@@ -855,7 +1471,15 @@
     "currency": "British pound (£ / GBP)",
     "code": "gb-eng",
     "file": "gb-eng.png",
-    "funFact": "England is the birthplace of William Shakespeare, the modern rules of football (soccer), cricket, rugby, and the World Wide Web inventor Tim Berners-Lee."
+    "funFact": "England is the birthplace of William Shakespeare, the modern rules of football (soccer), cricket, rugby, and the World Wide Web inventor Tim Berners-Lee.",
+    "outfit": {
+      "type": "folk_vest",
+      "label": "Morris Waistcoat & Rosette",
+      "hat": "alpine",
+      "primary": "#dc2626",
+      "secondary": "#ffffff",
+      "accent": "#1d4ed8"
+    }
   },
   "gb-nir": {
     "name": "Northern Ireland",
@@ -866,7 +1490,15 @@
     "currency": "British pound (£ / GBP)",
     "code": "gb-nir",
     "file": "gb-nir.png",
-    "funFact": "Northern Ireland is home to the Giant's Causeway—around 40,000 interlocking hexagonal basalt columns formed by ancient volcanic activity—and the shipyard in Belfast that built the RMS Titanic."
+    "funFact": "Northern Ireland is home to the Giant's Causeway—around 40,000 interlocking hexagonal basalt columns formed by ancient volcanic activity—and the shipyard in Belfast that built the RMS Titanic.",
+    "outfit": {
+      "type": "flag_tunic",
+      "label": "Northern Ireland Flag Colors Tunic",
+      "hat": "none",
+      "primary": "#c80000",
+      "secondary": "#f8f8f8",
+      "accent": "#e0e0e0"
+    }
   },
   "gb-sct": {
     "name": "Scotland",
@@ -877,7 +1509,15 @@
     "currency": "British pound (£ / GBP)",
     "code": "gb-sct",
     "file": "gb-sct.png",
-    "funFact": "Scotland has over 790 offshore islands, is the home of golf (originating at St Andrews in the 15th century), and selected the mythical unicorn as its official national animal."
+    "funFact": "Scotland has over 790 offshore islands, is the home of golf (originating at St Andrews in the 15th century), and selected the mythical unicorn as its official national animal.",
+    "outfit": {
+      "type": "kilt",
+      "label": "Highland Tartan Kilt & Tam",
+      "hat": "tartan_bonnet",
+      "primary": "#1e3a8a",
+      "secondary": "#16a34a",
+      "accent": "#dc2626"
+    }
   },
   "gb-wls": {
     "name": "Wales",
@@ -888,7 +1528,15 @@
     "currency": "British pound (£ / GBP)",
     "code": "gb-wls",
     "file": "gb-wls.png",
-    "funFact": "Wales has more castles per square mile than any other country in Europe and a town named Llanfairpwllgwyngyllgogerychwyrndrobwllllantysiliogogogoch—58 letters long."
+    "funFact": "Wales has more castles per square mile than any other country in Europe and a town named Llanfairpwllgwyngyllgogerychwyrndrobwllllantysiliogogogoch—58 letters long.",
+    "outfit": {
+      "type": "folk_vest",
+      "label": "Welsh Flannel Shawl & Hat",
+      "hat": "alpine",
+      "primary": "#dc2626",
+      "secondary": "#15803d",
+      "accent": "#ffffff"
+    }
   },
   "gd": {
     "code": "gd",
@@ -899,7 +1547,15 @@
     "population": "~112,519",
     "languages": "English",
     "currency": "Eastern Caribbean dollar ($ / XCD)",
-    "funFact": "Grenada is known as the 'Island of Spice' because it is one of the world's top producers of nutmeg and mace, even featuring a nutmeg on its national flag."
+    "funFact": "Grenada is known as the 'Island of Spice' because it is one of the world's top producers of nutmeg and mace, even featuring a nutmeg on its national flag.",
+    "outfit": {
+      "type": "flag_tunic",
+      "label": "Grenada Flag Colors Tunic",
+      "hat": "none",
+      "primary": "#c81020",
+      "secondary": "#007858",
+      "accent": "#f8d010"
+    }
   },
   "ge": {
     "code": "ge",
@@ -910,7 +1566,15 @@
     "population": "~3.7 million (3,714,000)",
     "languages": "Georgian",
     "currency": "lari (₾ / GEL)",
-    "funFact": "Georgia is considered the cradle of winemaking, with archaeological evidence of clay-jar (qvevri) wine production dating back 8,000 years."
+    "funFact": "Georgia is considered the cradle of winemaking, with archaeological evidence of clay-jar (qvevri) wine production dating back 8,000 years.",
+    "outfit": {
+      "type": "thobe",
+      "label": "Georgia Traditional Tunic",
+      "hat": "none",
+      "primary": "#f80000",
+      "secondary": "#f8f8f8",
+      "accent": "#f8a8a8"
+    }
   },
   "gf": {
     "code": "gf",
@@ -921,7 +1585,15 @@
     "population": "~254,541",
     "languages": "French",
     "currency": "Euro (€ / EUR)",
-    "funFact": "French Guiana is home to the Guiana Space Centre in Kourou, Europe's primary spaceport near the equator from which the James Webb Space Telescope was launched."
+    "funFact": "French Guiana is home to the Guiana Space Centre in Kourou, Europe's primary spaceport near the equator from which the James Webb Space Telescope was launched.",
+    "outfit": {
+      "type": "flag_tunic",
+      "label": "French Guiana Flag Colors Tunic",
+      "hat": "none",
+      "primary": "#f8d808",
+      "secondary": "#008830",
+      "accent": "#d81018"
+    }
   },
   "gg": {
     "code": "gg",
@@ -932,7 +1604,15 @@
     "population": "~62,999",
     "languages": "English, French, Guernésiais",
     "currency": "British pound (£ / GBP), Guernsey pound (£ / GGP)",
-    "funFact": "Guernsey is a self-governing British Crown Dependency in the English Channel famous for its golden Guernsey dairy cattle and where Victor Hugo wrote 'Les Misérables' while in exile."
+    "funFact": "Guernsey is a self-governing British Crown Dependency in the English Channel famous for its golden Guernsey dairy cattle and where Victor Hugo wrote 'Les Misérables' while in exile.",
+    "outfit": {
+      "type": "flag_tunic",
+      "label": "Guernsey Flag Colors Tunic",
+      "hat": "none",
+      "primary": "#e81028",
+      "secondary": "#f8f8f8",
+      "accent": "#f8d810"
+    }
   },
   "gh": {
     "code": "gh",
@@ -943,7 +1623,15 @@
     "population": "~31.1 million (31,072,945)",
     "languages": "English",
     "currency": "Ghanaian cedi (₵ / GHS)",
-    "funFact": "Ghana was the first sub-Saharan African nation to gain independence from colonial rule in 1957 and is home to Lake Volta, the largest artificial reservoir in the world by surface area."
+    "funFact": "Ghana was the first sub-Saharan African nation to gain independence from colonial rule in 1957 and is home to Lake Volta, the largest artificial reservoir in the world by surface area.",
+    "outfit": {
+      "type": "agbada",
+      "label": "Woven Kente Cloth Robe",
+      "hat": "kufi",
+      "primary": "#eab308",
+      "secondary": "#15803d",
+      "accent": "#dc2626"
+    }
   },
   "gi": {
     "code": "gi",
@@ -954,7 +1642,15 @@
     "population": "~33,691",
     "languages": "English",
     "currency": "Gibraltar pound (£ / GIP)",
-    "funFact": "Gibraltar is famous for the towering limestone Rock of Gibraltar and is home to the only wild monkey population in Europe—the Barbary macaques."
+    "funFact": "Gibraltar is famous for the towering limestone Rock of Gibraltar and is home to the only wild monkey population in Europe—the Barbary macaques.",
+    "outfit": {
+      "type": "flag_tunic",
+      "label": "Gibraltar Flag Colors Tunic",
+      "hat": "none",
+      "primary": "#d80008",
+      "secondary": "#f8f8f8",
+      "accent": "#e87880"
+    }
   },
   "gl": {
     "code": "gl",
@@ -965,7 +1661,15 @@
     "population": "~56,367",
     "languages": "Greenlandic",
     "currency": "krone (kr. / DKK)",
-    "funFact": "Greenland is the world's largest non-continental island, and roughly 80% of its surface is covered by an ice sheet up to 3 kilometers thick."
+    "funFact": "Greenland is the world's largest non-continental island, and roughly 80% of its surface is covered by an ice sheet up to 3 kilometers thick.",
+    "outfit": {
+      "type": "parka",
+      "label": "Kalaallisuut Beaded Anorak",
+      "hat": "hood",
+      "primary": "#dc2626",
+      "secondary": "#0284c7",
+      "accent": "#fbbf24"
+    }
   },
   "gm": {
     "code": "gm",
@@ -976,7 +1680,15 @@
     "population": "~2.4 million (2,416,664)",
     "languages": "English",
     "currency": "dalasi (D / GMD)",
-    "funFact": "The Gambia is the smallest country on the African mainland, shaped like a narrow ribbon extending no more than 50 kilometers wide on either side of the Gambia River."
+    "funFact": "The Gambia is the smallest country on the African mainland, shaped like a narrow ribbon extending no more than 50 kilometers wide on either side of the Gambia River.",
+    "outfit": {
+      "type": "agbada",
+      "label": "Gambia Embroidered Tunic",
+      "hat": "kufi",
+      "primary": "#c81020",
+      "secondary": "#387028",
+      "accent": "#081888"
+    }
   },
   "gn": {
     "code": "gn",
@@ -987,7 +1699,15 @@
     "population": "~13.1 million (13,132,792)",
     "languages": "French",
     "currency": "Guinean franc (Fr / GNF)",
-    "funFact": "Guinea is often called the 'Water Tower of West Africa' because its Fouta Djallon highlands are the source of the Niger, Senegal, and Gambia rivers."
+    "funFact": "Guinea is often called the 'Water Tower of West Africa' because its Fouta Djallon highlands are the source of the Niger, Senegal, and Gambia rivers.",
+    "outfit": {
+      "type": "agbada",
+      "label": "Guinea Embroidered Tunic",
+      "hat": "kufi",
+      "primary": "#f8d010",
+      "secondary": "#009060",
+      "accent": "#c81020"
+    }
   },
   "gp": {
     "code": "gp",
@@ -998,7 +1718,15 @@
     "population": "~400,132",
     "languages": "French",
     "currency": "Euro (€ / EUR)",
-    "funFact": "Guadeloupe's two main islands are shaped like the wings of a butterfly separated by a narrow mangrove channel and topped by the active La Soufrière volcano."
+    "funFact": "Guadeloupe's two main islands are shaped like the wings of a butterfly separated by a narrow mangrove channel and topped by the active La Soufrière volcano.",
+    "outfit": {
+      "type": "flag_tunic",
+      "label": "Guadeloupe Flag Colors Tunic",
+      "hat": "none",
+      "primary": "#000000",
+      "secondary": "#002088",
+      "accent": "#f8d808"
+    }
   },
   "gq": {
     "code": "gq",
@@ -1009,7 +1737,15 @@
     "population": "~1.4 million (1,402,985)",
     "languages": "French, Portuguese, Spanish",
     "currency": "Central African CFA franc (Fr / XAF)",
-    "funFact": "Equatorial Guinea is the only sovereign African country where Spanish is an official language, and its capital Malabo sits on an offshore island (Bioko) rather than its larger mainland territory."
+    "funFact": "Equatorial Guinea is the only sovereign African country where Spanish is an official language, and its capital Malabo sits on an offshore island (Bioko) rather than its larger mainland territory.",
+    "outfit": {
+      "type": "agbada",
+      "label": "Equatorial Guinea Embroidered Tunic",
+      "hat": "kufi",
+      "primary": "#389800",
+      "secondary": "#e02018",
+      "accent": "#f8f8f8"
+    }
   },
   "gr": {
     "code": "gr",
@@ -1020,7 +1756,15 @@
     "population": "~10.7 million (10,715,549)",
     "languages": "Greek",
     "currency": "Euro (€ / EUR)",
-    "funFact": "Greece is the birthplace of democracy, Western philosophy, and the Olympic Games, and no location in Greece is more than 137 kilometers (85 miles) from the sea."
+    "funFact": "Greece is the birthplace of democracy, Western philosophy, and the Olympic Games, and no location in Greece is more than 137 kilometers (85 miles) from the sea.",
+    "outfit": {
+      "type": "kilt",
+      "label": "Fustanella & Fermeli Vest",
+      "hat": "fez",
+      "primary": "#0284c7",
+      "secondary": "#ffffff",
+      "accent": "#eab308"
+    }
   },
   "gs": {
     "code": "gs",
@@ -1031,7 +1775,15 @@
     "population": "30",
     "languages": "English",
     "currency": "Saint Helena pound (£ / SHP)",
-    "funFact": "South Georgia and the South Sandwich Islands host millions of king penguins, elephant seals, and fur seals, and Explorer Ernest Shackleton is buried at Grytviken."
+    "funFact": "South Georgia and the South Sandwich Islands host millions of king penguins, elephant seals, and fur seals, and Explorer Ernest Shackleton is buried at Grytviken.",
+    "outfit": {
+      "type": "flag_tunic",
+      "label": "South Georgia Flag Colors Tunic",
+      "hat": "none",
+      "primary": "#002068",
+      "secondary": "#c00828",
+      "accent": "#f8f8f8"
+    }
   },
   "gt": {
     "code": "gt",
@@ -1042,7 +1794,15 @@
     "population": "~16.9 million (16,858,333)",
     "languages": "Spanish",
     "currency": "Guatemalan quetzal (Q / GTQ)",
-    "funFact": "Guatemala was the heartland of the ancient Maya civilization, and its national currency, the Quetzal, is named after the resplendent quetzal bird whose tail feathers were once used as Maya currency."
+    "funFact": "Guatemala was the heartland of the ancient Maya civilization, and its national currency, the Quetzal, is named after the resplendent quetzal bird whose tail feathers were once used as Maya currency.",
+    "outfit": {
+      "type": "folk_vest",
+      "label": "Woven Maya Huipil",
+      "hat": "none",
+      "primary": "#0284c7",
+      "secondary": "#ec4899",
+      "accent": "#eab308"
+    }
   },
   "gu": {
     "code": "gu",
@@ -1053,7 +1813,15 @@
     "population": "~168,783",
     "languages": "Chamorro, English, Spanish",
     "currency": "United States dollar ($ / USD)",
-    "funFact": "Guam is the westernmost territory of the United States, where the slogan is 'Where America's Day Begins,' and lies just east of the Mariana Trench, the deepest point in Earth's oceans."
+    "funFact": "Guam is the westernmost territory of the United States, where the slogan is 'Where America's Day Begins,' and lies just east of the Mariana Trench, the deepest point in Earth's oceans.",
+    "outfit": {
+      "type": "island",
+      "label": "Guam Island Festive Tunic",
+      "hat": "crown_floral",
+      "primary": "#002878",
+      "secondary": "#c82038",
+      "accent": "#382068"
+    }
   },
   "gw": {
     "code": "gw",
@@ -1064,7 +1832,15 @@
     "population": "~2.0 million (1,967,998)",
     "languages": "Portuguese, Upper Guinea Creole",
     "currency": "West African CFA franc (Fr / XOF)",
-    "funFact": "Guinea-Bissau's Bijagós Archipelago consists of 88 islands where rare saltwater hippos swim in the ocean and society in many villages is traditionally matriarchal."
+    "funFact": "Guinea-Bissau's Bijagós Archipelago consists of 88 islands where rare saltwater hippos swim in the ocean and society in many villages is traditionally matriarchal.",
+    "outfit": {
+      "type": "agbada",
+      "label": "Guinea-Bissau Embroidered Tunic",
+      "hat": "kufi",
+      "primary": "#f8d010",
+      "secondary": "#009848",
+      "accent": "#c81020"
+    }
   },
   "gy": {
     "code": "gy",
@@ -1075,7 +1851,15 @@
     "population": "~786,559",
     "languages": "English",
     "currency": "Guyanese dollar ($ / GYD)",
-    "funFact": "Guyana is the only South American nation where English is the official language, and its Kaieteur Falls is the world's largest single-drop waterfall by water volume."
+    "funFact": "Guyana is the only South American nation where English is the official language, and its Kaieteur Falls is the world's largest single-drop waterfall by water volume.",
+    "outfit": {
+      "type": "flag_tunic",
+      "label": "Guyana Flag Colors Tunic",
+      "hat": "none",
+      "primary": "#289068",
+      "secondary": "#b81828",
+      "accent": "#f8c008"
+    }
   },
   "hk": {
     "code": "hk",
@@ -1086,7 +1870,15 @@
     "population": "~7.5 million (7,481,800)",
     "languages": "English, Chinese",
     "currency": "Hong Kong dollar ($ / HKD)",
-    "funFact": "Hong Kong has more skyscrapers (buildings over 150 meters tall) than any other city on Earth, yet around 40% of its total land area is protected country parks and nature reserves."
+    "funFact": "Hong Kong has more skyscrapers (buildings over 150 meters tall) than any other city on Earth, yet around 40% of its total land area is protected country parks and nature reserves.",
+    "outfit": {
+      "type": "qipao",
+      "label": "Festive Cheongsam Tunic",
+      "hat": "none",
+      "primary": "#e11d48",
+      "secondary": "#f59e0b",
+      "accent": "#ffffff"
+    }
   },
   "hm": {
     "name": "Heard Island and McDonald Islands",
@@ -1097,7 +1889,15 @@
     "currency": "Australian dollar ($ / AUD)",
     "code": "hm",
     "file": "hm.png",
-    "funFact": "Heard Island and McDonald Islands contain Australia's only two active volcanoes, including Mawson Peak on Big Ben, which rises 2,745 meters out of the Southern Ocean."
+    "funFact": "Heard Island and McDonald Islands contain Australia's only two active volcanoes, including Mawson Peak on Big Ben, which rises 2,745 meters out of the Southern Ocean.",
+    "outfit": {
+      "type": "flag_tunic",
+      "label": "Heard Island and McDonald Islands Flag Colors Tunic",
+      "hat": "none",
+      "primary": "#000088",
+      "secondary": "#f80000",
+      "accent": "#f8f8f8"
+    }
   },
   "hn": {
     "code": "hn",
@@ -1108,7 +1908,15 @@
     "population": "~9.9 million (9,904,608)",
     "languages": "Spanish",
     "currency": "Honduran lempira (L / HNL)",
-    "funFact": "Honduras is famous for the Mesoamerican Barrier Reef off the Bay Islands and the ancient Maya city of Copán, renowned for its Hieroglyphic Stairway."
+    "funFact": "Honduras is famous for the Mesoamerican Barrier Reef off the Bay Islands and the ancient Maya city of Copán, renowned for its Hieroglyphic Stairway.",
+    "outfit": {
+      "type": "flag_tunic",
+      "label": "Honduras Flag Colors Tunic",
+      "hat": "none",
+      "primary": "#00b8e0",
+      "secondary": "#f8f8f8",
+      "accent": "#50d0e8"
+    }
   },
   "hr": {
     "code": "hr",
@@ -1119,7 +1927,15 @@
     "population": "~4.0 million (4,047,200)",
     "languages": "Croatian",
     "currency": "Euro (€ / EUR)",
-    "funFact": "Croatia invented the necktie (derived from the 'cravat' worn by 17th-century Croatian mercenaries) and has more than 1,200 islands along its Adriatic coast."
+    "funFact": "Croatia invented the necktie (derived from the 'cravat' worn by 17th-century Croatian mercenaries) and has more than 1,200 islands along its Adriatic coast.",
+    "outfit": {
+      "type": "flag_tunic",
+      "label": "Croatia Flag Colors Tunic",
+      "hat": "none",
+      "primary": "#f80000",
+      "secondary": "#101090",
+      "accent": "#f8f8f8"
+    }
   },
   "ht": {
     "code": "ht",
@@ -1130,7 +1946,15 @@
     "population": "~11.4 million (11,402,533)",
     "languages": "French, Haitian Creole",
     "currency": "Haitian gourde (G / HTG)",
-    "funFact": "Haiti became the world's first independent Black republic and the second independent nation in the Americas in 1804 after the only successful slave revolution in history."
+    "funFact": "Haiti became the world's first independent Black republic and the second independent nation in the Americas in 1804 after the only successful slave revolution in history.",
+    "outfit": {
+      "type": "flag_tunic",
+      "label": "Haiti Flag Colors Tunic",
+      "hat": "none",
+      "primary": "#d01030",
+      "secondary": "#002098",
+      "accent": "#f8f8f8"
+    }
   },
   "hu": {
     "code": "hu",
@@ -1141,7 +1965,15 @@
     "population": "~9.7 million (9,749,763)",
     "languages": "Hungarian",
     "currency": "Hungarian forint (Ft / HUF)",
-    "funFact": "Hungary's capital Budapest sits atop more than 120 natural thermal springs, and Hungarian inventor Ernő Rubik created the Rubik's Cube in 1974."
+    "funFact": "Hungary's capital Budapest sits atop more than 120 natural thermal springs, and Hungarian inventor Ernő Rubik created the Rubik's Cube in 1974.",
+    "outfit": {
+      "type": "folk_vest",
+      "label": "Kalocsa Floral Folk Vest",
+      "hat": "alpine",
+      "primary": "#dc2626",
+      "secondary": "#15803d",
+      "accent": "#eab308"
+    }
   },
   "id": {
     "code": "id",
@@ -1152,7 +1984,15 @@
     "population": "~273.5 million (273,523,621)",
     "languages": "Indonesian",
     "currency": "Indonesian rupiah (Rp / IDR)",
-    "funFact": "Indonesia is the world's largest archipelago nation with over 17,000 islands and is the only place on Earth where the giant Komodo dragon lives in the wild."
+    "funFact": "Indonesia is the world's largest archipelago nation with over 17,000 islands and is the only place on Earth where the giant Komodo dragon lives in the wild.",
+    "outfit": {
+      "type": "folk_vest",
+      "label": "Batik Tunic & Peci",
+      "hat": "taqiyah",
+      "primary": "#92400e",
+      "secondary": "#f59e0b",
+      "accent": "#dc2626"
+    }
   },
   "ie": {
     "code": "ie",
@@ -1163,7 +2003,15 @@
     "population": "~5.0 million (4,994,724)",
     "languages": "English, Irish",
     "currency": "Euro (€ / EUR)",
-    "funFact": "Ireland is the only country in the world whose national symbol is a musical instrument (the Celtic harp), and Halloween traces its origins to the ancient Gaelic festival of Samhain."
+    "funFact": "Ireland is the only country in the world whose national symbol is a musical instrument (the Celtic harp), and Halloween traces its origins to the ancient Gaelic festival of Samhain.",
+    "outfit": {
+      "type": "kilt",
+      "label": "Emerald Tunic & Brat Cloak",
+      "hat": "beret",
+      "primary": "#15803d",
+      "secondary": "#f97316",
+      "accent": "#fbbf24"
+    }
   },
   "il": {
     "code": "il",
@@ -1174,7 +2022,15 @@
     "population": "~9.2 million (9,216,900)",
     "languages": "Arabic, Hebrew",
     "currency": "Israeli new shekel (₪ / ILS)",
-    "funFact": "Israel borders the Dead Sea, the lowest land elevation on Earth at over 430 meters below sea level, where high salinity lets swimmers float effortlessly."
+    "funFact": "Israel borders the Dead Sea, the lowest land elevation on Earth at over 430 meters below sea level, where high salinity lets swimmers float effortlessly.",
+    "outfit": {
+      "type": "thobe",
+      "label": "Israel Traditional Tunic",
+      "hat": "none",
+      "primary": "#0038b8",
+      "secondary": "#f8f8f8",
+      "accent": "#a8b8e8"
+    }
   },
   "im": {
     "code": "im",
@@ -1185,7 +2041,15 @@
     "population": "~85,032",
     "languages": "English, Manx",
     "currency": "British pound (£ / GBP), Manx pound (£ / IMP)",
-    "funFact": "The Isle of Man has the oldest continuous parliament in the world—the Tynwald, established in 979 CE—and is famous for tailless Manx cats and the Isle of Man TT motorcycle race."
+    "funFact": "The Isle of Man has the oldest continuous parliament in the world—the Tynwald, established in 979 CE—and is famous for tailless Manx cats and the Isle of Man TT motorcycle race.",
+    "outfit": {
+      "type": "flag_tunic",
+      "label": "Isle of Man Flag Colors Tunic",
+      "hat": "none",
+      "primary": "#c81028",
+      "secondary": "#f8f8f8",
+      "accent": "#d8e0e0"
+    }
   },
   "in": {
     "code": "in",
@@ -1196,7 +2060,15 @@
     "population": "~1.44 billion (1,441,719,852)",
     "languages": "Hindi, English (plus 21 scheduled languages)",
     "currency": "Indian rupee (₹ / INR)",
-    "funFact": "India is the most populous country in the world, the birthplace of chess, yoga, and the number zero, and its Kumbh Mela festival is the largest peaceful gathering on Earth."
+    "funFact": "India is the most populous country in the world, the birthplace of chess, yoga, and the number zero, and its Kumbh Mela festival is the largest peaceful gathering on Earth.",
+    "outfit": {
+      "type": "sari",
+      "label": "Draped Sari & Kurta",
+      "hat": "none",
+      "primary": "#f97316",
+      "secondary": "#16a34a",
+      "accent": "#fbbf24"
+    }
   },
   "io": {
     "code": "io",
@@ -1207,7 +2079,15 @@
     "population": "~3,000",
     "languages": "English",
     "currency": "United States dollar ($ / USD)",
-    "funFact": "The British Indian Ocean Territory encompasses the Chagos Archipelago, a ring of 58 coralline islands containing one of the largest and healthiest marine reserves on Earth."
+    "funFact": "The British Indian Ocean Territory encompasses the Chagos Archipelago, a ring of 58 coralline islands containing one of the largest and healthiest marine reserves on Earth.",
+    "outfit": {
+      "type": "agbada",
+      "label": "British Indian Ocean Territory Embroidered Tunic",
+      "hat": "kufi",
+      "primary": "#001860",
+      "secondary": "#f8f8f8",
+      "accent": "#c00828"
+    }
   },
   "iq": {
     "code": "iq",
@@ -1218,7 +2098,15 @@
     "population": "~40.2 million (40,222,503)",
     "languages": "Arabic, Aramaic, Sorani",
     "currency": "Iraqi dinar (ع.د / IQD)",
-    "funFact": "Iraq encompasses ancient Mesopotamia—the 'Cradle of Civilization' between the Tigris and Euphrates rivers—where writing (cuneiform), the wheel, and the first written laws were invented."
+    "funFact": "Iraq encompasses ancient Mesopotamia—the 'Cradle of Civilization' between the Tigris and Euphrates rivers—where writing (cuneiform), the wheel, and the first written laws were invented.",
+    "outfit": {
+      "type": "thobe",
+      "label": "Iraq Traditional Tunic",
+      "hat": "none",
+      "primary": "#000000",
+      "secondary": "#c81020",
+      "accent": "#f8f8f8"
+    }
   },
   "ir": {
     "code": "ir",
@@ -1229,7 +2117,15 @@
     "population": "~84.0 million (83,992,953)",
     "languages": "Persian (Farsi)",
     "currency": "Iranian rial (﷼ / IRR)",
-    "funFact": "Iran (historically Persia) is home to one of the world's oldest continuous civilizations and invented ancient underground aqueducts called qanats and windcatcher cooling towers."
+    "funFact": "Iran (historically Persia) is home to one of the world's oldest continuous civilizations and invented ancient underground aqueducts called qanats and windcatcher cooling towers.",
+    "outfit": {
+      "type": "flag_tunic",
+      "label": "Iran Flag Colors Tunic",
+      "hat": "none",
+      "primary": "#d80000",
+      "secondary": "#f8f8f8",
+      "accent": "#209840"
+    }
   },
   "is": {
     "code": "is",
@@ -1240,7 +2136,15 @@
     "population": "~366,425",
     "languages": "Icelandic",
     "currency": "Icelandic króna (kr / ISK)",
-    "funFact": "Iceland has no mosquitoes, generates nearly 100% of its electricity and heating from geothermal and hydroelectric power, and uses patronymic names instead of family surnames."
+    "funFact": "Iceland has no mosquitoes, generates nearly 100% of its electricity and heating from geothermal and hydroelectric power, and uses patronymic names instead of family surnames.",
+    "outfit": {
+      "type": "parka",
+      "label": "Lopapeysa Wool Sweater",
+      "hat": "none",
+      "primary": "#0284c7",
+      "secondary": "#ffffff",
+      "accent": "#dc2626"
+    }
   },
   "it": {
     "code": "it",
@@ -1251,7 +2155,15 @@
     "population": "~59.6 million (59,554,023)",
     "languages": "Italian",
     "currency": "Euro (€ / EUR)",
-    "funFact": "Italy holds more UNESCO World Heritage sites than any other country in the world (over 59) and encloses two independent microstates inside its borders: Vatican City and San Marino."
+    "funFact": "Italy holds more UNESCO World Heritage sites than any other country in the world (over 59) and encloses two independent microstates inside its borders: Vatican City and San Marino.",
+    "outfit": {
+      "type": "folk_vest",
+      "label": "Traditional Folk Waistcoat",
+      "hat": "beret",
+      "primary": "#15803d",
+      "secondary": "#dc2626",
+      "accent": "#ffffff"
+    }
   },
   "je": {
     "code": "je",
@@ -1262,7 +2174,15 @@
     "population": "~100,800",
     "languages": "English, French, Jèrriais",
     "currency": "British pound (£ / GBP), Jersey pound (£ / JEP)",
-    "funFact": "Jersey is the largest of the Channel Islands, famous for the Jersey breed of dairy cow, the woolen 'jersey' knit garment, and some of the largest tidal ranges in the world (up to 12 meters)."
+    "funFact": "Jersey is the largest of the Channel Islands, famous for the Jersey breed of dairy cow, the woolen 'jersey' knit garment, and some of the largest tidal ranges in the world (up to 12 meters).",
+    "outfit": {
+      "type": "flag_tunic",
+      "label": "Jersey Flag Colors Tunic",
+      "hat": "none",
+      "primary": "#c81028",
+      "secondary": "#f8f8f8",
+      "accent": "#d84858"
+    }
   },
   "jm": {
     "code": "jm",
@@ -1273,7 +2193,15 @@
     "population": "~3.0 million (2,961,161)",
     "languages": "English, Jamaican Patois",
     "currency": "Jamaican dollar ($ / JMD)",
-    "funFact": "Jamaica is the birthplace of reggae music and Bob Marley, produces world-renowned Blue Mountain coffee, and was the first tropical nation to compete in the Winter Olympics (bobsled, 1988)."
+    "funFact": "Jamaica is the birthplace of reggae music and Bob Marley, produces world-renowned Blue Mountain coffee, and was the first tropical nation to compete in the Winter Olympics (bobsled, 1988).",
+    "outfit": {
+      "type": "flag_tunic",
+      "label": "Jamaica Flag Colors Tunic",
+      "hat": "none",
+      "primary": "#007048",
+      "secondary": "#000000",
+      "accent": "#f8b818"
+    }
   },
   "jo": {
     "code": "jo",
@@ -1284,7 +2212,15 @@
     "population": "~10.2 million (10,203,140)",
     "languages": "Arabic",
     "currency": "Jordanian dinar (د.ا / JOD)",
-    "funFact": "Jordan is home to Petra, the famous 'Rose City' carved directly into pink sandstone cliffs by the Nabataeans over 2,000 years ago."
+    "funFact": "Jordan is home to Petra, the famous 'Rose City' carved directly into pink sandstone cliffs by the Nabataeans over 2,000 years ago.",
+    "outfit": {
+      "type": "thobe",
+      "label": "Thobe & Red-Checkered Shemagh",
+      "hat": "taqiyah",
+      "primary": "#1e293b",
+      "secondary": "#dc2626",
+      "accent": "#eab308"
+    }
   },
   "jp": {
     "code": "jp",
@@ -1295,7 +2231,15 @@
     "population": "~125.8 million (125,836,021)",
     "languages": "Japanese",
     "currency": "Japanese yen (¥ / JPY)",
-    "funFact": "Japan has more than 6,800 islands, the world's oldest continuously operating company (founded in 578 CE), and bullet trains (Shinkansen) whose average annual delay is measured in seconds."
+    "funFact": "Japan has more than 6,800 islands, the world's oldest continuously operating company (founded in 578 CE), and bullet trains (Shinkansen) whose average annual delay is measured in seconds.",
+    "outfit": {
+      "type": "kimono",
+      "label": "Kimono & Obi Sash",
+      "hat": "none",
+      "primary": "#c026d3",
+      "secondary": "#fbbf24",
+      "accent": "#fef08a"
+    }
   },
   "ke": {
     "code": "ke",
@@ -1306,7 +2250,15 @@
     "population": "~53.8 million (53,771,300)",
     "languages": "English, Swahili",
     "currency": "Kenyan shilling (Sh / KES)",
-    "funFact": "Kenya's Great Rift Valley is a cradle of human evolution, and the Maasai Mara hosts the annual Great Migration of over 1.5 million wildebeest and zebras."
+    "funFact": "Kenya's Great Rift Valley is a cradle of human evolution, and the Maasai Mara hosts the annual Great Migration of over 1.5 million wildebeest and zebras.",
+    "outfit": {
+      "type": "agbada",
+      "label": "Maasai Shúkà Wrap & Beadwork",
+      "hat": "none",
+      "primary": "#dc2626",
+      "secondary": "#2563eb",
+      "accent": "#ffffff"
+    }
   },
   "kg": {
     "code": "kg",
@@ -1317,7 +2269,15 @@
     "population": "~6.6 million (6,591,600)",
     "languages": "Kyrgyz, Russian",
     "currency": "Kyrgyzstani som (с / KGS)",
-    "funFact": "Kyrgyzstan is so mountainous that over 90% of the country sits above 1,500 meters, and its Lake Issyk-Kul is the second-largest alpine lake in the world and never freezes."
+    "funFact": "Kyrgyzstan is so mountainous that over 90% of the country sits above 1,500 meters, and its Lake Issyk-Kul is the second-largest alpine lake in the world and never freezes.",
+    "outfit": {
+      "type": "kimono",
+      "label": "Kyrgyzstan Chapan Coat & Sash",
+      "hat": "taqiyah",
+      "primary": "#f80000",
+      "secondary": "#f86000",
+      "accent": "#f8c800"
+    }
   },
   "kh": {
     "code": "kh",
@@ -1328,7 +2288,15 @@
     "population": "~16.7 million (16,718,971)",
     "languages": "Khmer",
     "currency": "Cambodian riel (៛ / KHR), United States dollar ($ / USD)",
-    "funFact": "Cambodia's flag is the only national flag in the world to feature an actual building—Angkor Wat, the largest religious monument on Earth."
+    "funFact": "Cambodia's flag is the only national flag in the world to feature an actual building—Angkor Wat, the largest religious monument on Earth.",
+    "outfit": {
+      "type": "sari",
+      "label": "Sampot & Kramar Sash",
+      "hat": "none",
+      "primary": "#1d4ed8",
+      "secondary": "#dc2626",
+      "accent": "#fbbf24"
+    }
   },
   "ki": {
     "code": "ki",
@@ -1339,7 +2307,15 @@
     "population": "~119,446",
     "languages": "English, Gilbertese",
     "currency": "Australian dollar ($ / AUD), Kiribati dollar ($ / KID)",
-    "funFact": "Kiribati is the only country in the world situated in all four hemispheres (Northern, Southern, Eastern, and Western) and is the first nation to welcome the New Year each January 1."
+    "funFact": "Kiribati is the only country in the world situated in all four hemispheres (Northern, Southern, Eastern, and Western) and is the first nation to welcome the New Year each January 1.",
+    "outfit": {
+      "type": "island",
+      "label": "Kiribati Island Festive Tunic",
+      "hat": "crown_floral",
+      "primary": "#c81010",
+      "secondary": "#f8f8f8",
+      "accent": "#102868"
+    }
   },
   "km": {
     "code": "km",
@@ -1350,7 +2326,15 @@
     "population": "~869,595",
     "languages": "Arabic, French, Comorian",
     "currency": "Comorian franc (Fr / KMF)",
-    "funFact": "The Comoros is nicknamed the 'Perfume Islands' because it is the world's leading producer of ylang-ylang essence, a key ingredient in luxury perfumes like Chanel No. 5."
+    "funFact": "The Comoros is nicknamed the 'Perfume Islands' because it is the world's leading producer of ylang-ylang essence, a key ingredient in luxury perfumes like Chanel No. 5.",
+    "outfit": {
+      "type": "agbada",
+      "label": "Comoros Embroidered Tunic",
+      "hat": "kufi",
+      "primary": "#f8d000",
+      "secondary": "#0038a0",
+      "accent": "#f8f8f8"
+    }
   },
   "kn": {
     "code": "kn",
@@ -1361,7 +2345,15 @@
     "population": "~53,192",
     "languages": "English",
     "currency": "Eastern Caribbean dollar ($ / XCD)",
-    "funFact": "Saint Kitts and Nevis is the smallest sovereign nation in the Americas in both area and population."
+    "funFact": "Saint Kitts and Nevis is the smallest sovereign nation in the Americas in both area and population.",
+    "outfit": {
+      "type": "flag_tunic",
+      "label": "Saint Kitts and Nevis Flag Colors Tunic",
+      "hat": "none",
+      "primary": "#009038",
+      "secondary": "#000000",
+      "accent": "#c81028"
+    }
   },
   "kp": {
     "code": "kp",
@@ -1372,7 +2364,15 @@
     "population": "~25.8 million (25,778,815)",
     "languages": "Korean",
     "currency": "North Korean won (₩ / KPW)",
-    "funFact": "North Korea uses the Juche calendar (which counts years starting from 1912) alongside the Gregorian calendar, and Pyongyang's Rungrado 1st of May Stadium is one of the largest stadiums on Earth."
+    "funFact": "North Korea uses the Juche calendar (which counts years starting from 1912) alongside the Gregorian calendar, and Pyongyang's Rungrado 1st of May Stadium is one of the largest stadiums on Earth.",
+    "outfit": {
+      "type": "hanbok",
+      "label": "Chosŏn-ot (Hanbok)",
+      "hat": "none",
+      "primary": "#2563eb",
+      "secondary": "#ef4444",
+      "accent": "#ffffff"
+    }
   },
   "kr": {
     "code": "kr",
@@ -1383,7 +2383,15 @@
     "population": "~51.8 million (51,780,579)",
     "languages": "Korean",
     "currency": "South Korean won (₩ / KRW)",
-    "funFact": "South Korea is the birthplace of the Hangul alphabet, commissioned by King Sejong in 1443 specifically so anyone could learn to read in a single day."
+    "funFact": "South Korea is the birthplace of the Hangul alphabet, commissioned by King Sejong in 1443 specifically so anyone could learn to read in a single day.",
+    "outfit": {
+      "type": "hanbok",
+      "label": "Traditional Hanbok",
+      "hat": "none",
+      "primary": "#f43f5e",
+      "secondary": "#3b82f6",
+      "accent": "#fde047"
+    }
   },
   "kw": {
     "code": "kw",
@@ -1394,7 +2402,15 @@
     "population": "~4.3 million (4,270,563)",
     "languages": "Arabic",
     "currency": "Kuwaiti dinar (د.ك / KWD)",
-    "funFact": "Kuwait's currency, the Kuwaiti dinar, is the highest-valued currency unit in the world against the US dollar."
+    "funFact": "Kuwait's currency, the Kuwaiti dinar, is the highest-valued currency unit in the world against the US dollar.",
+    "outfit": {
+      "type": "thobe",
+      "label": "Dishdasha & Bisht",
+      "hat": "taqiyah",
+      "primary": "#ffffff",
+      "secondary": "#15803d",
+      "accent": "#eab308"
+    }
   },
   "ky": {
     "code": "ky",
@@ -1405,7 +2421,15 @@
     "population": "~65,720",
     "languages": "English",
     "currency": "Cayman Islands dollar ($ / KYD)",
-    "funFact": "The Cayman Islands were originally named 'Las Tortugas' by Christopher Columbus in 1503 because of the abundance of sea turtles in their waters."
+    "funFact": "The Cayman Islands were originally named 'Las Tortugas' by Christopher Columbus in 1503 because of the abundance of sea turtles in their waters.",
+    "outfit": {
+      "type": "flag_tunic",
+      "label": "Cayman Islands Flag Colors Tunic",
+      "hat": "none",
+      "primary": "#002068",
+      "secondary": "#c00828",
+      "accent": "#f8f8f8"
+    }
   },
   "kz": {
     "code": "kz",
@@ -1416,7 +2440,15 @@
     "population": "~18.8 million (18,754,440)",
     "languages": "Kazakh, Russian",
     "currency": "Kazakhstani tenge (₸ / KZT)",
-    "funFact": "Kazakhstan is the largest landlocked country in the world and is home to the Baikonur Cosmodrome, from which Yuri Gagarin launched as the first human in space in 1961."
+    "funFact": "Kazakhstan is the largest landlocked country in the world and is home to the Baikonur Cosmodrome, from which Yuri Gagarin launched as the first human in space in 1961.",
+    "outfit": {
+      "type": "kimono",
+      "label": "Kazakhstan Chapan Coat & Sash",
+      "hat": "taqiyah",
+      "primary": "#00a8c0",
+      "secondary": "#f8e828",
+      "accent": "#a0d060"
+    }
   },
   "la": {
     "code": "la",
@@ -1427,7 +2459,15 @@
     "population": "~7.3 million (7,275,556)",
     "languages": "Lao",
     "currency": "Lao kip (₭ / LAK)",
-    "funFact": "Laos is nicknamed the 'Land of a Million Elephants' and is home to the Plain of Jars, an archaeological landscape dotted with thousands of megalithic stone jars."
+    "funFact": "Laos is nicknamed the 'Land of a Million Elephants' and is home to the Plain of Jars, an archaeological landscape dotted with thousands of megalithic stone jars.",
+    "outfit": {
+      "type": "sari",
+      "label": "Sinh & Pha Biang Sash",
+      "hat": "none",
+      "primary": "#1e40af",
+      "secondary": "#dc2626",
+      "accent": "#fbbf24"
+    }
   },
   "lb": {
     "code": "lb",
@@ -1438,7 +2478,15 @@
     "population": "~6.8 million (6,825,442)",
     "languages": "Arabic, French",
     "currency": "Lebanese pound (ل.ل / LBP)",
-    "funFact": "Lebanon's cities of Byblos and Sidon are among the oldest continuously inhabited cities in the world, and the ancient Cedar of Lebanon sits at the center of its national flag."
+    "funFact": "Lebanon's cities of Byblos and Sidon are among the oldest continuously inhabited cities in the world, and the ancient Cedar of Lebanon sits at the center of its national flag.",
+    "outfit": {
+      "type": "thobe",
+      "label": "Lebanon Traditional Tunic",
+      "hat": "none",
+      "primary": "#d01020",
+      "secondary": "#f8f8f8",
+      "accent": "#e88890"
+    }
   },
   "lc": {
     "code": "lc",
@@ -1449,7 +2497,15 @@
     "population": "~183,629",
     "languages": "English",
     "currency": "Eastern Caribbean dollar ($ / XCD)",
-    "funFact": "Saint Lucia is the only sovereign nation in the world named after a historical woman (Saint Lucy of Syracuse) and is famous for the twin volcanic spires of the Pitons."
+    "funFact": "Saint Lucia is the only sovereign nation in the world named after a historical woman (Saint Lucy of Syracuse) and is famous for the twin volcanic spires of the Pitons.",
+    "outfit": {
+      "type": "flag_tunic",
+      "label": "Saint Lucia Flag Colors Tunic",
+      "hat": "none",
+      "primary": "#60c8f8",
+      "secondary": "#f8d010",
+      "accent": "#000000"
+    }
   },
   "li": {
     "code": "li",
@@ -1460,7 +2516,15 @@
     "population": "~38,137",
     "languages": "German",
     "currency": "Swiss franc (Fr / CHF)",
-    "funFact": "Liechtenstein is one of only two doubly landlocked countries in the world and is the world's largest producer of false teeth."
+    "funFact": "Liechtenstein is one of only two doubly landlocked countries in the world and is the world's largest producer of false teeth.",
+    "outfit": {
+      "type": "tracht",
+      "label": "Princely Valley Tracht",
+      "hat": "alpine",
+      "primary": "#1e3a8a",
+      "secondary": "#dc2626",
+      "accent": "#eab308"
+    }
   },
   "lk": {
     "code": "lk",
@@ -1471,7 +2535,15 @@
     "population": "~21.9 million (21,919,000)",
     "languages": "Sinhala, Tamil",
     "currency": "Sri Lankan rupee (Rs රු / LKR)",
-    "funFact": "Sri Lanka was the first country in the world to democratically elect a female head of government (Prime Minister Sirimavo Bandaranaike in 1960) and is the top exporter of Ceylon cinnamon."
+    "funFact": "Sri Lanka was the first country in the world to democratically elect a female head of government (Prime Minister Sirimavo Bandaranaike in 1960) and is the top exporter of Ceylon cinnamon.",
+    "outfit": {
+      "type": "sari",
+      "label": "Kandyan Draped Attire",
+      "hat": "none",
+      "primary": "#991b1b",
+      "secondary": "#f59e0b",
+      "accent": "#16a34a"
+    }
   },
   "lr": {
     "code": "lr",
@@ -1482,7 +2554,15 @@
     "population": "~5.1 million (5,057,677)",
     "languages": "English",
     "currency": "Liberian dollar ($ / LRD)",
-    "funFact": "Liberia was founded in the 1820s by freed African Americans and was the first African republic to proclaim its independence (in 1847)."
+    "funFact": "Liberia was founded in the 1820s by freed African Americans and was the first African republic to proclaim its independence (in 1847).",
+    "outfit": {
+      "type": "agbada",
+      "label": "Liberia Embroidered Tunic",
+      "hat": "kufi",
+      "primary": "#b80830",
+      "secondary": "#f8f8f8",
+      "accent": "#002868"
+    }
   },
   "ls": {
     "code": "ls",
@@ -1493,7 +2573,15 @@
     "population": "~2.1 million (2,142,252)",
     "languages": "English, Sotho",
     "currency": "Lesotho loti (L / LSL), South African rand (R / ZAR)",
-    "funFact": "Lesotho is the only independent state in the world that lies entirely above 1,000 meters (3,281 feet) in elevation, earning it the nickname 'The Kingdom in the Sky.'"
+    "funFact": "Lesotho is the only independent state in the world that lies entirely above 1,000 meters (3,281 feet) in elevation, earning it the nickname 'The Kingdom in the Sky.'",
+    "outfit": {
+      "type": "agbada",
+      "label": "Lesotho Embroidered Tunic",
+      "hat": "kufi",
+      "primary": "#009840",
+      "secondary": "#f8f8f8",
+      "accent": "#001088"
+    }
   },
   "lt": {
     "code": "lt",
@@ -1504,7 +2592,15 @@
     "population": "~2.8 million (2,794,700)",
     "languages": "Lithuanian",
     "currency": "Euro (€ / EUR)",
-    "funFact": "Lithuania's language is one of the oldest surviving Indo-European languages, preserving grammatical features closely related to ancient Sanskrit, and basketball is celebrated like a second religion."
+    "funFact": "Lithuania's language is one of the oldest surviving Indo-European languages, preserving grammatical features closely related to ancient Sanskrit, and basketball is celebrated like a second religion.",
+    "outfit": {
+      "type": "flag_tunic",
+      "label": "Lithuania Flag Colors Tunic",
+      "hat": "none",
+      "primary": "#f8b810",
+      "secondary": "#006840",
+      "accent": "#c02028"
+    }
   },
   "lu": {
     "code": "lu",
@@ -1515,7 +2611,15 @@
     "population": "~632,275",
     "languages": "German, French, Luxembourgish",
     "currency": "Euro (€ / EUR)",
-    "funFact": "Luxembourg is the only remaining sovereign Grand Duchy in the world and became the first country to make all public transportation (trains, trams, and buses) completely free nationwide in 2020."
+    "funFact": "Luxembourg is the only remaining sovereign Grand Duchy in the world and became the first country to make all public transportation (trains, trams, and buses) completely free nationwide in 2020.",
+    "outfit": {
+      "type": "flag_tunic",
+      "label": "Luxembourg Flag Colors Tunic",
+      "hat": "none",
+      "primary": "#e82838",
+      "secondary": "#f8f8f8",
+      "accent": "#00a0d8"
+    }
   },
   "lv": {
     "code": "lv",
@@ -1526,7 +2630,15 @@
     "population": "~1.9 million (1,901,548)",
     "languages": "Latvian",
     "currency": "Euro (€ / EUR)",
-    "funFact": "Latvia has one of the widest waterfalls in Europe (Ventas Rumba, 249 meters wide) and Riga claims the tradition of decorating the first public Christmas tree in 1510."
+    "funFact": "Latvia has one of the widest waterfalls in Europe (Ventas Rumba, 249 meters wide) and Riga claims the tradition of decorating the first public Christmas tree in 1510.",
+    "outfit": {
+      "type": "flag_tunic",
+      "label": "Latvia Flag Colors Tunic",
+      "hat": "none",
+      "primary": "#982030",
+      "secondary": "#f8f8f8",
+      "accent": "#f59e0b"
+    }
   },
   "ly": {
     "code": "ly",
@@ -1537,7 +2649,15 @@
     "population": "~6.9 million (6,871,287)",
     "languages": "Arabic",
     "currency": "Libyan dinar (ل.د / LYD)",
-    "funFact": "Libya is over 90% desert yet has the Great Man-Made River—the world's largest underground network of pipes pumping fossil water from aquifers beneath the Sahara."
+    "funFact": "Libya is over 90% desert yet has the Great Man-Made River—the world's largest underground network of pipes pumping fossil water from aquifers beneath the Sahara.",
+    "outfit": {
+      "type": "thobe",
+      "label": "Libya Traditional Tunic",
+      "hat": "none",
+      "primary": "#000000",
+      "secondary": "#e00010",
+      "accent": "#209840"
+    }
   },
   "ma": {
     "code": "ma",
@@ -1548,7 +2668,15 @@
     "population": "~36.9 million (36,910,558)",
     "languages": "Arabic, Berber",
     "currency": "Moroccan dirham (د.م. / MAD)",
-    "funFact": "Morocco's University of al-Qarawiyyin in Fez, founded by Fatima al-Fihri in 859 CE, is recognized by UNESCO and Guinness World Records as the oldest continuously operating university in the world."
+    "funFact": "Morocco's University of al-Qarawiyyin in Fez, founded by Fatima al-Fihri in 859 CE, is recognized by UNESCO and Guinness World Records as the oldest continuously operating university in the world.",
+    "outfit": {
+      "type": "thobe",
+      "label": "Moroccan Djellaba & Fez",
+      "hat": "fez",
+      "primary": "#047857",
+      "secondary": "#dc2626",
+      "accent": "#eab308"
+    }
   },
   "mc": {
     "code": "mc",
@@ -1559,7 +2687,15 @@
     "population": "~39,244",
     "languages": "French",
     "currency": "Euro (€ / EUR)",
-    "funFact": "Monaco is the second-smallest independent state in the world (just over 2 square kilometers) and the most densely populated sovereign country on Earth."
+    "funFact": "Monaco is the second-smallest independent state in the world (just over 2 square kilometers) and the most densely populated sovereign country on Earth.",
+    "outfit": {
+      "type": "flag_tunic",
+      "label": "Monaco Flag Colors Tunic",
+      "hat": "none",
+      "primary": "#c81020",
+      "secondary": "#f8f8f8",
+      "accent": "#f59e0b"
+    }
   },
   "md": {
     "code": "md",
@@ -1570,7 +2706,15 @@
     "population": "~2.6 million (2,617,820)",
     "languages": "Moldavian",
     "currency": "Moldovan leu (L / MDL)",
-    "funFact": "Moldova is home to Mileștii Mici, which holds the Guinness World Record for the largest wine collection on Earth with over 1.5 million bottles stored in 200 km of underground limestone tunnels."
+    "funFact": "Moldova is home to Mileștii Mici, which holds the Guinness World Record for the largest wine collection on Earth with over 1.5 million bottles stored in 200 km of underground limestone tunnels.",
+    "outfit": {
+      "type": "folk_vest",
+      "label": "Embroidered Ia & Catrință",
+      "hat": "none",
+      "primary": "#ffffff",
+      "secondary": "#2563eb",
+      "accent": "#dc2626"
+    }
   },
   "me": {
     "code": "me",
@@ -1581,7 +2725,15 @@
     "population": "~621,718",
     "languages": "Montenegrin",
     "currency": "Euro (€ / EUR)",
-    "funFact": "Montenegro's Bay of Kotor resembles a dramatic southern fjord surrounded by limestone cliffs, and the Tara River Canyon is the deepest river canyon in Europe."
+    "funFact": "Montenegro's Bay of Kotor resembles a dramatic southern fjord surrounded by limestone cliffs, and the Tara River Canyon is the deepest river canyon in Europe.",
+    "outfit": {
+      "type": "flag_tunic",
+      "label": "Montenegro Flag Colors Tunic",
+      "hat": "none",
+      "primary": "#e00000",
+      "secondary": "#f8c000",
+      "accent": "#f06000"
+    }
   },
   "mf": {
     "code": "mf",
@@ -1592,7 +2744,15 @@
     "population": "~38,659",
     "languages": "French",
     "currency": "Euro (€ / EUR)",
-    "funFact": "Saint Martin shares a 34-square-mile island with Sint Maarten, making it the smallest inhabited island in the world divided between two nations (France and the Netherlands)."
+    "funFact": "Saint Martin shares a 34-square-mile island with Sint Maarten, making it the smallest inhabited island in the world divided between two nations (France and the Netherlands).",
+    "outfit": {
+      "type": "flag_tunic",
+      "label": "Saint Martin Flag Colors Tunic",
+      "hat": "none",
+      "primary": "#002050",
+      "secondary": "#f8f8f8",
+      "accent": "#c81020"
+    }
   },
   "mg": {
     "code": "mg",
@@ -1603,7 +2763,15 @@
     "population": "~27.7 million (27,691,019)",
     "languages": "French, Malagasy",
     "currency": "Malagasy ariary (Ar / MGA)",
-    "funFact": "Madagascar split from the Indian subcontinent around 88 million years ago, resulting in roughly 90% of its wildlife—including over 100 species of lemurs—being found nowhere else on Earth."
+    "funFact": "Madagascar split from the Indian subcontinent around 88 million years ago, resulting in roughly 90% of its wildlife—including over 100 species of lemurs—being found nowhere else on Earth.",
+    "outfit": {
+      "type": "agbada",
+      "label": "Madagascar Embroidered Tunic",
+      "hat": "kufi",
+      "primary": "#f83830",
+      "secondary": "#f8f8f8",
+      "accent": "#007838"
+    }
   },
   "mh": {
     "code": "mh",
@@ -1614,7 +2782,15 @@
     "population": "~59,194",
     "languages": "English, Marshallese",
     "currency": "United States dollar ($ / USD)",
-    "funFact": "The Marshall Islands consist of 29 coral atolls and 5 islands; ancient Marshallese navigators created 'stick charts' of shells and coconut fibers to map ocean swell patterns."
+    "funFact": "The Marshall Islands consist of 29 coral atolls and 5 islands; ancient Marshallese navigators created 'stick charts' of shells and coconut fibers to map ocean swell patterns.",
+    "outfit": {
+      "type": "island",
+      "label": "Marshall Islands Island Festive Tunic",
+      "hat": "crown_floral",
+      "primary": "#003890",
+      "secondary": "#f8f8f8",
+      "accent": "#d87000"
+    }
   },
   "mk": {
     "code": "mk",
@@ -1625,7 +2801,15 @@
     "population": "~2.1 million (2,083,380)",
     "languages": "Macedonian",
     "currency": "denar (den / MKD)",
-    "funFact": "North Macedonia's Lake Ohrid is one of Europe's oldest and deepest lakes (over a million years old), harboring more than 200 endemic species found nowhere else."
+    "funFact": "North Macedonia's Lake Ohrid is one of Europe's oldest and deepest lakes (over a million years old), harboring more than 200 endemic species found nowhere else.",
+    "outfit": {
+      "type": "flag_tunic",
+      "label": "North Macedonia Flag Colors Tunic",
+      "hat": "none",
+      "primary": "#d82020",
+      "secondary": "#f8e828",
+      "accent": "#e06028"
+    }
   },
   "ml": {
     "code": "ml",
@@ -1636,7 +2820,15 @@
     "population": "~20.3 million (20,250,834)",
     "languages": "French",
     "currency": "West African CFA franc (Fr / XOF)",
-    "funFact": "Mali's ancient trading city of Timbuktu was a renowned medieval center of Islamic scholarship, housing hundreds of thousands of historic manuscripts."
+    "funFact": "Mali's ancient trading city of Timbuktu was a renowned medieval center of Islamic scholarship, housing hundreds of thousands of historic manuscripts.",
+    "outfit": {
+      "type": "agbada",
+      "label": "Bògòlanfini Mudcloth Boubou",
+      "hat": "kufi",
+      "primary": "#b45309",
+      "secondary": "#eab308",
+      "accent": "#15803d"
+    }
   },
   "mm": {
     "code": "mm",
@@ -1647,7 +2839,15 @@
     "population": "~54.4 million (54,409,794)",
     "languages": "Burmese",
     "currency": "Burmese kyat (Ks / MMK)",
-    "funFact": "Myanmar's ancient city of Bagan contains over 2,200 Buddhist temples and pagodas built across a single riverside plain between the 11th and 13th centuries."
+    "funFact": "Myanmar's ancient city of Bagan contains over 2,200 Buddhist temples and pagodas built across a single riverside plain between the 11th and 13th centuries.",
+    "outfit": {
+      "type": "sari",
+      "label": "Traditional Longyi & Tunic",
+      "hat": "none",
+      "primary": "#16a34a",
+      "secondary": "#eab308",
+      "accent": "#ef4444"
+    }
   },
   "mn": {
     "code": "mn",
@@ -1658,7 +2858,15 @@
     "population": "~3.3 million (3,278,292)",
     "languages": "Mongolian",
     "currency": "Mongolian tögrög (₮ / MNT)",
-    "funFact": "Mongolia is the least densely populated sovereign country in the world, enjoys around 250 sunny days a year ('Land of the Eternal Blue Sky'), and has roughly 13 times more horses and livestock than people."
+    "funFact": "Mongolia is the least densely populated sovereign country in the world, enjoys around 250 sunny days a year ('Land of the Eternal Blue Sky'), and has roughly 13 times more horses and livestock than people.",
+    "outfit": {
+      "type": "kimono",
+      "label": "Mongolian Deel & Sash",
+      "hat": "alpine",
+      "primary": "#1d4ed8",
+      "secondary": "#eab308",
+      "accent": "#dc2626"
+    }
   },
   "mo": {
     "name": "Macau",
@@ -1669,7 +2877,15 @@
     "currency": "Macanese pataca (P / MOP)",
     "code": "mo",
     "file": "mo.png",
-    "funFact": "Macau is the most densely populated region in the world and blends over 400 years of Portuguese heritage with Chinese culture across its UNESCO-listed historic center."
+    "funFact": "Macau is the most densely populated region in the world and blends over 400 years of Portuguese heritage with Chinese culture across its UNESCO-listed historic center.",
+    "outfit": {
+      "type": "flag_tunic",
+      "label": "Macau Flag Colors Tunic",
+      "hat": "none",
+      "primary": "#087060",
+      "secondary": "#f8f8f8",
+      "accent": "#68a898"
+    }
   },
   "mp": {
     "code": "mp",
@@ -1680,7 +2896,15 @@
     "population": "~57,557",
     "languages": "Carolinian, Chamorro, English",
     "currency": "United States dollar ($ / USD)",
-    "funFact": "The Northern Mariana Islands include Saipan and Tinian and border the Challenger Deep in the Mariana Trench, the deepest known point on Earth's seabed."
+    "funFact": "The Northern Mariana Islands include Saipan and Tinian and border the Challenger Deep in the Mariana Trench, the deepest known point on Earth's seabed.",
+    "outfit": {
+      "type": "island",
+      "label": "Northern Mariana Islands Island Festive Tunic",
+      "hat": "crown_floral",
+      "primary": "#0030a0",
+      "secondary": "#f8f8f8",
+      "accent": "#b0b0b0"
+    }
   },
   "mq": {
     "code": "mq",
@@ -1691,7 +2915,15 @@
     "population": "~378,243",
     "languages": "French",
     "currency": "Euro (€ / EUR)",
-    "funFact": "Martinique is known as the 'Island of Flowers' and is dominated by Mount Pelée, a volcano whose 1902 eruption led to modern volcanology research."
+    "funFact": "Martinique is known as the 'Island of Flowers' and is dominated by Mount Pelée, a volcano whose 1902 eruption led to modern volcanology research.",
+    "outfit": {
+      "type": "flag_tunic",
+      "label": "Martinique Flag Colors Tunic",
+      "hat": "none",
+      "primary": "#201818",
+      "secondary": "#00a050",
+      "accent": "#e81820"
+    }
   },
   "mr": {
     "code": "mr",
@@ -1702,7 +2934,15 @@
     "population": "~4.6 million (4,649,660)",
     "languages": "Arabic",
     "currency": "Mauritanian ouguiya (UM / MRU)",
-    "funFact": "Mauritania is home to the Richat Structure ('Eye of the Sahara'), a 40-kilometer-wide concentric geological dome so large it is used as a landmark by astronauts in orbit."
+    "funFact": "Mauritania is home to the Richat Structure ('Eye of the Sahara'), a 40-kilometer-wide concentric geological dome so large it is used as a landmark by astronauts in orbit.",
+    "outfit": {
+      "type": "agbada",
+      "label": "Mauritania Embroidered Tunic",
+      "hat": "kufi",
+      "primary": "#00a858",
+      "secondary": "#d01818",
+      "accent": "#f8d800"
+    }
   },
   "ms": {
     "code": "ms",
@@ -1713,7 +2953,15 @@
     "population": "~4,922",
     "languages": "English",
     "currency": "Eastern Caribbean dollar ($ / XCD)",
-    "funFact": "Montserrat is nicknamed the 'Emerald Isle of the Caribbean' because of its early Irish settlers and is the only place outside Ireland that celebrates St. Patrick's Day as a public holiday."
+    "funFact": "Montserrat is nicknamed the 'Emerald Isle of the Caribbean' because of its early Irish settlers and is the only place outside Ireland that celebrates St. Patrick's Day as a public holiday.",
+    "outfit": {
+      "type": "flag_tunic",
+      "label": "Montserrat Flag Colors Tunic",
+      "hat": "none",
+      "primary": "#002068",
+      "secondary": "#00a0d8",
+      "accent": "#c00828"
+    }
   },
   "mt": {
     "code": "mt",
@@ -1724,7 +2972,15 @@
     "population": "~525,285",
     "languages": "English, Maltese",
     "currency": "Euro (€ / EUR)",
-    "funFact": "Malta's megalithic temples (such as Ġgantija, built around 3600 BCE) are older than both Stonehenge and the Egyptian pyramids."
+    "funFact": "Malta's megalithic temples (such as Ġgantija, built around 3600 BCE) are older than both Stonehenge and the Egyptian pyramids.",
+    "outfit": {
+      "type": "flag_tunic",
+      "label": "Malta Flag Colors Tunic",
+      "hat": "none",
+      "primary": "#c81028",
+      "secondary": "#f8f8f8",
+      "accent": "#e8c8d0"
+    }
   },
   "mu": {
     "code": "mu",
@@ -1735,7 +2991,15 @@
     "population": "~1.3 million (1,265,740)",
     "languages": "English, French, Mauritian Creole",
     "currency": "Mauritian rupee (₨ / MUR)",
-    "funFact": "Mauritius was the only known home of the extinct dodo bird and features an optical illusion off Le Morne Brabant that looks like a giant underwater waterfall."
+    "funFact": "Mauritius was the only known home of the extinct dodo bird and features an optical illusion off Le Morne Brabant that looks like a giant underwater waterfall.",
+    "outfit": {
+      "type": "agbada",
+      "label": "Mauritius Embroidered Tunic",
+      "hat": "kufi",
+      "primary": "#00a050",
+      "secondary": "#e82838",
+      "accent": "#f8d000"
+    }
   },
   "mv": {
     "code": "mv",
@@ -1746,7 +3010,15 @@
     "population": "~540,542",
     "languages": "Maldivian",
     "currency": "Maldivian rufiyaa (.ރ / MVR)",
-    "funFact": "The Maldives is the flattest and lowest-lying country on Earth, with an average natural ground elevation of just 1.5 meters (4 feet 11 inches) above sea level."
+    "funFact": "The Maldives is the flattest and lowest-lying country on Earth, with an average natural ground elevation of just 1.5 meters (4 feet 11 inches) above sea level.",
+    "outfit": {
+      "type": "flag_tunic",
+      "label": "Maldives Flag Colors Tunic",
+      "hat": "none",
+      "primary": "#d01030",
+      "secondary": "#007838",
+      "accent": "#684030"
+    }
   },
   "mw": {
     "code": "mw",
@@ -1757,7 +3029,15 @@
     "population": "~19.1 million (19,129,955)",
     "languages": "English, Chewa",
     "currency": "Malawian kwacha (MK / MWK)",
-    "funFact": "Malawi is called the 'Warm Heart of Africa,' and Lake Malawi contains more species of fish—especially colorful cichlids—than any other lake in the world."
+    "funFact": "Malawi is called the 'Warm Heart of Africa,' and Lake Malawi contains more species of fish—especially colorful cichlids—than any other lake in the world.",
+    "outfit": {
+      "type": "agbada",
+      "label": "Malawi Embroidered Tunic",
+      "hat": "kufi",
+      "primary": "#309830",
+      "secondary": "#c81020",
+      "accent": "#000000"
+    }
   },
   "mx": {
     "code": "mx",
@@ -1768,7 +3048,15 @@
     "population": "~128.9 million (128,932,753)",
     "languages": "Spanish",
     "currency": "Mexican peso ($ / MXN)",
-    "funFact": "Mexico introduced chocolate, corn (maize), chili peppers, vanilla, and avocados to the world, and Mexico City was built atop the Aztec island capital of Tenochtitlan."
+    "funFact": "Mexico introduced chocolate, corn (maize), chili peppers, vanilla, and avocados to the world, and Mexico City was built atop the Aztec island capital of Tenochtitlan.",
+    "outfit": {
+      "type": "charro",
+      "label": "Charro Outfit & Sombrero",
+      "hat": "sombrero",
+      "primary": "#15803d",
+      "secondary": "#dc2626",
+      "accent": "#fbbf24"
+    }
   },
   "my": {
     "code": "my",
@@ -1779,7 +3067,15 @@
     "population": "~32.4 million (32,365,998)",
     "languages": "English, Malay",
     "currency": "Malaysian ringgit (RM / MYR)",
-    "funFact": "Malaysia's Petronas Twin Towers in Kuala Lumpur are the tallest twin towers in the world, and Borneo's Gunung Mulu National Park contains Sarawak Chamber, the largest cave chamber by area on Earth."
+    "funFact": "Malaysia's Petronas Twin Towers in Kuala Lumpur are the tallest twin towers in the world, and Borneo's Gunung Mulu National Park contains Sarawak Chamber, the largest cave chamber by area on Earth.",
+    "outfit": {
+      "type": "folk_vest",
+      "label": "Baju Melayu & Songkok",
+      "hat": "taqiyah",
+      "primary": "#1d4ed8",
+      "secondary": "#eab308",
+      "accent": "#dc2626"
+    }
   },
   "mz": {
     "code": "mz",
@@ -1790,7 +3086,15 @@
     "population": "~31.3 million (31,255,435)",
     "languages": "Portuguese",
     "currency": "Mozambican metical (MT / MZN)",
-    "funFact": "Mozambique is the only single-word country name that contains all five English vowels (a, e, i, o, u), and its Bazaruto Archipelago protects one of the last large populations of dugongs in the Indian Ocean."
+    "funFact": "Mozambique is the only single-word country name that contains all five English vowels (a, e, i, o, u), and its Bazaruto Archipelago protects one of the last large populations of dugongs in the Indian Ocean.",
+    "outfit": {
+      "type": "agbada",
+      "label": "Mozambique Embroidered Tunic",
+      "hat": "kufi",
+      "primary": "#f8e000",
+      "secondary": "#007068",
+      "accent": "#000000"
+    }
   },
   "na": {
     "code": "na",
@@ -1801,7 +3105,15 @@
     "population": "~2.5 million (2,540,916)",
     "languages": "Afrikaans, German, English, Herero, Khoekhoe, Kwangali, Lozi, Ndonga, Tswana",
     "currency": "Namibian dollar ($ / NAD), South African rand (R / ZAR)",
-    "funFact": "Namibia is home to the Namib Desert—considered the oldest desert in the world at over 55 million years old—and contains the largest free-roaming population of cheetahs."
+    "funFact": "Namibia is home to the Namib Desert—considered the oldest desert in the world at over 55 million years old—and contains the largest free-roaming population of cheetahs.",
+    "outfit": {
+      "type": "agbada",
+      "label": "Namibia Embroidered Tunic",
+      "hat": "kufi",
+      "primary": "#009040",
+      "secondary": "#003080",
+      "accent": "#d01030"
+    }
   },
   "nc": {
     "code": "nc",
@@ -1812,7 +3124,15 @@
     "population": "~271,960",
     "languages": "French",
     "currency": "CFP franc (₣ / XPF)",
-    "funFact": "New Caledonia's barrier reef surrounds the largest lagoon in the world (24,000 square kilometers) and its islands harbor more than 2,400 plant species found nowhere else."
+    "funFact": "New Caledonia's barrier reef surrounds the largest lagoon in the world (24,000 square kilometers) and its islands harbor more than 2,400 plant species found nowhere else.",
+    "outfit": {
+      "type": "island",
+      "label": "New Caledonia Island Festive Tunic",
+      "hat": "crown_floral",
+      "primary": "#009040",
+      "secondary": "#0030a8",
+      "accent": "#e84030"
+    }
   },
   "ne": {
     "code": "ne",
@@ -1823,7 +3143,15 @@
     "population": "~24.2 million (24,206,636)",
     "languages": "French",
     "currency": "West African CFA franc (Fr / XOF)",
-    "funFact": "Niger is named after the Niger River and is home to the Air and Ténéré Natural Reserves, where thousands of prehistoric giraffe petroglyphs (like the Dabous Giraffes) are carved into desert rock."
+    "funFact": "Niger is named after the Niger River and is home to the Air and Ténéré Natural Reserves, where thousands of prehistoric giraffe petroglyphs (like the Dabous Giraffes) are carved into desert rock.",
+    "outfit": {
+      "type": "agbada",
+      "label": "Niger Embroidered Tunic",
+      "hat": "kufi",
+      "primary": "#e05000",
+      "secondary": "#08b028",
+      "accent": "#f8f8f8"
+    }
   },
   "nf": {
     "code": "nf",
@@ -1834,7 +3162,15 @@
     "population": "~2,302",
     "languages": "English, Norfuk",
     "currency": "Australian dollar ($ / AUD)",
-    "funFact": "Norfolk Island's iconic Norfolk Island pine tree is featured right in the center of its flag, and many locals speak Norf'k, a unique language blending 18th-century English and Tahitian."
+    "funFact": "Norfolk Island's iconic Norfolk Island pine tree is featured right in the center of its flag, and many locals speak Norf'k, a unique language blending 18th-century English and Tahitian.",
+    "outfit": {
+      "type": "flag_tunic",
+      "label": "Norfolk Island Flag Colors Tunic",
+      "hat": "none",
+      "primary": "#007830",
+      "secondary": "#f8f8f8",
+      "accent": "#a0d0b8"
+    }
   },
   "ng": {
     "code": "ng",
@@ -1845,7 +3181,15 @@
     "population": "~206.1 million (206,139,587)",
     "languages": "English",
     "currency": "Nigerian naira (₦ / NGN)",
-    "funFact": "Nigeria is the most populous country in Africa, has over 500 spoken languages, and its film industry ('Nollywood') is one of the largest producers of movies in the world."
+    "funFact": "Nigeria is the most populous country in Africa, has over 500 spoken languages, and its film industry ('Nollywood') is one of the largest producers of movies in the world.",
+    "outfit": {
+      "type": "agbada",
+      "label": "Embroidered Agbada & Fila",
+      "hat": "kufi",
+      "primary": "#15803d",
+      "secondary": "#eab308",
+      "accent": "#ffffff"
+    }
   },
   "ni": {
     "code": "ni",
@@ -1856,7 +3200,15 @@
     "population": "~6.6 million (6,624,554)",
     "languages": "Spanish",
     "currency": "Nicaraguan córdoba (C$ / NIO)",
-    "funFact": "Nicaragua is the largest country in Central America and is home to Ometepe, an island formed by two towering volcanoes rising directly out of freshwater Lake Nicaragua."
+    "funFact": "Nicaragua is the largest country in Central America and is home to Ometepe, an island formed by two towering volcanoes rising directly out of freshwater Lake Nicaragua.",
+    "outfit": {
+      "type": "flag_tunic",
+      "label": "Nicaragua Flag Colors Tunic",
+      "hat": "none",
+      "primary": "#0060c0",
+      "secondary": "#f8f8f8",
+      "accent": "#5098d8"
+    }
   },
   "nl": {
     "code": "nl",
@@ -1867,7 +3219,15 @@
     "population": "~17.4 million (17,441,139)",
     "languages": "Dutch",
     "currency": "Euro (€ / EUR)",
-    "funFact": "The Netherlands has more bicycles than people, and roughly a third of the country's land lies below sea level, protected by an intricate system of dikes, canals, and polders."
+    "funFact": "The Netherlands has more bicycles than people, and roughly a third of the country's land lies below sea level, protected by an intricate system of dikes, canals, and polders.",
+    "outfit": {
+      "type": "flag_tunic",
+      "label": "Netherlands Flag Colors Tunic",
+      "hat": "none",
+      "primary": "#a81828",
+      "secondary": "#f8f8f8",
+      "accent": "#204088"
+    }
   },
   "no": {
     "code": "no",
@@ -1878,7 +3238,15 @@
     "population": "~5.4 million (5,379,475)",
     "languages": "Norwegian Nynorsk, Norwegian Bokmål, Sami",
     "currency": "Norwegian krone (kr / NOK)",
-    "funFact": "Norway introduced salmon sushi to Japan in the 1980s, awards the Nobel Peace Prize in Oslo, and operates the Svalbard Global Seed Vault inside an Arctic mountain."
+    "funFact": "Norway introduced salmon sushi to Japan in the 1980s, awards the Nobel Peace Prize in Oslo, and operates the Svalbard Global Seed Vault inside an Arctic mountain.",
+    "outfit": {
+      "type": "folk_vest",
+      "label": "Norwegian Embroidered Bunad",
+      "hat": "none",
+      "primary": "#1e3a8a",
+      "secondary": "#dc2626",
+      "accent": "#eab308"
+    }
   },
   "np": {
     "code": "np",
@@ -1889,7 +3257,15 @@
     "population": "~29.1 million (29,136,808)",
     "languages": "Nepali",
     "currency": "Nepalese rupee (₨ / NPR)",
-    "funFact": "Nepal has the only non-rectangular national flag in the world (shaped like two stacked pennants) and contains eight of the world's ten highest mountains, including Mount Everest."
+    "funFact": "Nepal has the only non-rectangular national flag in the world (shaped like two stacked pennants) and contains eight of the world's ten highest mountains, including Mount Everest.",
+    "outfit": {
+      "type": "sari",
+      "label": "Daura-Suruwal & Dhaka Topi",
+      "hat": "taqiyah",
+      "primary": "#dc2626",
+      "secondary": "#1d4ed8",
+      "accent": "#fbbf24"
+    }
   },
   "nr": {
     "code": "nr",
@@ -1900,7 +3276,15 @@
     "population": "~10,834",
     "languages": "English, Nauru",
     "currency": "Australian dollar ($ / AUD)",
-    "funFact": "Nauru is the smallest island nation in the world (just 21 square kilometers)—small enough to walk around the entire country in a few hours—and has no official capital city."
+    "funFact": "Nauru is the smallest island nation in the world (just 21 square kilometers)—small enough to walk around the entire country in a few hours—and has no official capital city.",
+    "outfit": {
+      "type": "island",
+      "label": "Nauru Island Festive Tunic",
+      "hat": "crown_floral",
+      "primary": "#002068",
+      "secondary": "#f8c828",
+      "accent": "#f8f8f8"
+    }
   },
   "nu": {
     "code": "nu",
@@ -1911,7 +3295,15 @@
     "population": "~1,470",
     "languages": "English, Niuean",
     "currency": "New Zealand dollar ($ / NZD)",
-    "funFact": "Niue is one of the largest raised coral atolls on Earth, was declared the world's first 'Dark Sky Place' nation, and has issued legal-tender collector coins featuring Pokémon and Star Wars characters."
+    "funFact": "Niue is one of the largest raised coral atolls on Earth, was declared the world's first 'Dark Sky Place' nation, and has issued legal-tender collector coins featuring Pokémon and Star Wars characters.",
+    "outfit": {
+      "type": "island",
+      "label": "Niue Island Festive Tunic",
+      "hat": "crown_floral",
+      "primary": "#f8d800",
+      "secondary": "#f8f8f8",
+      "accent": "#001860"
+    }
   },
   "nz": {
     "code": "nz",
@@ -1922,7 +3314,15 @@
     "population": "~5.1 million (5,084,300)",
     "languages": "English, Māori, New Zealand Sign Language",
     "currency": "New Zealand dollar ($ / NZD)",
-    "funFact": "New Zealand was the first self-governing country in the world to grant all women the right to vote (in 1893) and had no native land mammals other than bats before humans arrived."
+    "funFact": "New Zealand was the first self-governing country in the world to grant all women the right to vote (in 1893) and had no native land mammals other than bats before humans arrived.",
+    "outfit": {
+      "type": "flag_tunic",
+      "label": "New Zealand Flag Colors Tunic",
+      "hat": "none",
+      "primary": "#002068",
+      "secondary": "#c00828",
+      "accent": "#f8f8f8"
+    }
   },
   "om": {
     "code": "om",
@@ -1933,7 +3333,15 @@
     "population": "~5.1 million (5,106,622)",
     "languages": "Arabic",
     "currency": "Omani rial (ر.ع. / OMR)",
-    "funFact": "Oman is the oldest independent state in the Arab world and has been famous for thousands of years for harvesting prized frankincense resin from Boswellia trees in Dhofar."
+    "funFact": "Oman is the oldest independent state in the Arab world and has been famous for thousands of years for harvesting prized frankincense resin from Boswellia trees in Dhofar.",
+    "outfit": {
+      "type": "thobe",
+      "label": "Dishdasha & Embroidered Kumma",
+      "hat": "kufi",
+      "primary": "#ffffff",
+      "secondary": "#dc2626",
+      "accent": "#15803d"
+    }
   },
   "pa": {
     "code": "pa",
@@ -1944,7 +3352,15 @@
     "population": "~4.3 million (4,314,768)",
     "languages": "Spanish",
     "currency": "Panamanian balboa (B/. / PAB), United States dollar ($ / USD)",
-    "funFact": "Panama is the only place in the world where you can watch the sun rise over the Pacific Ocean and set over the Atlantic Ocean from the same peak (Volcán Barú)."
+    "funFact": "Panama is the only place in the world where you can watch the sun rise over the Pacific Ocean and set over the Atlantic Ocean from the same peak (Volcán Barú).",
+    "outfit": {
+      "type": "flag_tunic",
+      "label": "Panama Flag Colors Tunic",
+      "hat": "none",
+      "primary": "#002050",
+      "secondary": "#f8f8f8",
+      "accent": "#d81018"
+    }
   },
   "pe": {
     "code": "pe",
@@ -1955,7 +3371,15 @@
     "population": "~33.0 million (32,971,846)",
     "languages": "Aymara, Quechua, Spanish",
     "currency": "Peruvian sol (S/. / PEN)",
-    "funFact": "Peru is the birthplace of the potato (cultivating over 3,000 native varieties), home to the Inca citadel of Machu Picchu, and where the Amazon River originates."
+    "funFact": "Peru is the birthplace of the potato (cultivating over 3,000 native varieties), home to the Inca citadel of Machu Picchu, and where the Amazon River originates.",
+    "outfit": {
+      "type": "poncho",
+      "label": "Andean Woven Poncho & Chullo",
+      "hat": "alpine",
+      "primary": "#dc2626",
+      "secondary": "#f59e0b",
+      "accent": "#10b981"
+    }
   },
   "pf": {
     "code": "pf",
@@ -1966,7 +3390,15 @@
     "population": "~280,904",
     "languages": "French",
     "currency": "CFP franc (₣ / XPF)",
-    "funFact": "French Polynesia comprises 118 islands and atolls across an ocean area the size of Western Europe, and the English word 'tattoo' comes from the Tahitian word 'tatau.'"
+    "funFact": "French Polynesia comprises 118 islands and atolls across an ocean area the size of Western Europe, and the English word 'tattoo' comes from the Tahitian word 'tatau.'",
+    "outfit": {
+      "type": "island",
+      "label": "Pareo Tunic & Tiare Hei Crown",
+      "hat": "crown_floral",
+      "primary": "#ef4444",
+      "secondary": "#10b981",
+      "accent": "#fde047"
+    }
   },
   "pg": {
     "code": "pg",
@@ -1977,7 +3409,15 @@
     "population": "~8.9 million (8,947,027)",
     "languages": "English, Hiri Motu, Tok Pisin",
     "currency": "Papua New Guinean kina (K / PGK)",
-    "funFact": "Papua New Guinea is the most linguistically diverse country on Earth, with over 840 living languages spoken across its mountains and islands."
+    "funFact": "Papua New Guinea is the most linguistically diverse country on Earth, with over 840 living languages spoken across its mountains and islands.",
+    "outfit": {
+      "type": "island",
+      "label": "Papua New Guinea Island Festive Tunic",
+      "hat": "crown_floral",
+      "primary": "#000000",
+      "secondary": "#c81020",
+      "accent": "#f8d010"
+    }
   },
   "ph": {
     "code": "ph",
@@ -1988,7 +3428,15 @@
     "population": "~109.6 million (109,581,085)",
     "languages": "English, Filipino",
     "currency": "Philippine peso (₱ / PHP)",
-    "funFact": "The Philippines is an archipelago of 7,641 islands, and the world's largest pearl (the Pearl of Puerto, weighing 34 kilograms) was discovered in the waters off Palawan."
+    "funFact": "The Philippines is an archipelago of 7,641 islands, and the world's largest pearl (the Pearl of Puerto, weighing 34 kilograms) was discovered in the waters off Palawan.",
+    "outfit": {
+      "type": "folk_vest",
+      "label": "Embroidered Barong Tagalog",
+      "hat": "none",
+      "primary": "#fefce8",
+      "secondary": "#1d4ed8",
+      "accent": "#eab308"
+    }
   },
   "pk": {
     "code": "pk",
@@ -1999,7 +3447,15 @@
     "population": "~220.9 million (220,892,331)",
     "languages": "English, Urdu",
     "currency": "Pakistani rupee (₨ / PKR)",
-    "funFact": "Pakistan is home to K2 (the world's second-highest peak), the Karakoram Highway (the highest paved international road), and Sialkot produces over half of the world's hand-stitched soccer balls."
+    "funFact": "Pakistan is home to K2 (the world's second-highest peak), the Karakoram Highway (the highest paved international road), and Sialkot produces over half of the world's hand-stitched soccer balls.",
+    "outfit": {
+      "type": "sari",
+      "label": "Shalwar Kameez & Waistcoat",
+      "hat": "taqiyah",
+      "primary": "#15803d",
+      "secondary": "#ffffff",
+      "accent": "#fbbf24"
+    }
   },
   "pl": {
     "code": "pl",
@@ -2010,7 +3466,15 @@
     "population": "~38.0 million (37,950,802)",
     "languages": "Polish",
     "currency": "Polish złoty (zł / PLN)",
-    "funFact": "Poland is the birthplace of Marie Curie (the only person to win Nobel Prizes in two different sciences) and Nicolaus Copernicus, who formulated the heliocentric model of the solar system."
+    "funFact": "Poland is the birthplace of Marie Curie (the only person to win Nobel Prizes in two different sciences) and Nicolaus Copernicus, who formulated the heliocentric model of the solar system.",
+    "outfit": {
+      "type": "folk_vest",
+      "label": "Kraków Folk Waistcoat",
+      "hat": "alpine",
+      "primary": "#dc2626",
+      "secondary": "#1e3a8a",
+      "accent": "#eab308"
+    }
   },
   "pm": {
     "code": "pm",
@@ -2021,7 +3485,15 @@
     "population": "~6,069",
     "languages": "French",
     "currency": "Euro (€ / EUR)",
-    "funFact": "Saint Pierre and Miquelon is the last remaining territory of former New France in North America, located just 25 kilometers off the coast of Newfoundland, Canada."
+    "funFact": "Saint Pierre and Miquelon is the last remaining territory of former New France in North America, located just 25 kilometers off the coast of Newfoundland, Canada.",
+    "outfit": {
+      "type": "flag_tunic",
+      "label": "Saint Pierre and Miquelon Flag Colors Tunic",
+      "hat": "none",
+      "primary": "#0090c8",
+      "secondary": "#f8f8f8",
+      "accent": "#c80000"
+    }
   },
   "pn": {
     "code": "pn",
@@ -2032,7 +3504,15 @@
     "population": "56",
     "languages": "English",
     "currency": "New Zealand dollar ($ / NZD)",
-    "funFact": "The Pitcairn Islands are the least populous jurisdiction in the world, with roughly 40 to 50 permanent residents—most descended from the 1789 HMS Bounty mutineers and their Tahitian companions."
+    "funFact": "The Pitcairn Islands are the least populous jurisdiction in the world, with roughly 40 to 50 permanent residents—most descended from the 1789 HMS Bounty mutineers and their Tahitian companions.",
+    "outfit": {
+      "type": "island",
+      "label": "Pitcairn Islands Island Festive Tunic",
+      "hat": "crown_floral",
+      "primary": "#002068",
+      "secondary": "#c00828",
+      "accent": "#f8f8f8"
+    }
   },
   "pr": {
     "code": "pr",
@@ -2043,7 +3523,15 @@
     "population": "~3.2 million (3,194,034)",
     "languages": "English, Spanish",
     "currency": "United States dollar ($ / USD)",
-    "funFact": "Puerto Rico has three of the world's brightest bioluminescent bays—including Mosquito Bay in Vieques—and the giant El Yunque tropical rainforest."
+    "funFact": "Puerto Rico has three of the world's brightest bioluminescent bays—including Mosquito Bay in Vieques—and the giant El Yunque tropical rainforest.",
+    "outfit": {
+      "type": "flag_tunic",
+      "label": "Puerto Rico Flag Colors Tunic",
+      "hat": "none",
+      "primary": "#e80000",
+      "secondary": "#0040f8",
+      "accent": "#f8f8f8"
+    }
   },
   "ps": {
     "code": "ps",
@@ -2054,7 +3542,15 @@
     "population": "~4.8 million (4,803,269)",
     "languages": "Arabic",
     "currency": "Egyptian pound (E£ / EGP), Israeli new shekel (₪ / ILS), Jordanian dinar (JD / JOD)",
-    "funFact": "Palestine's city of Jericho in the West Bank is one of the oldest continuously inhabited cities on Earth (dating back to ~9000 BCE) and the lowest permanently inhabited city in the world."
+    "funFact": "Palestine's city of Jericho in the West Bank is one of the oldest continuously inhabited cities on Earth (dating back to ~9000 BCE) and the lowest permanently inhabited city in the world.",
+    "outfit": {
+      "type": "thobe",
+      "label": "Palestine Traditional Tunic",
+      "hat": "none",
+      "primary": "#000000",
+      "secondary": "#009038",
+      "accent": "#f8f8f8"
+    }
   },
   "pt": {
     "code": "pt",
@@ -2065,7 +3561,15 @@
     "population": "~10.3 million (10,305,564)",
     "languages": "Portuguese",
     "currency": "Euro (€ / EUR)",
-    "funFact": "Portugal is the oldest nation-state in Europe with the same defined borders since 1297, and produces more than half of the world's cork."
+    "funFact": "Portugal is the oldest nation-state in Europe with the same defined borders since 1297, and produces more than half of the world's cork.",
+    "outfit": {
+      "type": "folk_vest",
+      "label": "Minho Embroidered Vest",
+      "hat": "beret",
+      "primary": "#dc2626",
+      "secondary": "#15803d",
+      "accent": "#eab308"
+    }
   },
   "pw": {
     "code": "pw",
@@ -2076,7 +3580,15 @@
     "population": "~18,092",
     "languages": "English, Palauan",
     "currency": "United States dollar ($ / USD)",
-    "funFact": "Palau created the world's first shark sanctuary in 2009 and is famous for Jellyfish Lake and the mushroom-shaped limestone Rock Islands."
+    "funFact": "Palau created the world's first shark sanctuary in 2009 and is famous for Jellyfish Lake and the mushroom-shaped limestone Rock Islands.",
+    "outfit": {
+      "type": "island",
+      "label": "Palau Island Festive Tunic",
+      "hat": "crown_floral",
+      "primary": "#0098f8",
+      "secondary": "#f8f800",
+      "accent": "#90d068"
+    }
   },
   "py": {
     "code": "py",
@@ -2087,7 +3599,15 @@
     "population": "~7.1 million (7,132,530)",
     "languages": "Guaraní, Spanish",
     "currency": "Paraguayan guaraní (₲ / PYG)",
-    "funFact": "Paraguay's national flag is the only sovereign flag in the world with different emblems on its front (obverse) and back (reverse) sides."
+    "funFact": "Paraguay's national flag is the only sovereign flag in the world with different emblems on its front (obverse) and back (reverse) sides.",
+    "outfit": {
+      "type": "flag_tunic",
+      "label": "Paraguay Flag Colors Tunic",
+      "hat": "none",
+      "primary": "#d02818",
+      "secondary": "#0038a8",
+      "accent": "#f8f8f8"
+    }
   },
   "qa": {
     "code": "qa",
@@ -2098,7 +3618,15 @@
     "population": "~2.9 million (2,881,060)",
     "languages": "Arabic",
     "currency": "Qatari riyal (ر.ق / QAR)",
-    "funFact": "Qatar has no natural forests, hills, or permanent rivers, yet boasts one of the highest GDP per capita figures in the world and hosted the 2022 FIFA World Cup."
+    "funFact": "Qatar has no natural forests, hills, or permanent rivers, yet boasts one of the highest GDP per capita figures in the world and hosted the 2022 FIFA World Cup.",
+    "outfit": {
+      "type": "thobe",
+      "label": "Qatari Thobe & Bisht",
+      "hat": "taqiyah",
+      "primary": "#ffffff",
+      "secondary": "#881337",
+      "accent": "#eab308"
+    }
   },
   "re": {
     "code": "re",
@@ -2109,7 +3637,15 @@
     "population": "~840,974",
     "languages": "French",
     "currency": "Euro (€ / EUR)",
-    "funFact": "Réunion is a volcanic island in the Indian Ocean home to Piton de la Fournaise, one of the most active volcanoes on Earth, and holds world records for 12- and 24-hour tropical rainfall totals."
+    "funFact": "Réunion is a volcanic island in the Indian Ocean home to Piton de la Fournaise, one of the most active volcanoes on Earth, and holds world records for 12- and 24-hour tropical rainfall totals.",
+    "outfit": {
+      "type": "agbada",
+      "label": "Réunion Embroidered Tunic",
+      "hat": "kufi",
+      "primary": "#3060f8",
+      "secondary": "#f80000",
+      "accent": "#f8f800"
+    }
   },
   "ro": {
     "code": "ro",
@@ -2120,7 +3656,15 @@
     "population": "~19.3 million (19,286,123)",
     "languages": "Romanian",
     "currency": "Romanian leu (lei / RON)",
-    "funFact": "Romania's Palace of the Parliament in Bucharest is the heaviest building in the world, and the Danube Delta is the best-preserved river delta in Europe."
+    "funFact": "Romania's Palace of the Parliament in Bucharest is the heaviest building in the world, and the Danube Delta is the best-preserved river delta in Europe.",
+    "outfit": {
+      "type": "folk_vest",
+      "label": "Embroidered Romanian Ie",
+      "hat": "none",
+      "primary": "#ffffff",
+      "secondary": "#dc2626",
+      "accent": "#eab308"
+    }
   },
   "rs": {
     "code": "rs",
@@ -2131,7 +3675,15 @@
     "population": "~6.9 million (6,908,224)",
     "languages": "Serbian",
     "currency": "Serbian dinar (дин. / RSD)",
-    "funFact": "Serbia is one of the world's top exporters of raspberries, the birthplace of 17 Roman Emperors, and where the English word 'vampire' first entered Western languages."
+    "funFact": "Serbia is one of the world's top exporters of raspberries, the birthplace of 17 Roman Emperors, and where the English word 'vampire' first entered Western languages.",
+    "outfit": {
+      "type": "flag_tunic",
+      "label": "Serbia Flag Colors Tunic",
+      "hat": "none",
+      "primary": "#c03038",
+      "secondary": "#f8f8f8",
+      "accent": "#084070"
+    }
   },
   "ru": {
     "code": "ru",
@@ -2142,7 +3694,15 @@
     "population": "~144.1 million (144,104,080)",
     "languages": "Russian",
     "currency": "Russian ruble (₽ / RUB)",
-    "funFact": "Russia is the largest country in the world—spanning 11 time zones and 17.1 million square kilometers—and holds Lake Baikal, which contains 20% of Earth's unfrozen surface fresh water."
+    "funFact": "Russia is the largest country in the world—spanning 11 time zones and 17.1 million square kilometers—and holds Lake Baikal, which contains 20% of Earth's unfrozen surface fresh water.",
+    "outfit": {
+      "type": "flag_tunic",
+      "label": "Russia Flag Colors Tunic",
+      "hat": "none",
+      "primary": "#d02818",
+      "secondary": "#f8f8f8",
+      "accent": "#0038a0"
+    }
   },
   "rw": {
     "code": "rw",
@@ -2153,7 +3713,15 @@
     "population": "~13.0 million (12,952,209)",
     "languages": "English, French, Kinyarwanda",
     "currency": "Rwandan franc (Fr / RWF)",
-    "funFact": "Rwanda is known as the 'Land of a Thousand Hills,' banned plastic bags nationwide in 2008, and has the highest percentage of women in parliament in the world (over 60%)."
+    "funFact": "Rwanda is known as the 'Land of a Thousand Hills,' banned plastic bags nationwide in 2008, and has the highest percentage of women in parliament in the world (over 60%).",
+    "outfit": {
+      "type": "agbada",
+      "label": "Rwanda Embroidered Tunic",
+      "hat": "kufi",
+      "primary": "#00a0e0",
+      "secondary": "#f8d000",
+      "accent": "#206038"
+    }
   },
   "sa": {
     "code": "sa",
@@ -2164,7 +3732,15 @@
     "population": "~34.8 million (34,813,867)",
     "languages": "Arabic",
     "currency": "Saudi riyal (ر.س / SAR)",
-    "funFact": "Saudi Arabia is the largest country in the world without a single permanent natural river and contains the Rub' al Khali ('Empty Quarter'), the largest contiguous sand desert on Earth."
+    "funFact": "Saudi Arabia is the largest country in the world without a single permanent natural river and contains the Rub' al Khali ('Empty Quarter'), the largest contiguous sand desert on Earth.",
+    "outfit": {
+      "type": "thobe",
+      "label": "Thobe, Bisht & Keffiyeh",
+      "hat": "taqiyah",
+      "primary": "#ffffff",
+      "secondary": "#15803d",
+      "accent": "#eab308"
+    }
   },
   "sb": {
     "code": "sb",
@@ -2175,7 +3751,15 @@
     "population": "~686,878",
     "languages": "English",
     "currency": "Solomon Islands dollar ($ / SBD)",
-    "funFact": "The Solomon Islands consist of nearly 1,000 islands and include East Rennell, the largest raised coral atoll in the world."
+    "funFact": "The Solomon Islands consist of nearly 1,000 islands and include East Rennell, the largest raised coral atoll in the world.",
+    "outfit": {
+      "type": "island",
+      "label": "Solomon Islands Island Festive Tunic",
+      "hat": "crown_floral",
+      "primary": "#205830",
+      "secondary": "#0050b8",
+      "accent": "#f8d010"
+    }
   },
   "sc": {
     "code": "sc",
@@ -2186,7 +3770,15 @@
     "population": "~98,462",
     "languages": "Seychellois Creole, English, French",
     "currency": "Seychellois rupee (₨ / SCR)",
-    "funFact": "Seychelles is home to Aldabra (featuring over 100,000 giant tortoises) and the coco de mer palm on Praslin, which produces the largest and heaviest seed in the plant kingdom."
+    "funFact": "Seychelles is home to Aldabra (featuring over 100,000 giant tortoises) and the coco de mer palm on Praslin, which produces the largest and heaviest seed in the plant kingdom.",
+    "outfit": {
+      "type": "agbada",
+      "label": "Seychelles Embroidered Tunic",
+      "hat": "kufi",
+      "primary": "#d02030",
+      "secondary": "#002868",
+      "accent": "#f8f8f8"
+    }
   },
   "sd": {
     "code": "sd",
@@ -2197,7 +3789,15 @@
     "population": "~43.8 million (43,849,269)",
     "languages": "Arabic, English",
     "currency": "Sudanese pound (PT / SDG)",
-    "funFact": "Sudan actually has more ancient pyramids (over 200 Nubian pyramids at Meroë, Nuri, and El-Kurru) than Egypt."
+    "funFact": "Sudan actually has more ancient pyramids (over 200 Nubian pyramids at Meroë, Nuri, and El-Kurru) than Egypt.",
+    "outfit": {
+      "type": "thobe",
+      "label": "Sudan Traditional Tunic",
+      "hat": "none",
+      "primary": "#000000",
+      "secondary": "#d01030",
+      "accent": "#f8f8f8"
+    }
   },
   "se": {
     "code": "se",
@@ -2208,7 +3808,15 @@
     "population": "~10.4 million (10,353,442)",
     "languages": "Swedish",
     "currency": "Swedish krona (kr / SEK)",
-    "funFact": "Sweden has the 'Allemansrätten' (Right of Public Access) enshrined in its constitution, allowing anyone to roam freely in nature, and Stockholm is built across 14 islands connected by 57 bridges."
+    "funFact": "Sweden has the 'Allemansrätten' (Right of Public Access) enshrined in its constitution, allowing anyone to roam freely in nature, and Stockholm is built across 14 islands connected by 57 bridges.",
+    "outfit": {
+      "type": "folk_vest",
+      "label": "Swedish Folkdräkt",
+      "hat": "crown_floral",
+      "primary": "#0284c7",
+      "secondary": "#eab308",
+      "accent": "#ffffff"
+    }
   },
   "sg": {
     "code": "sg",
@@ -2219,7 +3827,15 @@
     "population": "~5.7 million (5,685,807)",
     "languages": "English, Malay, Tamil, Chinese",
     "currency": "Singapore dollar ($ / SGD)",
-    "funFact": "Singapore is one of only three surviving city-states in the world, features the world's first nocturnal zoo, and prints the lyrics to its national anthem in microtext on the back of its $1,000 note."
+    "funFact": "Singapore is one of only three surviving city-states in the world, features the world's first nocturnal zoo, and prints the lyrics to its national anthem in microtext on the back of its $1,000 note.",
+    "outfit": {
+      "type": "flag_tunic",
+      "label": "Singapore Flag Colors Tunic",
+      "hat": "none",
+      "primary": "#e82838",
+      "secondary": "#f8f8f8",
+      "accent": "#f04858"
+    }
   },
   "sh": {
     "code": "sh",
@@ -2230,7 +3846,15 @@
     "population": "~4,255",
     "languages": "English",
     "currency": "Pound sterling (£ / GBP), Saint Helena pound (£ / SHP)",
-    "funFact": "Saint Helena, Ascension and Tristan da Cunha include Tristan da Cunha, the most remote inhabited archipelago on Earth, and Saint Helena, where Napoleon Bonaparte spent his final exile."
+    "funFact": "Saint Helena, Ascension and Tristan da Cunha include Tristan da Cunha, the most remote inhabited archipelago on Earth, and Saint Helena, where Napoleon Bonaparte spent his final exile.",
+    "outfit": {
+      "type": "agbada",
+      "label": "Saint Helena, Ascension and Tristan da Cunha Embroidered Tunic",
+      "hat": "kufi",
+      "primary": "#002068",
+      "secondary": "#c00828",
+      "accent": "#f8f8f8"
+    }
   },
   "si": {
     "code": "si",
@@ -2241,7 +3865,15 @@
     "population": "~2.1 million (2,100,126)",
     "languages": "Slovene",
     "currency": "Euro (€ / EUR)",
-    "funFact": "Slovenia has 'LOVE' right in its name, is over 60% covered by forest, and is home to the Postojna Cave, where bizarre cave-dwelling 'baby dragons' (olms) live for up to 100 years."
+    "funFact": "Slovenia has 'LOVE' right in its name, is over 60% covered by forest, and is home to the Postojna Cave, where bizarre cave-dwelling 'baby dragons' (olms) live for up to 100 years.",
+    "outfit": {
+      "type": "flag_tunic",
+      "label": "Slovenia Flag Colors Tunic",
+      "hat": "none",
+      "primary": "#f80000",
+      "secondary": "#0000f8",
+      "accent": "#f8f8f8"
+    }
   },
   "sj": {
     "code": "sj",
@@ -2252,7 +3884,15 @@
     "population": "~2,562",
     "languages": "Norwegian",
     "currency": "krone (kr / NOK)",
-    "funFact": "Svalbard and Jan Mayen lie deep in the Arctic Circle where polar bears outnumber human residents across the archipelago and the sun does not set for four straight months in summer."
+    "funFact": "Svalbard and Jan Mayen lie deep in the Arctic Circle where polar bears outnumber human residents across the archipelago and the sun does not set for four straight months in summer.",
+    "outfit": {
+      "type": "parka",
+      "label": "Arctic Parka",
+      "hat": "hood",
+      "primary": "#1e3a8a",
+      "secondary": "#dc2626",
+      "accent": "#ffffff"
+    }
   },
   "sk": {
     "code": "sk",
@@ -2263,7 +3903,15 @@
     "population": "~5.5 million (5,458,827)",
     "languages": "Slovak",
     "currency": "Euro (€ / EUR)",
-    "funFact": "Slovakia is home to more than 6,000 caves and lies at the geographical heart of Europe, with the High Tatras mountains along its northern border."
+    "funFact": "Slovakia is home to more than 6,000 caves and lies at the geographical heart of Europe, with the High Tatras mountains along its northern border.",
+    "outfit": {
+      "type": "folk_vest",
+      "label": "Slovak Kroj & Detva Vest",
+      "hat": "alpine",
+      "primary": "#1d4ed8",
+      "secondary": "#dc2626",
+      "accent": "#ffffff"
+    }
   },
   "sl": {
     "code": "sl",
@@ -2274,7 +3922,15 @@
     "population": "~8.0 million (7,976,985)",
     "languages": "English",
     "currency": "Sierra Leonean leone (Le / SLE)",
-    "funFact": "Sierra Leone's capital, Freetown, possesses the third-largest natural harbor in the world and a historic Cotton Tree that stood as a symbol of freedom since 1792."
+    "funFact": "Sierra Leone's capital, Freetown, possesses the third-largest natural harbor in the world and a historic Cotton Tree that stood as a symbol of freedom since 1792.",
+    "outfit": {
+      "type": "agbada",
+      "label": "Sierra Leone Embroidered Tunic",
+      "hat": "kufi",
+      "primary": "#18b038",
+      "secondary": "#f8f8f8",
+      "accent": "#0070c0"
+    }
   },
   "sm": {
     "code": "sm",
@@ -2285,7 +3941,15 @@
     "population": "~33,938",
     "languages": "Italian",
     "currency": "Euro (€ / EUR)",
-    "funFact": "San Marino, founded in 301 CE by a Christian stonemason named Marinus, is the world's oldest surviving sovereign republic."
+    "funFact": "San Marino, founded in 301 CE by a Christian stonemason named Marinus, is the world's oldest surviving sovereign republic.",
+    "outfit": {
+      "type": "flag_tunic",
+      "label": "San Marino Flag Colors Tunic",
+      "hat": "none",
+      "primary": "#58b0e0",
+      "secondary": "#f8f8f8",
+      "accent": "#c89020"
+    }
   },
   "sn": {
     "code": "sn",
@@ -2296,7 +3960,15 @@
     "population": "~16.7 million (16,743,930)",
     "languages": "French",
     "currency": "West African CFA franc (Fr / XOF)",
-    "funFact": "Senegal is home to Lake Retba (Lac Rose), a shallow lagoon whose high salt content and Dunaliella salina microalgae turn its waters a vivid strawberry pink."
+    "funFact": "Senegal is home to Lake Retba (Lac Rose), a shallow lagoon whose high salt content and Dunaliella salina microalgae turn its waters a vivid strawberry pink.",
+    "outfit": {
+      "type": "agbada",
+      "label": "Senegalese Grand Boubou",
+      "hat": "kufi",
+      "primary": "#0284c7",
+      "secondary": "#eab308",
+      "accent": "#15803d"
+    }
   },
   "so": {
     "code": "so",
@@ -2307,7 +3979,15 @@
     "population": "~15.9 million (15,893,219)",
     "languages": "Arabic, Somali",
     "currency": "Somali shilling (Sh / SOS)",
-    "funFact": "Somalia has the longest coastline on the African mainland (over 3,025 kilometers) and is home to Laas Geel, containing some of the earliest and most vibrant prehistoric cave paintings in Africa."
+    "funFact": "Somalia has the longest coastline on the African mainland (over 3,025 kilometers) and is home to Laas Geel, containing some of the earliest and most vibrant prehistoric cave paintings in Africa.",
+    "outfit": {
+      "type": "agbada",
+      "label": "Somalia Embroidered Tunic",
+      "hat": "kufi",
+      "primary": "#4088d8",
+      "secondary": "#f8f8f8",
+      "accent": "#c8d8f0"
+    }
   },
   "sr": {
     "code": "sr",
@@ -2318,7 +3998,15 @@
     "population": "~586,634",
     "languages": "Dutch",
     "currency": "Surinamese dollar ($ / SRD)",
-    "funFact": "Suriname is the most forested country on Earth—with more than 90% of its land covered by pristine tropical rainforest—and is the only sovereign nation outside Europe where Dutch is the sole official language."
+    "funFact": "Suriname is the most forested country on Earth—with more than 90% of its land covered by pristine tropical rainforest—and is the only sovereign nation outside Europe where Dutch is the sole official language.",
+    "outfit": {
+      "type": "flag_tunic",
+      "label": "Suriname Flag Colors Tunic",
+      "hat": "none",
+      "primary": "#307838",
+      "secondary": "#b00828",
+      "accent": "#f8f8f8"
+    }
   },
   "ss": {
     "code": "ss",
@@ -2329,7 +4017,15 @@
     "population": "~11.2 million (11,193,729)",
     "languages": "English",
     "currency": "South Sudanese pound (£ / SSP)",
-    "funFact": "South Sudan is the world's youngest internationally recognized country (independent since July 9, 2011) and contains the Sudd, one of the largest freshwater wetlands on Earth."
+    "funFact": "South Sudan is the world's youngest internationally recognized country (independent since July 9, 2011) and contains the Sudd, one of the largest freshwater wetlands on Earth.",
+    "outfit": {
+      "type": "agbada",
+      "label": "South Sudan Embroidered Tunic",
+      "hat": "kufi",
+      "primary": "#000000",
+      "secondary": "#009048",
+      "accent": "#00b0f0"
+    }
   },
   "st": {
     "code": "st",
@@ -2340,7 +4036,15 @@
     "population": "~219,161",
     "languages": "Portuguese",
     "currency": "São Tomé and Príncipe dobra (Db / STN)",
-    "funFact": "São Tomé and Príncipe sits directly on the equator in the Gulf of Guinea and features Pico Cão Grande, a dramatic needle-shaped volcanic plug rising 370 meters above the rainforest canopy."
+    "funFact": "São Tomé and Príncipe sits directly on the equator in the Gulf of Guinea and features Pico Cão Grande, a dramatic needle-shaped volcanic plug rising 370 meters above the rainforest canopy.",
+    "outfit": {
+      "type": "agbada",
+      "label": "São Tomé and Príncipe Embroidered Tunic",
+      "hat": "kufi",
+      "primary": "#009038",
+      "secondary": "#f8d000",
+      "accent": "#e83040"
+    }
   },
   "sv": {
     "code": "sv",
@@ -2351,7 +4055,15 @@
     "population": "~6.5 million (6,486,201)",
     "languages": "Spanish",
     "currency": "United States dollar ($ / USD)",
-    "funFact": "El Salvador is known as the 'Land of Volcanoes' and is the only country in Central America that does not have a coastline on the Caribbean Sea."
+    "funFact": "El Salvador is known as the 'Land of Volcanoes' and is the only country in Central America that does not have a coastline on the Caribbean Sea.",
+    "outfit": {
+      "type": "flag_tunic",
+      "label": "El Salvador Flag Colors Tunic",
+      "hat": "none",
+      "primary": "#0040a8",
+      "secondary": "#f8f8f8",
+      "accent": "#5080c8"
+    }
   },
   "sx": {
     "code": "sx",
@@ -2362,7 +4074,15 @@
     "population": "~40,812",
     "languages": "English, French, Dutch",
     "currency": "Caribbean guilder (Cg / XCG)",
-    "funFact": "Sint Maarten makes up the southern Dutch half of a Caribbean island shared peacefully with France since the Treaty of Concordia in 1648, and Maho Beach is famous for low-flying jets landing just yards above sunbathers."
+    "funFact": "Sint Maarten makes up the southern Dutch half of a Caribbean island shared peacefully with France since the Treaty of Concordia in 1648, and Maho Beach is famous for low-flying jets landing just yards above sunbathers.",
+    "outfit": {
+      "type": "flag_tunic",
+      "label": "Sint Maarten Flag Colors Tunic",
+      "hat": "none",
+      "primary": "#b80808",
+      "secondary": "#103888",
+      "accent": "#f8f8f8"
+    }
   },
   "sy": {
     "code": "sy",
@@ -2373,7 +4093,15 @@
     "population": "~17.5 million (17,500,657)",
     "languages": "Arabic",
     "currency": "Syrian pound (£ / SYP)",
-    "funFact": "Syria's capital, Damascus, is widely regarded as one of the oldest continuously inhabited cities in the world, with settlement evidence dating back more than 5,000 years."
+    "funFact": "Syria's capital, Damascus, is widely regarded as one of the oldest continuously inhabited cities in the world, with settlement evidence dating back more than 5,000 years.",
+    "outfit": {
+      "type": "thobe",
+      "label": "Syria Traditional Tunic",
+      "hat": "none",
+      "primary": "#000000",
+      "secondary": "#007838",
+      "accent": "#f8f8f8"
+    }
   },
   "sz": {
     "code": "sz",
@@ -2384,7 +4112,15 @@
     "population": "~1.2 million (1,160,164)",
     "languages": "English, Swazi",
     "currency": "Swazi lilangeni (L / SZL), South African rand (R / ZAR)",
-    "funFact": "Eswatini (formerly Swaziland) is one of Africa's last absolute monarchies and is home to the Ngwenya Mine, the oldest known mine in the world at over 42,000 years old."
+    "funFact": "Eswatini (formerly Swaziland) is one of Africa's last absolute monarchies and is home to the Ngwenya Mine, the oldest known mine in the world at over 42,000 years old.",
+    "outfit": {
+      "type": "agbada",
+      "label": "Eswatini Embroidered Tunic",
+      "hat": "kufi",
+      "primary": "#3858b8",
+      "secondary": "#b00808",
+      "accent": "#b0a840"
+    }
   },
   "tc": {
     "code": "tc",
@@ -2395,7 +4131,15 @@
     "population": "~38,718",
     "languages": "English",
     "currency": "United States dollar ($ / USD)",
-    "funFact": "The Turks and Caicos Islands are named after the Turk's-cap cactus (whose red top resembles an Ottoman fez hat) and the Lucayan word 'caya hico,' meaning a string of islands."
+    "funFact": "The Turks and Caicos Islands are named after the Turk's-cap cactus (whose red top resembles an Ottoman fez hat) and the Lucayan word 'caya hico,' meaning a string of islands.",
+    "outfit": {
+      "type": "flag_tunic",
+      "label": "Turks and Caicos Islands Flag Colors Tunic",
+      "hat": "none",
+      "primary": "#002868",
+      "secondary": "#c80820",
+      "accent": "#f8f8f8"
+    }
   },
   "td": {
     "code": "td",
@@ -2406,7 +4150,15 @@
     "population": "~16.4 million (16,425,859)",
     "languages": "Arabic, French",
     "currency": "Central African CFA franc (Fr / XAF)",
-    "funFact": "Chad is nicknamed the 'Dead Heart of Africa' because of its central landlocked location, and its Tibesti Mountains rise over 3,400 meters in the middle of the Sahara."
+    "funFact": "Chad is nicknamed the 'Dead Heart of Africa' because of its central landlocked location, and its Tibesti Mountains rise over 3,400 meters in the middle of the Sahara.",
+    "outfit": {
+      "type": "agbada",
+      "label": "Chad Embroidered Tunic",
+      "hat": "kufi",
+      "primary": "#002060",
+      "secondary": "#c00830",
+      "accent": "#f8c800"
+    }
   },
   "tf": {
     "code": "tf",
@@ -2417,7 +4169,15 @@
     "population": "140",
     "languages": "French",
     "currency": "Euro (€ / EUR)",
-    "funFact": "The French Southern and Antarctic Lands encompass remote sub-Antarctic islands like Kerguelen ('Desolation Islands'), hosting the world's largest breeding colony of king penguins."
+    "funFact": "The French Southern and Antarctic Lands encompass remote sub-Antarctic islands like Kerguelen ('Desolation Islands'), hosting the world's largest breeding colony of king penguins.",
+    "outfit": {
+      "type": "agbada",
+      "label": "French Southern and Antarctic Lands Embroidered Tunic",
+      "hat": "kufi",
+      "primary": "#204898",
+      "secondary": "#f8f8f8",
+      "accent": "#e82828"
+    }
   },
   "tg": {
     "code": "tg",
@@ -2428,7 +4188,15 @@
     "population": "~8.3 million (8,278,737)",
     "languages": "French",
     "currency": "West African CFA franc (Fr / XOF)",
-    "funFact": "Togo is a narrow West African country—just 56 kilometers wide along the coast—that encompasses six distinct geographic zones from palm-fringed beaches to northern savannas."
+    "funFact": "Togo is a narrow West African country—just 56 kilometers wide along the coast—that encompasses six distinct geographic zones from palm-fringed beaches to northern savannas.",
+    "outfit": {
+      "type": "agbada",
+      "label": "Togo Embroidered Tunic",
+      "hat": "kufi",
+      "primary": "#006848",
+      "secondary": "#f8c800",
+      "accent": "#d01030"
+    }
   },
   "th": {
     "code": "th",
@@ -2439,7 +4207,15 @@
     "population": "~69.8 million (69,799,978)",
     "languages": "Thai",
     "currency": "Thai baht (฿ / THB)",
-    "funFact": "Thailand is the only Southeast Asian nation never colonized by a European power; its name 'Prathet Thai' means 'Land of the Free,' and Bangkok's ceremonial Thai name is 168 letters long."
+    "funFact": "Thailand is the only Southeast Asian nation never colonized by a European power; its name 'Prathet Thai' means 'Land of the Free,' and Bangkok's ceremonial Thai name is 168 letters long.",
+    "outfit": {
+      "type": "sari",
+      "label": "Chut Thai & Sabai Sash",
+      "hat": "none",
+      "primary": "#eab308",
+      "secondary": "#7c3aed",
+      "accent": "#f59e0b"
+    }
   },
   "tj": {
     "code": "tj",
@@ -2450,7 +4226,15 @@
     "population": "~9.5 million (9,537,642)",
     "languages": "Russian, Tajik",
     "currency": "Tajikistani somoni (ЅМ / TJS)",
-    "funFact": "Tajikistan is over 90% mountains—dominated by the Pamir range ('Roof of the World')—and is home to the Fedchenko Glacier, the longest glacier on Earth outside the polar regions."
+    "funFact": "Tajikistan is over 90% mountains—dominated by the Pamir range ('Roof of the World')—and is home to the Fedchenko Glacier, the longest glacier on Earth outside the polar regions.",
+    "outfit": {
+      "type": "kimono",
+      "label": "Tajikistan Chapan Coat & Sash",
+      "hat": "taqiyah",
+      "primary": "#c80000",
+      "secondary": "#f8f8f8",
+      "accent": "#006000"
+    }
   },
   "tk": {
     "code": "tk",
@@ -2461,7 +4245,15 @@
     "population": "~1,411",
     "languages": "English, Samoan, Tokelauan",
     "currency": "New Zealand dollar ($ / NZD)",
-    "funFact": "Tokelau consists of three tropical coral atolls in the South Pacific with no airports or harbors, and became the first territory in the world to generate 100% of its electricity from solar power in 2012."
+    "funFact": "Tokelau consists of three tropical coral atolls in the South Pacific with no airports or harbors, and became the first territory in the world to generate 100% of its electricity from solar power in 2012.",
+    "outfit": {
+      "type": "island",
+      "label": "Tokelau Island Festive Tunic",
+      "hat": "crown_floral",
+      "primary": "#002068",
+      "secondary": "#f8d000",
+      "accent": "#485048"
+    }
   },
   "tl": {
     "code": "tl",
@@ -2472,7 +4264,15 @@
     "population": "~1.3 million (1,318,442)",
     "languages": "Portuguese, Tetum",
     "currency": "United States dollar ($ / USD)",
-    "funFact": "Timor-Leste became the first new sovereign state of the 21st century in 2002, and the waters of its Atauro Island hold the highest recorded average reef fish biodiversity in the world."
+    "funFact": "Timor-Leste became the first new sovereign state of the 21st century in 2002, and the waters of its Atauro Island hold the highest recorded average reef fish biodiversity in the world.",
+    "outfit": {
+      "type": "flag_tunic",
+      "label": "Timor-Leste Flag Colors Tunic",
+      "hat": "none",
+      "primary": "#d82818",
+      "secondary": "#000000",
+      "accent": "#f8c028"
+    }
   },
   "tm": {
     "code": "tm",
@@ -2483,7 +4283,15 @@
     "population": "~6.0 million (6,031,187)",
     "languages": "Russian, Turkmen",
     "currency": "Turkmenistan manat (m / TMT)",
-    "funFact": "Turkmenistan is home to the Darvaza Gas Crater—nicknamed the 'Door to Hell'—a natural gas field collapse in the Karakum Desert that has been burning continuously since 1971."
+    "funFact": "Turkmenistan is home to the Darvaza Gas Crater—nicknamed the 'Door to Hell'—a natural gas field collapse in the Karakum Desert that has been burning continuously since 1971.",
+    "outfit": {
+      "type": "kimono",
+      "label": "Turkmenistan Chapan Coat & Sash",
+      "hat": "taqiyah",
+      "primary": "#008038",
+      "secondary": "#d02030",
+      "accent": "#505838"
+    }
   },
   "tn": {
     "code": "tn",
@@ -2494,7 +4302,15 @@
     "population": "~11.8 million (11,818,618)",
     "languages": "Arabic",
     "currency": "Tunisian dinar (د.ت / TND)",
-    "funFact": "Tunisia is the northernmost country in Africa, home to the ancient ruins of Carthage, and the desert town of Tataouine inspired the name of Luke Skywalker's home planet Tatooine in Star Wars."
+    "funFact": "Tunisia is the northernmost country in Africa, home to the ancient ruins of Carthage, and the desert town of Tataouine inspired the name of Luke Skywalker's home planet Tatooine in Star Wars.",
+    "outfit": {
+      "type": "thobe",
+      "label": "Jebba & Red Chechia",
+      "hat": "fez",
+      "primary": "#dc2626",
+      "secondary": "#ffffff",
+      "accent": "#eab308"
+    }
   },
   "to": {
     "code": "to",
@@ -2505,7 +4321,15 @@
     "population": "~105,697",
     "languages": "English, Tongan",
     "currency": "Tongan paʻanga (T$ / TOP)",
-    "funFact": "Tonga is the only Pacific island nation that never lost its indigenous governance to foreign colonization and is one of the few places where visitors can swim alongside humpback whales."
+    "funFact": "Tonga is the only Pacific island nation that never lost its indigenous governance to foreign colonization and is one of the few places where visitors can swim alongside humpback whales.",
+    "outfit": {
+      "type": "island",
+      "label": "Tupenu & Taʻovala Mat Sash",
+      "hat": "crown_floral",
+      "primary": "#dc2626",
+      "secondary": "#b45309",
+      "accent": "#fde047"
+    }
   },
   "tr": {
     "code": "tr",
@@ -2516,7 +4340,15 @@
     "population": "~84.3 million (84,339,067)",
     "languages": "Turkish",
     "currency": "Turkish lira (₺ / TRY)",
-    "funFact": "Turkey's largest city, Istanbul, is the only major metropolis in the world that straddles two continents (Europe and Asia), and Turkey is home to Göbekli Tepe, an 11,500-year-old temple complex."
+    "funFact": "Turkey's largest city, Istanbul, is the only major metropolis in the world that straddles two continents (Europe and Asia), and Turkey is home to Göbekli Tepe, an 11,500-year-old temple complex.",
+    "outfit": {
+      "type": "folk_vest",
+      "label": "Anatolian Cepken Embroidered Vest",
+      "hat": "fez",
+      "primary": "#dc2626",
+      "secondary": "#eab308",
+      "accent": "#ffffff"
+    }
   },
   "tt": {
     "code": "tt",
@@ -2527,7 +4359,15 @@
     "population": "~1.4 million (1,399,491)",
     "languages": "English",
     "currency": "Trinidad and Tobago dollar ($ / TTD)",
-    "funFact": "Trinidad and Tobago invented the steelpan—the only acoustic musical instrument invented in the 20th century—and contains Pitch Lake, the largest natural deposit of asphalt on Earth."
+    "funFact": "Trinidad and Tobago invented the steelpan—the only acoustic musical instrument invented in the 20th century—and contains Pitch Lake, the largest natural deposit of asphalt on Earth.",
+    "outfit": {
+      "type": "flag_tunic",
+      "label": "Trinidad and Tobago Flag Colors Tunic",
+      "hat": "none",
+      "primary": "#d81830",
+      "secondary": "#000000",
+      "accent": "#f8f8f8"
+    }
   },
   "tv": {
     "code": "tv",
@@ -2538,7 +4378,15 @@
     "population": "~11,792",
     "languages": "English, Tuvaluan",
     "currency": "Australian dollar ($ / AUD), Tuvaluan dollar ($ / TVD)",
-    "funFact": "Tuvalu is the fourth-smallest country in the world and earns a substantial share of its national government revenue from leasing its coveted '.tv' internet domain suffix."
+    "funFact": "Tuvalu is the fourth-smallest country in the world and earns a substantial share of its national government revenue from leasing its coveted '.tv' internet domain suffix.",
+    "outfit": {
+      "type": "island",
+      "label": "Tuvalu Island Festive Tunic",
+      "hat": "crown_floral",
+      "primary": "#0098d8",
+      "secondary": "#c00828",
+      "accent": "#001860"
+    }
   },
   "tw": {
     "code": "tw",
@@ -2549,7 +4397,15 @@
     "population": "~23.5 million (23,503,349)",
     "languages": "Chinese",
     "currency": "New Taiwan dollar ($ / TWD)",
-    "funFact": "Taiwan invented bubble tea (boba) in the 1980s, produces the vast majority of the world's most advanced semiconductor chips, and has one of the highest densities of convenience stores on Earth."
+    "funFact": "Taiwan invented bubble tea (boba) in the 1980s, produces the vast majority of the world's most advanced semiconductor chips, and has one of the highest densities of convenience stores on Earth.",
+    "outfit": {
+      "type": "qipao",
+      "label": "Mandarin-Collar Tunic",
+      "hat": "none",
+      "primary": "#2563eb",
+      "secondary": "#dc2626",
+      "accent": "#fbbf24"
+    }
   },
   "tz": {
     "code": "tz",
@@ -2560,7 +4416,15 @@
     "population": "~59.7 million (59,734,213)",
     "languages": "English, Swahili",
     "currency": "Tanzanian shilling (Sh / TZS)",
-    "funFact": "Tanzania is home to both Africa's highest mountain (Mount Kilimanjaro at 5,895 m) and its deepest lake (Lake Tanganyika), as well as the Serengeti and Ngorongoro Crater."
+    "funFact": "Tanzania is home to both Africa's highest mountain (Mount Kilimanjaro at 5,895 m) and its deepest lake (Lake Tanganyika), as well as the Serengeti and Ngorongoro Crater.",
+    "outfit": {
+      "type": "agbada",
+      "label": "Kanga & Kitenge Tunic",
+      "hat": "kufi",
+      "primary": "#16a34a",
+      "secondary": "#0284c7",
+      "accent": "#eab308"
+    }
   },
   "ua": {
     "code": "ua",
@@ -2571,7 +4435,15 @@
     "population": "~44.1 million (44,134,693)",
     "languages": "Ukrainian",
     "currency": "Ukrainian hryvnia (₴ / UAH)",
-    "funFact": "Ukraine is the largest country located entirely within Europe and possesses rich black 'chernozem' soil that long earned it the title 'Breadbasket of Europe.'"
+    "funFact": "Ukraine is the largest country located entirely within Europe and possesses rich black 'chernozem' soil that long earned it the title 'Breadbasket of Europe.'",
+    "outfit": {
+      "type": "folk_vest",
+      "label": "Embroidered Vyshyvanka",
+      "hat": "crown_floral",
+      "primary": "#ffffff",
+      "secondary": "#dc2626",
+      "accent": "#2563eb"
+    }
   },
   "ug": {
     "code": "ug",
@@ -2582,7 +4454,15 @@
     "population": "~45.7 million (45,741,000)",
     "languages": "English, Swahili",
     "currency": "Ugandan shilling (Sh / UGX)",
-    "funFact": "Uganda is home to more than half of the world's remaining endangered mountain gorillas in Bwindi Impenetrable National Park and is the source of the White Nile at Lake Victoria."
+    "funFact": "Uganda is home to more than half of the world's remaining endangered mountain gorillas in Bwindi Impenetrable National Park and is the source of the White Nile at Lake Victoria.",
+    "outfit": {
+      "type": "agbada",
+      "label": "Uganda Embroidered Tunic",
+      "hat": "kufi",
+      "primary": "#000000",
+      "secondary": "#d80000",
+      "accent": "#f8d800"
+    }
   },
   "um": {
     "name": "U.S. Minor Outlying Islands",
@@ -2593,7 +4473,15 @@
     "currency": "United States dollar ($ / USD)",
     "code": "um",
     "file": "um.png",
-    "funFact": "The United States Minor Outlying Islands comprise nine remote island territories in the Pacific and Caribbean that serve largely as protected national wildlife refuges for millions of seabirds and coral reefs."
+    "funFact": "The United States Minor Outlying Islands comprise nine remote island territories in the Pacific and Caribbean that serve largely as protected national wildlife refuges for millions of seabirds and coral reefs.",
+    "outfit": {
+      "type": "flag_tunic",
+      "label": "U.S. Minor Outlying Islands Flag Colors Tunic",
+      "hat": "none",
+      "primary": "#b01840",
+      "secondary": "#f8f8f8",
+      "accent": "#002858"
+    }
   },
   "us": {
     "code": "us",
@@ -2604,7 +4492,15 @@
     "population": "~335.9 million (335,893,238)",
     "languages": "English (de facto; no official federal language)",
     "currency": "United States dollar ($ / USD)",
-    "funFact": "The United States has the world's largest economy, created the first national park in the world (Yellowstone in 1872), and does not have an official federal language enshrined in law."
+    "funFact": "The United States has the world's largest economy, created the first national park in the world (Yellowstone in 1872), and does not have an official federal language enshrined in law.",
+    "outfit": {
+      "type": "flag_tunic",
+      "label": "United States Flag Colors Tunic",
+      "hat": "none",
+      "primary": "#b01840",
+      "secondary": "#f8f8f8",
+      "accent": "#002858"
+    }
   },
   "uy": {
     "code": "uy",
@@ -2615,7 +4511,15 @@
     "population": "~3.5 million (3,473,727)",
     "languages": "Spanish",
     "currency": "Uruguayan peso ($ / UYU)",
-    "funFact": "Uruguay hosted and won the very first FIFA World Cup in 1930, generates over 95% of its electricity from renewable energy, and has roughly three times more cattle than people."
+    "funFact": "Uruguay hosted and won the very first FIFA World Cup in 1930, generates over 95% of its electricity from renewable energy, and has roughly three times more cattle than people.",
+    "outfit": {
+      "type": "poncho",
+      "label": "Gaucho Poncho & Boina",
+      "hat": "beret",
+      "primary": "#2563eb",
+      "secondary": "#92400e",
+      "accent": "#eab308"
+    }
   },
   "uz": {
     "code": "uz",
@@ -2626,7 +4530,15 @@
     "population": "~34.2 million (34,232,050)",
     "languages": "Russian, Uzbek",
     "currency": "Uzbekistani soʻm (so'm / UZS)",
-    "funFact": "Uzbekistan is one of only two doubly landlocked countries on Earth (along with Liechtenstein) and contains the legendary Silk Road oasis cities of Samarkand, Bukhara, and Khiva."
+    "funFact": "Uzbekistan is one of only two doubly landlocked countries on Earth (along with Liechtenstein) and contains the legendary Silk Road oasis cities of Samarkand, Bukhara, and Khiva.",
+    "outfit": {
+      "type": "kimono",
+      "label": "Uzbekistan Chapan Coat & Sash",
+      "hat": "taqiyah",
+      "primary": "#308038",
+      "secondary": "#f8f8f8",
+      "accent": "#3080f0"
+    }
   },
   "va": {
     "code": "va",
@@ -2637,7 +4549,15 @@
     "population": "451",
     "languages": "Italian, Latin",
     "currency": "Euro (€ / EUR)",
-    "funFact": "Vatican City is the smallest independent state in the world in both area (0.49 square kilometers) and population, and its ATMs even offer instructions in Latin."
+    "funFact": "Vatican City is the smallest independent state in the world in both area (0.49 square kilometers) and population, and its ATMs even offer instructions in Latin.",
+    "outfit": {
+      "type": "flag_tunic",
+      "label": "Vatican City Flag Colors Tunic",
+      "hat": "none",
+      "primary": "#f8f000",
+      "secondary": "#f8f8f8",
+      "accent": "#d8d8d8"
+    }
   },
   "vc": {
     "code": "vc",
@@ -2648,7 +4568,15 @@
     "population": "~110,947",
     "languages": "English",
     "currency": "Eastern Caribbean dollar ($ / XCD)",
-    "funFact": "Saint Vincent and the Grenadines comprises 32 islands and cays and is home to the oldest botanical gardens in the Western Hemisphere, established in 1765."
+    "funFact": "Saint Vincent and the Grenadines comprises 32 islands and cays and is home to the oldest botanical gardens in the Western Hemisphere, established in 1765.",
+    "outfit": {
+      "type": "flag_tunic",
+      "label": "Saint Vincent and the Grenadines Flag Colors Tunic",
+      "hat": "none",
+      "primary": "#f8d020",
+      "secondary": "#007828",
+      "accent": "#002070"
+    }
   },
   "ve": {
     "code": "ve",
@@ -2659,7 +4587,15 @@
     "population": "~28.4 million (28,435,943)",
     "languages": "Spanish",
     "currency": "Venezuelan bolívar soberano (Bs.S. / VES)",
-    "funFact": "Venezuela is home to Angel Falls (Kerepakupai Merú), the world's highest uninterrupted waterfall at 979 meters (3,212 feet), and Lake Maracaibo, which experiences more lightning strikes per year than anywhere else on Earth."
+    "funFact": "Venezuela is home to Angel Falls (Kerepakupai Merú), the world's highest uninterrupted waterfall at 979 meters (3,212 feet), and Lake Maracaibo, which experiences more lightning strikes per year than anywhere else on Earth.",
+    "outfit": {
+      "type": "flag_tunic",
+      "label": "Venezuela Flag Colors Tunic",
+      "hat": "none",
+      "primary": "#f8c800",
+      "secondary": "#c81028",
+      "accent": "#002078"
+    }
   },
   "vg": {
     "code": "vg",
@@ -2670,7 +4606,15 @@
     "population": "~30,237",
     "languages": "English",
     "currency": "United States dollar ($ / USD)",
-    "funFact": "The British Virgin Islands encompass around 60 islands and cays and are famous for 'The Baths' on Virgin Gorda, where giant granite boulders form seaside grottos and tidal pools."
+    "funFact": "The British Virgin Islands encompass around 60 islands and cays and are famous for 'The Baths' on Virgin Gorda, where giant granite boulders form seaside grottos and tidal pools.",
+    "outfit": {
+      "type": "flag_tunic",
+      "label": "British Virgin Islands Flag Colors Tunic",
+      "hat": "none",
+      "primary": "#002068",
+      "secondary": "#c00828",
+      "accent": "#f8f8f8"
+    }
   },
   "vi": {
     "code": "vi",
@@ -2681,7 +4625,15 @@
     "population": "~106,290",
     "languages": "English",
     "currency": "United States dollar ($ / USD)",
-    "funFact": "The U.S. Virgin Islands are the only jurisdiction under the United States flag where vehicles drive on the left side of the road."
+    "funFact": "The U.S. Virgin Islands are the only jurisdiction under the United States flag where vehicles drive on the left side of the road.",
+    "outfit": {
+      "type": "flag_tunic",
+      "label": "United States Virgin Islands Flag Colors Tunic",
+      "hat": "none",
+      "primary": "#d0a830",
+      "secondary": "#f8f8f8",
+      "accent": "#102060"
+    }
   },
   "vn": {
     "code": "vn",
@@ -2692,7 +4644,15 @@
     "population": "~97.3 million (97,338,583)",
     "languages": "Vietnamese",
     "currency": "Vietnamese đồng (₫ / VND)",
-    "funFact": "Vietnam is home to Sơn Đoòng Cave, the largest known cave passage in the world by volume—so vast it has its own underground river, jungle, and localized weather system."
+    "funFact": "Vietnam is home to Sơn Đoòng Cave, the largest known cave passage in the world by volume—so vast it has its own underground river, jungle, and localized weather system.",
+    "outfit": {
+      "type": "ao_dai",
+      "label": "Áo Dài & Non La",
+      "hat": "conical",
+      "primary": "#dc2626",
+      "secondary": "#fbbf24",
+      "accent": "#fef3c7"
+    }
   },
   "vu": {
     "code": "vu",
@@ -2703,7 +4663,15 @@
     "population": "~307,150",
     "languages": "Bislama, English, French",
     "currency": "Vanuatu vatu (Vt / VUV)",
-    "funFact": "Vanuatu's Pentecost Island is the birthplace of bungee jumping through the ancient 'Naghol' land-diving ritual, where men leap from tall wooden towers with vines tied to their ankles."
+    "funFact": "Vanuatu's Pentecost Island is the birthplace of bungee jumping through the ancient 'Naghol' land-diving ritual, where men leap from tall wooden towers with vines tied to their ankles.",
+    "outfit": {
+      "type": "island",
+      "label": "Vanuatu Island Festive Tunic",
+      "hat": "crown_floral",
+      "primary": "#d01030",
+      "secondary": "#009040",
+      "accent": "#000000"
+    }
   },
   "wf": {
     "code": "wf",
@@ -2714,7 +4682,15 @@
     "population": "~11,750",
     "languages": "French",
     "currency": "CFP franc (₣ / XPF)",
-    "funFact": "Wallis and Futuna is a French Polynesia-area collectivity where three traditional Polynesian kingdoms (Uvea, Sigave, and Alo) still coexist alongside the French territorial administration."
+    "funFact": "Wallis and Futuna is a French Polynesia-area collectivity where three traditional Polynesian kingdoms (Uvea, Sigave, and Alo) still coexist alongside the French territorial administration.",
+    "outfit": {
+      "type": "island",
+      "label": "Wallis and Futuna Island Festive Tunic",
+      "hat": "crown_floral",
+      "primary": "#c81020",
+      "secondary": "#f8f8f8",
+      "accent": "#002050"
+    }
   },
   "ws": {
     "code": "ws",
@@ -2725,7 +4701,15 @@
     "population": "~198,410",
     "languages": "English, Samoan",
     "currency": "Samoan tālā (T / WST)",
-    "funFact": "Samoa skipped December 30, 2011 entirely when it moved west across the International Date Line to align its calendar with major trading partners Australia and New Zealand."
+    "funFact": "Samoa skipped December 30, 2011 entirely when it moved west across the International Date Line to align its calendar with major trading partners Australia and New Zealand.",
+    "outfit": {
+      "type": "island",
+      "label": "Puletasi & Ulafala Necklace",
+      "hat": "crown_floral",
+      "primary": "#dc2626",
+      "secondary": "#1e3a8a",
+      "accent": "#fde047"
+    }
   },
   "xk": {
     "name": "Kosovo",
@@ -2736,7 +4720,15 @@
     "currency": "Euro (€ / EUR)",
     "code": "xk",
     "file": "xk.png",
-    "funFact": "Kosovo has the youngest median population in Europe and declared independence in 2008; its Newborn Monument in Pristina is repainted with a new design every year on Independence Day."
+    "funFact": "Kosovo has the youngest median population in Europe and declared independence in 2008; its Newborn Monument in Pristina is repainted with a new design every year on Independence Day.",
+    "outfit": {
+      "type": "flag_tunic",
+      "label": "Kosovo Flag Colors Tunic",
+      "hat": "none",
+      "primary": "#2048a0",
+      "secondary": "#d0a050",
+      "accent": "#4060b0"
+    }
   },
   "ye": {
     "code": "ye",
@@ -2747,7 +4739,15 @@
     "population": "~29.8 million (29,825,968)",
     "languages": "Arabic",
     "currency": "Yemeni rial (﷼ / YER)",
-    "funFact": "Yemen's Socotra Island is so isolated that a third of its plant life—including the umbrella-shaped Dragon's Blood Tree—is found nowhere else on Earth, and Shibam is home to 16th-century mudbrick 'skyscrapers.'"
+    "funFact": "Yemen's Socotra Island is so isolated that a third of its plant life—including the umbrella-shaped Dragon's Blood Tree—is found nowhere else on Earth, and Shibam is home to 16th-century mudbrick 'skyscrapers.'",
+    "outfit": {
+      "type": "thobe",
+      "label": "Yemen Traditional Tunic",
+      "hat": "none",
+      "primary": "#000000",
+      "secondary": "#f8f8f8",
+      "accent": "#c81020"
+    }
   },
   "yt": {
     "code": "yt",
@@ -2758,7 +4758,15 @@
     "population": "~226,915",
     "languages": "French",
     "currency": "Euro (€ / EUR)",
-    "funFact": "Mayotte is surrounded by one of the world's largest double-barrier coral lagoons, which serves as a sheltered calving ground for humpback whales and sea turtles."
+    "funFact": "Mayotte is surrounded by one of the world's largest double-barrier coral lagoons, which serves as a sheltered calving ground for humpback whales and sea turtles.",
+    "outfit": {
+      "type": "agbada",
+      "label": "Mayotte Embroidered Tunic",
+      "hat": "kufi",
+      "primary": "#d0d0d0",
+      "secondary": "#f8f8f8",
+      "accent": "#b8b8b8"
+    }
   },
   "za": {
     "code": "za",
@@ -2769,7 +4777,15 @@
     "population": "~59.3 million (59,308,690)",
     "languages": "Afrikaans, English, Southern Ndebele, Northern Sotho, Southern Sotho, Swazi, Tswana, Tsonga, Venda, Xhosa, Zulu",
     "currency": "South African rand (R / ZAR)",
-    "funFact": "South Africa is the only country in the world with three capital cities—Pretoria (executive), Cape Town (legislative), and Bloemfontein (judicial)—and recognizes 12 official languages."
+    "funFact": "South Africa is the only country in the world with three capital cities—Pretoria (executive), Cape Town (legislative), and Bloemfontein (judicial)—and recognizes 12 official languages.",
+    "outfit": {
+      "type": "agbada",
+      "label": "Madiba Shirt & Beadwork Collar",
+      "hat": "kufi",
+      "primary": "#16a34a",
+      "secondary": "#eab308",
+      "accent": "#dc2626"
+    }
   },
   "zm": {
     "code": "zm",
@@ -2780,7 +4796,15 @@
     "population": "~18.4 million (18,383,956)",
     "languages": "English",
     "currency": "Zambian kwacha (ZK / ZMW)",
-    "funFact": "Zambia shares Victoria Falls ('Mosi-oa-Tunya,' or 'The Smoke That Thunders') with Zimbabwe and hosts the largest mammal migration on Earth—around 10 million straw-colored fruit bats in Kasanka National Park."
+    "funFact": "Zambia shares Victoria Falls ('Mosi-oa-Tunya,' or 'The Smoke That Thunders') with Zimbabwe and hosts the largest mammal migration on Earth—around 10 million straw-colored fruit bats in Kasanka National Park.",
+    "outfit": {
+      "type": "agbada",
+      "label": "Zambia Embroidered Tunic",
+      "hat": "kufi",
+      "primary": "#188800",
+      "secondary": "#000000",
+      "accent": "#e87800"
+    }
   },
   "zw": {
     "code": "zw",
@@ -2791,6 +4815,14 @@
     "population": "~14.9 million (14,862,927)",
     "languages": "Chibarwe, English, Kalanga, Khoisan, Ndau, Northern Ndebele, Chewa, Shona, Sotho, Tonga, Tswana, Tsonga, Venda, Xhosa, Zimbabwean Sign Language",
     "currency": "Botswana pula (P / BWP), Chinese yuan (¥ / CNY), Euro (€ / EUR), British pound (£ / GBP), Indian rupee (₹ / INR), Japanese yen (¥ / JPY), United States dollar ($ / USD), South African rand (Rs / ZAR), Zimbabwe Gold (ZiG / ZWG)",
-    "funFact": "Zimbabwe takes its name from Great Zimbabwe, a medieval stone city built without mortar between the 11th and 15th centuries, and sits along the mighty Zambezi River."
+    "funFact": "Zimbabwe takes its name from Great Zimbabwe, a medieval stone city built without mortar between the 11th and 15th centuries, and sits along the mighty Zambezi River.",
+    "outfit": {
+      "type": "agbada",
+      "label": "Zimbabwe Embroidered Tunic",
+      "hat": "kufi",
+      "primary": "#006000",
+      "secondary": "#f8d000",
+      "accent": "#d00000"
+    }
   }
 }

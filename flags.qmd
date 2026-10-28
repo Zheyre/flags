@@ -1,12 +1,13 @@
 ---
 title: "World Flag Explorer"
-subtitle: "Browse 254 flags from countries and territories around the globe"
+subtitle: "Browse 254 flags and discover facts about countries and territories around the globe"
 format:
   html:
     theme: cosmo
     page-layout: full
 resources:
   - w2560/*.png
+  - countries.json
 execute:
   echo: false
 ---
@@ -26,12 +27,12 @@ execute:
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-    padding: 2rem 1rem 3.5rem;
+    padding: 2rem 1.25rem 3.5rem;
   }
 
   main.content {
     width: 100%;
-    max-width: 720px;
+    max-width: 1080px;
     margin: 0 auto;
     text-align: center;
   }
@@ -54,7 +55,7 @@ execute:
   p.subtitle {
     font-size: clamp(1rem, 2.5vw, 1.15rem);
     color: #475569;
-    max-width: 34rem;
+    max-width: 38rem;
     margin: 0 auto;
   }
 
@@ -64,7 +65,7 @@ execute:
     flex-direction: column;
     align-items: center;
     gap: 0.5rem;
-    margin: 0 auto 1.75rem !important;
+    margin: 0 auto 2rem !important;
     width: 100% !important;
   }
 
@@ -76,8 +77,8 @@ execute:
   }
 
   .cell-output-display form select {
-    width: min(100%, 380px) !important;
-    padding: 0.7rem 1rem;
+    width: min(100%, 400px) !important;
+    padding: 0.75rem 1rem;
     font-size: 1.05rem;
     font-weight: 500;
     color: #0f172a;
@@ -96,19 +97,41 @@ execute:
     outline: none;
   }
 
-  /* Flag display card */
-  .flag-card {
+  /* Side-by-side grid for Flag Card + Info Card (stacks on phones) */
+  .explorer-grid {
+    display: grid;
+    grid-template-columns: minmax(300px, 1fr) minmax(320px, 1.15fr);
+    gap: 1.75rem;
+    align-items: stretch;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  /* Shared card styling */
+  .flag-card,
+  .info-card {
     background: #ffffff;
     border-radius: 20px;
-    padding: clamp(1.25rem, 4vw, 2.25rem);
+    padding: clamp(1.35rem, 3.5vw, 2.15rem);
     box-shadow: 0 18px 40px -10px rgba(15, 23, 42, 0.12),
                 0 4px 12px -2px rgba(15, 23, 42, 0.05);
-    max-width: 640px;
-    margin: 0 auto;
+    border: 1px solid rgba(226, 232, 240, 0.85);
+  }
+
+  .flag-card {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     animation: flagFadeIn 0.45s cubic-bezier(0.22, 1, 0.36, 1);
+  }
+
+  .info-card {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    animation: infoSlideIn 0.48s cubic-bezier(0.22, 1, 0.36, 1);
   }
 
   .flag-image-wrapper {
@@ -122,23 +145,144 @@ execute:
 
   .flag-image {
     width: 100%;
-    max-width: 560px;
-    max-height: 360px;
+    max-width: 500px;
+    max-height: 320px;
     height: auto;
     object-fit: contain;
     border-radius: 10px;
-    border: 1px solid rgba(148, 163, 184, 0.25);
-    box-shadow: 0 4px 14px rgba(15, 23, 42, 0.07);
+    border: 1px solid rgba(148, 163, 184, 0.28);
+    box-shadow: 0 6px 18px rgba(15, 23, 42, 0.08);
     transition: opacity 0.35s ease, transform 0.35s ease;
   }
 
   .country-name {
     margin-top: 1.35rem;
-    margin-bottom: 0;
-    font-size: clamp(1.35rem, 3.5vw, 1.85rem);
-    font-weight: 700;
+    margin-bottom: 0.25rem;
+    font-size: clamp(1.4rem, 3vw, 1.85rem);
+    font-weight: 800;
     color: #0f172a;
     letter-spacing: -0.015em;
+  }
+
+  .country-code-badge {
+    display: inline-block;
+    margin-top: 0.25rem;
+    padding: 0.2rem 0.65rem;
+    font-size: 0.78rem;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #4f46e5;
+    background: #eef2ff;
+    border-radius: 999px;
+  }
+
+  .info-card-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1.5px solid #f1f5f9;
+    padding-bottom: 0.85rem;
+    margin-bottom: 1.1rem;
+  }
+
+  .info-card-title {
+    margin: 0;
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #1e293b;
+  }
+
+  .info-list {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0.85rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .info-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.85rem;
+    padding: 0.55rem 0.75rem;
+    border-radius: 12px;
+    background: #f8fafc;
+    border: 1px solid #f1f5f9;
+  }
+
+  .info-icon {
+    font-size: 1.3rem;
+    line-height: 1.3;
+    flex-shrink: 0;
+    width: 2rem;
+    height: 2rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(15, 23, 42, 0.05);
+  }
+
+  .info-text {
+    display: flex;
+    flex-direction: column;
+    gap: 0.1rem;
+  }
+
+  .info-label {
+    font-size: 0.76rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #64748b;
+  }
+
+  .info-value {
+    font-size: 0.98rem;
+    font-weight: 600;
+    color: #0f172a;
+    line-height: 1.35;
+  }
+
+  .fun-fact-box {
+    margin-top: 1.15rem;
+    padding: 1rem 1.1rem;
+    border-radius: 14px;
+    background: linear-gradient(135deg, #eef2ff 0%, #fdf2f8 100%);
+    border: 1px solid rgba(199, 210, 254, 0.75);
+    display: flex;
+    align-items: flex-start;
+    gap: 0.85rem;
+  }
+
+  .fun-fact-icon {
+    font-size: 1.4rem;
+    line-height: 1.2;
+    flex-shrink: 0;
+  }
+
+  .fun-fact-content {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+  }
+
+  .fun-fact-label {
+    font-size: 0.76rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: #6d28d9;
+  }
+
+  .fun-fact-text {
+    font-size: 0.95rem;
+    color: #1e293b;
+    line-height: 1.45;
+    margin: 0;
   }
 
   @keyframes flagFadeIn {
@@ -152,59 +296,144 @@ execute:
     }
   }
 
-  @media (max-width: 600px) {
-    #quarto-content {
-      padding: 1.25rem 0.75rem 2.5rem;
+  @keyframes infoSlideIn {
+    from {
+      opacity: 0;
+      transform: translateX(14px);
     }
-    .flag-card {
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+  @media (max-width: 820px) {
+    #quarto-content {
+      padding: 1.25rem 0.85rem 2.5rem;
+    }
+    .explorer-grid {
+      grid-template-columns: 1fr;
+      gap: 1.25rem;
+    }
+    .flag-card,
+    .info-card {
       border-radius: 16px;
-      padding: 1rem;
+      padding: 1.25rem;
+    }
+    @keyframes infoSlideIn {
+      from {
+        opacity: 0;
+        transform: translateY(12px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
     }
   }
 </style>
 ```
 
 ```{r}
-# Pass the exact list of flag image filenames in w2560/ to Observable JS
+# Pass the sorted list of flag image filenames in w2560/ to Observable JS
 ojs_define(flag_files = sort(list.files("w2560", pattern = "\\.png$")))
 ```
 
 ```{ojs}
-// Map each two-letter (or UK subdivision) code to its full country name
-flagOptions = {
-  const regionNames = new Intl.DisplayNames(["en"], { type: "region" });
-  const customNames = {
-    "gb-eng": "England",
-    "gb-nir": "Northern Ireland",
-    "gb-sct": "Scotland",
-    "gb-wls": "Wales"
-  };
+// Load the external country details JSON file
+countryData = FileAttachment("countries.json").json()
 
-  return flag_files
-    .map(file => {
-      const code = file.replace(/\.png$/i, "");
-      const name = customNames[code] || regionNames.of(code.toUpperCase()) || code.toUpperCase();
-      return { file, code, name };
-    })
-    .sort((a, b) => a.name.localeCompare(b.name));
-}
+// Combine every flag file in w2560/ with its matching country details
+flagOptions = flag_files
+  .map(file => {
+    const code = file.replace(/\.png$/i, "");
+    const info = countryData[code] || {};
+    return {
+      file,
+      code,
+      name: info.name || code.toUpperCase(),
+      capital: info.capital || "N/A",
+      region: info.region || "N/A",
+      population: info.population || "N/A",
+      languages: info.languages || "N/A",
+      currency: info.currency || "N/A",
+      funFact: info.funFact || ""
+    };
+  })
+  .sort((a, b) => a.name.localeCompare(b.name))
 
-// Dropdown menu sorted by full country name
+// Dropdown menu sorted alphabetically by full country name
 viewof selected = Inputs.select(flagOptions, {
   label: "Choose a country or territory:",
   format: d => d.name,
   value: flagOptions.find(d => d.file === "us.png") || flagOptions[0]
 })
 
-// Rounded card showing the selected flag and full country name underneath
-html`<div class="flag-card" key="${selected.file}">
-  <div class="flag-image-wrapper">
-    <img
-      class="flag-image"
-      src="w2560/${selected.file}"
-      alt="Flag of ${selected.name}"
-    />
+// Responsive side-by-side Flag Card + Country Info Card
+html`<div class="explorer-grid" key="${selected.code}">
+  <div class="flag-card">
+    <div class="flag-image-wrapper">
+      <img
+        class="flag-image"
+        src="w2560/${selected.file}"
+        alt="Flag of ${selected.name}"
+      />
+    </div>
+    <h2 class="country-name">${selected.name}</h2>
+    <span class="country-code-badge">${selected.code.toUpperCase()}</span>
   </div>
-  <h2 class="country-name">${selected.name}</h2>
+
+  <div class="info-card">
+    <div>
+      <div class="info-card-header">
+        <h3 class="info-card-title">🌐 Country Profile</h3>
+      </div>
+      <ul class="info-list">
+        <li class="info-item">
+          <span class="info-icon" aria-hidden="true">🏛️</span>
+          <div class="info-text">
+            <span class="info-label">Capital City</span>
+            <span class="info-value">${selected.capital}</span>
+          </div>
+        </li>
+        <li class="info-item">
+          <span class="info-icon" aria-hidden="true">🌍</span>
+          <div class="info-text">
+            <span class="info-label">Continent / Region</span>
+            <span class="info-value">${selected.region}</span>
+          </div>
+        </li>
+        <li class="info-item">
+          <span class="info-icon" aria-hidden="true">👥</span>
+          <div class="info-text">
+            <span class="info-label">Approximate Population</span>
+            <span class="info-value">${selected.population}</span>
+          </div>
+        </li>
+        <li class="info-item">
+          <span class="info-icon" aria-hidden="true">💬</span>
+          <div class="info-text">
+            <span class="info-label">Official Language(s)</span>
+            <span class="info-value">${selected.languages}</span>
+          </div>
+        </li>
+        <li class="info-item">
+          <span class="info-icon" aria-hidden="true">💱</span>
+          <div class="info-text">
+            <span class="info-label">Currency</span>
+            <span class="info-value">${selected.currency}</span>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <div class="fun-fact-box">
+      <span class="fun-fact-icon" aria-hidden="true">✨</span>
+      <div class="fun-fact-content">
+        <span class="fun-fact-label">Fun Fact</span>
+        <p class="fun-fact-text">${selected.funFact}</p>
+      </div>
+    </div>
+  </div>
 </div>`
 ```
